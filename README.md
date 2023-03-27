@@ -1,7 +1,7 @@
 # 100 Days Of Frontend Interview Questions
 
 
-This repo will contain 500 frontend interview questions which will contain HTML, CSS, Javascript & React questions. This will now contain any problems, just theory questions which we can answer in less than 20 seconds.
+This repo will contain 500 frontend interview questions which will have HTML, CSS, Javascript & React questions. I will not any problems, just theory questions which we can answer in less than 20 seconds.
 
 I will add 5 questions a day in this repo.
 

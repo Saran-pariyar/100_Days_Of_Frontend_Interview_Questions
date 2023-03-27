@@ -21,6 +21,9 @@ If you want to see the 5 questions daily in your social media feed, follow me on
 
    Me: 💀
 
+   Interviewer: Okay, you're rejected... I mean I'll get back to you soon.
+   
+   Me: K 💀
 
 
 

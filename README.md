@@ -31,6 +31,7 @@ Number of questions will be divided like this:
 
 # HTML
 
+## Day 1
 
 1. ### What are the possible ways to create objects in JavaScript?
 
@@ -47,6 +48,8 @@ Number of questions will be divided like this:
 
 5. ### What is the difference between div element and span element?
    The div element is a block-level element that is used to group and organize other HTML elements while span element is an inline-element that is used to apply style or attribute to a specific part of a block-level element.
+
+## Day 2
 
 6. ### What is the difference between \<b> and \<strong> tags in HTML?
    The \<B> tag is used to apply bold formatting to text, while the \<strong> tag is used to indicate that the text is important and carries stronger semantic meaning than \<b>.

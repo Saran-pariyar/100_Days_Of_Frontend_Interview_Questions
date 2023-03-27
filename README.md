@@ -7,23 +7,6 @@ I will add 5 questions a day in this repo till day 100 days.
 
 If you want to see the 5 questions daily in your social media feed, follow me on [Twitter](https://twitter.com/saran_pariyar1),[Instagram](https://instagram.com/saran_pariyar1) or [LinkedIn](https://www.linkedin.com/in/saran-pariyar-5078b5217/) cause I started this challenge on twitter and will be posting them on my social media accounts too.
 
-## Main motive to create this repo
-
-   Interviewer: So you mentioned that you have been learning frontend development for over 2 years.
-   
-   Me: Yes sir!
-   
-   Interviewer: Let's start with a simple question. Tell me the difference between HTML tag and HTML element.
-
-   Me: 💀
-
-   Interviewer: Let's do another, which tag have more semantic meaning? \<b> or \<strong> and explain why?
-
-   Me: 💀
-
-   Interviewer: Okay, you're rejected... I mean I'll get back to you soon.
-   
-   Me: K 💀
 
 
 

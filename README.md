@@ -5,7 +5,7 @@ This repo will contain 500 frontend interview questions which will contain HTML,
 
 I will add 5 questions a day in this repo.
 
-If you want to see the 5 questions daily in your social media feed, follow me on [twitter](https://twitter.com/saran_pariyar1), [Instagram](https://instagram.com/saran_pariyar1) or [LinkedIn](https://www.linkedin.com/in/saran-pariyar-5078b5217/) cause I started this challenge on twitter and will be posting the questions and answers in my twitter account too.
+If you want to see the 5 questions daily in your social media feed, follow me on [Twitter](https://twitter.com/saran_pariyar1),[Instagram](https://instagram.com/saran_pariyar1) or [LinkedIn](https://www.linkedin.com/in/saran-pariyar-5078b5217/) cause I started this challenge on twitter and will be posting the questions and answers in my twitter account too.
 
 ---
 
@@ -32,7 +32,7 @@ Number of questions will be divided like this:
 # HTML
 
 
-1. ### What are the possible ways to create objects in JavaScript
+1. ### What are the possible ways to create objects in JavaScript?
 
    HTML (Hyper Text Markup Language) is the standard markup language for creating web pages. It's baics components includes element, tags and attribute
 
@@ -47,3 +47,18 @@ Number of questions will be divided like this:
 
 5. ### What is the difference between div element and span element?
    The div element is a block-level element that is used to group and organize other HTML elements while span element is an inline-element that is used to apply style or attribute to a specific part of a block-level element.
+
+6. ### What is the difference between \<b> and \<strong> tags in HTML?
+   The \<B> tag is used to apply bold formatting to text, while the \<strong> tag is used to indicate that the text is important and carries stronger semantic meaning than \<b>.
+
+7. ### What are the different types of input field in HTML?
+   There are several types of input field in HTML including text, password, checkbox, radio, button, submit, file and reset.
+
+8. ### What is the difference between a GET request and POST request?
+   The GET request is used to retrieve data from a web server, while a POST request is used to submit data to a web server. GET requests are less secure and have limit on the amount of data that can be sent while POST request have no limit and are more secure.
+
+9. ### How do you create a hyperlink in HTML?
+   Hyperlinks are created using \<a>(anchor) tag, which contains the URL of the link and the text to be displayed.
+
+10. ### What is the purpose of the alt attribute in HTML?
+    The alt attribute is used to provide a text description of an image for users who are unable in to see the image, such as those who use screen readers.

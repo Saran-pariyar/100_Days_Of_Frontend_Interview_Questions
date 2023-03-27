@@ -1,11 +1,28 @@
 # 100 Days Of Frontend Interview Questions
 
 
-This repo will contain 500 frontend interview questions which will have HTML, CSS, Javascript & React questions. I will add not any problems or long questions for now, just theory questions which we can answer in less than 20 seconds.
+This repo will contain 500 frontend interview questions which will have HTML, CSS, Javascript & React questions. I will add not any problems or long questions for now, just theory questions which we can answer in less than 15 seconds.
 
-I will add 5 questions a day in this repo.
+I will add 5 questions a day in this repo till day 100 days.
 
-If you want to see the 5 questions daily in your social media feed, follow me on [Twitter](https://twitter.com/saran_pariyar1),[Instagram](https://instagram.com/saran_pariyar1) or [LinkedIn](https://www.linkedin.com/in/saran-pariyar-5078b5217/) cause I started this challenge on twitter and will be posting the questions and answers in my twitter account too.
+If you want to see the 5 questions daily in your social media feed, follow me on [Twitter](https://twitter.com/saran_pariyar1),[Instagram](https://instagram.com/saran_pariyar1) or [LinkedIn](https://www.linkedin.com/in/saran-pariyar-5078b5217/) cause I started this challenge on twitter and will be posting them on my social media accounts too.
+
+## Main motive to create this repo
+
+   Interviewer: So you mentioned that you have been learning frontend development for over 2 years,
+   
+   Me: Yes sir!
+   
+   Interviewer: Let's start with a simple question. Tell me the difference between HTML tag and HTML element.
+
+   Me: 💀
+
+   Interviewer: Let's do another, which tag have more semantic meaning? \<b> or \<strong> and explain why?
+
+   Me: 💀
+
+
+
 
 ---
 
@@ -35,7 +52,7 @@ Number of questions will be divided like this:
 
 1. ### What is HTML and what are it's basic components?
 
-   HTML (Hyper Text Markup Language) is the standard markup language for creating web pages. It's baics components includes element, tags and attribute
+   HTML (Hyper Text Markup Language) is the standard markup language for creating web pages. It's basics components includes element, tags and attribute.
 
 2. ### What is the purpose of Doctype in HTML?
    The Doctype declaration specifies the type of document being used and tell the web browser how to interpret the pages content. It is located at the top of the HTML document.

@@ -33,7 +33,7 @@ Number of questions will be divided like this:
 
 ## Day 1
 
-1. ### What are the possible ways to create objects in JavaScript?
+1. ### What is HTML and what are it's basic components?
 
    HTML (Hyper Text Markup Language) is the standard markup language for creating web pages. It's baics components includes element, tags and attribute
 

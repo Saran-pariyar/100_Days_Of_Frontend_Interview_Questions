@@ -9,7 +9,7 @@ If you want to see the 5 questions daily in your social media feed, follow me on
 
 ## Main motive to create this repo
 
-   Interviewer: So you mentioned that you have been learning frontend development for over 2 years,
+   Interviewer: So you mentioned that you have been learning frontend development for over 2 years.
    
    Me: Yes sir!
    
@@ -85,3 +85,25 @@ Number of questions will be divided like this:
 
 10. ### What is the purpose of the alt attribute in HTML?
     The alt attribute is used to provide a text description of an image for users who are unable in to see the image, such as those who use screen readers.
+
+## Day 3
+
+11. ### What are void elements in HTML?
+      Void elements are those elements in HTML which do not have closing tag or do not need to be closed. Example: \<br />, \<img />, etc.
+
+12. ### Can we display web page inside a webpage or is nesting of webpage possible?
+      Yes, we can display  a web page inside another HTML web page. HTML provides \<iframe> tag using which we can achieve this functionality.
+
+13. ### What is the difference between \<link> tag and \<a> tag?
+      The anchor tag \<a> is used to create a hyperlink to another web page or to a certain part of a web page and these links are clickable, whereas, link tag \<link> defines a link between a document and external resource and these are not clickable.
+
+14. ### What are some of the advantages of HTML5 over its previous versions?
+      Some advantages of HTML5 are:
+
+      1. It has multi media support
+      2. Improved performance (faster loading)
+      3. Better accessibility
+      
+
+15. ### What is the canvas element in HTML5?
+      The \<canvas> element is a container that is used to draw graphics on the web page using scripting language like javascript.

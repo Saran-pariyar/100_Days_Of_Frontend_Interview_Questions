@@ -107,3 +107,23 @@ Number of questions will be divided like this:
 
 15. ### What is the canvas element in HTML5?
       The \<canvas> element is a container that is used to draw graphics on the web page using scripting language like javascript.
+
+
+## Day 4
+
+16. ### What is an HTML form?
+      HTML form is a section of a web page that allows users to input and submit data to the server.
+
+17. ### What is the difference between HTML form's "action" and "method" attributes?
+
+      The "action" attribute specifies the URL to which the form data is submitted, while the "method" attribute specifies the HTTP method when submitting the form data(either "GET" or "POST").
+
+18. ### What would happen if there is no text between the HTML tags?
+      There would be nothing to format if there is not text present between the tags. Therefore, nothing will appear on the screen. Tags without closing tag like \<img> do not require any text between them.
+
+19. ### What is the purpose of \<head> tag?
+      The \<head> tag in HTML is used to provide metadata about document, such as title of page, links and other information that is not directly displayed on the web page. This information is used by browser and search engine to understand the content and structure of the web page.
+
+20. ### What is the purpose of the \<meta> tag in HTML?
+      The \<meta> tag is used to provide additional information about the webpage, such as author, keywords, description which is used by search engines to understand the content of the page.
+   

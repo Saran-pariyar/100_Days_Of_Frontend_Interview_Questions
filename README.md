@@ -5,7 +5,7 @@ This repo will contain 500 frontend interview questions which will have HTML, CS
 
 I will add 5 questions a day in this repo till day 100 days.
 
-If you want to see the 5 questions daily in your social media feed, follow me on [Twitter](https://twitter.com/saran_pariyar1),[Instagram](https://instagram.com/saran_pariyar1) or [LinkedIn](https://www.linkedin.com/in/saran-pariyar-5078b5217/) cause I started this challenge on twitter and will be posting them on my social media accounts too.
+If you want to see the 5 questions daily in your social media feed, follow me on [Twitter](https://twitter.com/saran_pariyar1), [Instagram](https://instagram.com/saran_pariyar1) or [LinkedIn](https://www.linkedin.com/in/saran-pariyar-5078b5217/) cause I started this challenge on twitter and will be posting them on my social media accounts too.
 
 
 
@@ -109,3 +109,23 @@ Number of questions will be divided like this:
 20. ### What is the purpose of the \<meta> tag in HTML?
       The \<meta> tag is used to provide additional information about the webpage, such as author, keywords, description which is used by search engines to understand the content of the page.
    
+
+## Day 5
+
+21. ### What is the purpose of the \<script> tag in HTML?
+      The \<script> tag is either used to embed client-side script(Javascript), or it points to an external script file through the src attribute.
+
+22. ### What is the purpose of the viewport meta tag?
+      Viewport meta tag lets us control the width and scaling of the viewport so that it's sized correctly on all devices.
+
+23. ### What is the purpose of the \<noscript> tag in HTML?
+      The \<noscript> tag in used to display text for those browsers which does not support script tag or the browser disabled the script by user.
+
+24. ### What is the purpose of the \<fieldset> tag in HTML?
+      Fieldset is used to group related elements in a form. The \<fieldset> tag draws a box around the related elements.
+
+25. ### what is the difference between HTML tag and HTML element?
+      HTML tag is just opening or closing entity. For example \<p> and \</p> are called HTML tags. <br />
+      HTML element consists of opening tag, closing tag and content(optional for content-less tags). For example: \<p> This is the content \</p>, this complete thing is called HTML element.
+
+

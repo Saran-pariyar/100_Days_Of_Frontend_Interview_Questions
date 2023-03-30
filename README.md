@@ -1,11 +1,11 @@
 # 100 Days Of Frontend Interview Questions
 
 
-This repo will contain 500 frontend interview questions which will have HTML, CSS, Javascript & React questions. I will add not any problems or long questions for now, just theory questions which we can answer in less than 15 seconds.
+This repo will contain 500 frontend interview questions which will have HTML, CSS, Javascript & React questions. I will add not any problems or long questions for now, just theory questions.
 
-I will add 5 questions a day in this repo till day 100 days.
+I will add 5 questions a day in this repo till day 100 days and after this, I am also planning to do 100 days of javascript questions too.
 
-If you want to see the 5 questions daily in your social media feed, follow me on [Twitter](https://twitter.com/saran_pariyar1), [Instagram](https://instagram.com/saran_pariyar1) or [LinkedIn](https://www.linkedin.com/in/saran-pariyar-5078b5217/) cause I started this challenge on twitter and will be posting them on my social media accounts too.
+If you want to see the 5 questions daily in your social media feed, follow me on [Twitter](https://twitter.com/saran_pariyar1), [Instagram](https://instagram.com/saran_pariyar1) or [LinkedIn](https://www.linkedin.com/in/saran-pariyar-5078b5217/) cause I will be posting them on my social media accounts too.
 
 
 
@@ -129,3 +129,20 @@ Number of questions will be divided like this:
       HTML element consists of opening tag, closing tag and content(optional for content-less tags). For example: \<p> This is the content \</p>, this complete thing is called HTML element.
 
 
+## Day 6
+
+26. ### How do you change the color of bullets?
+      The color of the bullet is always the color of the first text of the list. So, if we can change the color of the bullets by changing the color of the text.
+
+27. ### What will happen if we don't put \<!Doctype HTML> tag?
+      If we don't put \<!Doctype HTML> tag, the browser will not be able to identify that it is an HTML document and HTML5 tags will not function properly.
+
+28. ### What is HTML5 web storage?
+      HTML5 Web Storage is a mechanism in modern web browsers that allows web applications to store data locally within the user's browser. It provides two storage options: Local Storage and Session Storage.
+
+29. ### What is the use of "target" attribute in HTML?
+      The "target" attribute is used to specify where to open the linked document when the user clicks on the hyperlink.
+
+30. ### What is the use of "em" tag?
+      The "em" tag is a semantic tag which is used to apply emphasis to a word or phrase within a paragraph. <br />
+      Example: The sentence "I really enjoyed cycling" could be written using the "em" tag to emphasize the word "really": "I \<em>really \</em> enjoyed the concert last night."

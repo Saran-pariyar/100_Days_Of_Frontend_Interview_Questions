@@ -146,3 +146,23 @@ Number of questions will be divided like this:
 30. ### What is the use of "em" tag?
       The "em" tag is a semantic tag which is used to apply emphasis to a word or phrase within a paragraph. <br />
       Example: The sentence "I really enjoyed cycling" could be written using the "em" tag to emphasize the word "really": "I \<em>really \</em> enjoyed the concert last night."
+
+## Day 7
+
+31. ### What is the purpose of \<header> tag?
+      The \<header> tag is used to defined the header section of a webpage which includes site logo, navigation menu, and other introductory content.
+
+32. ### What is the purpose of \<nav> tag?
+      The \<nav> tag used to define a section of a webpage that contains links to other pages or sections of the current page.
+
+33. ### What is the purpose of \<main> tag?
+      The \<main> tag is used to define the main content of a webpage, where the most important information is displayed.
+
+34. ### What is the purpose of \<article> tag?
+      The \<article> tag is used to define a self-contained piece of content, such as a blog post, news article, or product review.
+
+35. ### What is the purpose of \<section> tag?
+      The \<section> tag is used to group together related content and can be thought of as a container for content.
+      
+
+

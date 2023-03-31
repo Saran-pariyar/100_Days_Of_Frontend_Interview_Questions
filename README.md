@@ -163,6 +163,6 @@ Number of questions will be divided like this:
 
 35. ### What is the purpose of \<section> tag?
       The \<section> tag is used to group together related content and can be thought of as a container for content.
-      
+
 
 

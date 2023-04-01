@@ -164,5 +164,20 @@ Number of questions will be divided like this:
 35. ### What is the purpose of \<section> tag?
       The \<section> tag is used to group together related content and can be thought of as a container for content.
 
+## Day 8
 
+36. ### What is the purpose of \<aside> tag?
+      The \<aside> tag is used to define content that is related to the main content of a webpage, but is not directly part of it. It is often used to provide additional information to the main content.
+
+37. ### What is the purpose of \<footer> tag?
+      The \<footer> tag is used to define the footer section of a webpage which contains copyright information, contact details, and other legal content.
+
+38. ### What is the purpose of \<figure> tag?
+      The \<figure> tag is used to group together media content, such as images or video with their associated captions or explanatory text.
+
+39. ### What is the purpose of \<figcaption> tag?
+      The \<figcaption> is used to define the caption or description of a media that is contained within a \<figure> tag.
+
+40. ### What is the purpose of \<blockquote> tag?
+      The \<blockquote> tag is used to indicate that a section of text is being quoted from another source. It is used to highlight a particularly important quote.
 

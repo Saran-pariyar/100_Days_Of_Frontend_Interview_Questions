@@ -181,3 +181,53 @@ Number of questions will be divided like this:
 40. ### What is the purpose of \<blockquote> tag?
       The \<blockquote> tag is used to indicate that a section of text is being quoted from another source. It is used to highlight a particularly important quote.
 
+## Day 9
+
+41. ### What is \<datalist> tag?
+      The \<datalist> tag is new addition to HTML5, and it is used to provide a list of pre-defined options for an input field. It allows us to create dropdown list of options.
+
+42. ### What is the use of \<option> tag?
+      The \<option> tag is used to define an option in a dropdown list. The 'value' attribute in \<option> tag is specifies the value of the option that will be submitted when the form is submitted.
+
+43. ### How can you make an image clickable in html?
+      To make an image clickable, we have to use anchor tag with the image tag nested inside it and specify where we want to be directed to in "href" attribute when image in click.
+
+#### (no need to memorize them all, just see them once in a day and you will be able to easily explain them in interview)
+
+44. ### Details about all tags used in HTML table.
+      | Tag Name   | Definition                                                 |
+      |------------|------------------------------------------------------------|
+      | \<table>  | Defines a table                                            |
+      | \<caption>| Defines a title or caption for a table                      |
+      | \<thead>  | Defines the header of a table                               |
+      | \<tbody>  | Defines the body of a table                                 |
+      | \<tfoot>  | Defines the footer of a table                               |
+      | \<tr>     | Defines a row in a table                                    |
+      | \<th>     | Defines a header cell in a table                            |
+      | \<td>     | Defines a standard cell in a table                           |
+      | \<colgroup> | Defines a group of columns in a table                        |
+      | \<col>     | Specifies column properties for each column within \<colgroup> |
+      | \<caption> | Defines a title or caption for a table                       |
+
+45. ### HTML table attributes.
+      | Attribute          | Description                                                                                                                                                                                                                       |
+      |--------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+      | `border`           | Specifies the width of the border around the table.                                                                                                                                                                               |
+      | `cellpadding`      | Specifies the amount of padding to be added to the cells in the table.                                                                                                                                                             |
+      | `cellspacing`      | Specifies the amount of space to be added between cells in the table.                                                                                                                                                              |
+      | `width`            | Specifies the width of the table.                                                                                                                                                                                                 |
+      | `height`           | Specifies the height of the table.                                                                                                                                                                                                |
+      | `align`            | Specifies the horizontal alignment of the table within its containing element. Possible values are `left`, `center`, `right`, and `justify`.                                                                                    |
+      | `valign`           | Specifies the vertical alignment of the table within its containing element. Possible values are `top`, `middle`, `bottom`, and `baseline`.                                                                                      |
+      | `bgcolor`          | Specifies the background color of the table.                                                                                                                                                                                      |
+      | `bordercolor`      | Specifies the color of the border around the table.                                                                                                                                                                               |
+      | `border-collapse`  | Specifies whether the borders of the cells in the table should be collapsed into a single border or not. Possible values are `collapse` and `separate`. Default is `separate`.                                                  |
+      | `border-spacing`   | Specifies the amount of space to be added between the cells in the table when the `border-collapse` property is set to `separate`.                                                                                                                                                              |
+      | `caption`          | Specifies the title or caption of the table.                                                                                                                                                                                      |
+      | `caption-side`     | Specifies the side of the table on which to place the caption. Possible values are `top`, `bottom`, `left`, and `right`. Default is `top`.                                                                                        |
+      | `empty-cells`      | Specifies whether or not to display borders around empty cells in the table. Possible values are `show` and `hide`. Default is `show`.                                                                                             |
+      | `frame`            | Specifies which sides of the table should have borders. Possible values are `void`, `above`, `below`, `hsides`, `vsides`, `lhs`, `rhs`, and `box`.                                                                                 |
+      | `rules`            | Specifies which parts of the table's border should be shown. Possible values are `none`, `groups`, `rows`, `cols`, and `all`. Default is `none`.                                                                                   |
+      | `summary`          | Specifies a summary of the contents of the table.                                                                                                                                                                                 |
+      | `dir`              | Specifies the direction of the table's text. Possible values are `ltr` (left-to-right) and `rtl` (right-to-left).                                                                                                                 |                                                                                                                                                          |
+

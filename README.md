@@ -1,13 +1,12 @@
 # 100 Days Of Frontend Interview Questions
 
-
 This repo will contain 500 frontend interview questions which will have HTML, CSS, Javascript & React questions. I will add not any problems or long questions for now, just theory questions.
 
 I will add 5 questions a day in this repo till day 100 days and after this, I am also planning to do 100 days of javascript questions too.
 
-If you want to see the 5 questions daily in your social media feed, follow me on [Twitter](https://twitter.com/saran_pariyar1), [Instagram](https://instagram.com/saran_pariyar1) or [LinkedIn](https://www.linkedin.com/in/saran-pariyar-5078b5217/) cause I will be posting them on my social media accounts too.
+If you want to see the 5 questions daily in your social media feed, connect with me on [Twitter](https://twitter.com/saran_pariyar1), [Instagram](https://instagram.com/saran_pariyar1) or [LinkedIn](https://www.linkedin.com/in/saran-pariyar-5078b5217/) cause I will be posting them on my social media accounts too.
 
-
+<b>I've also added some tables, no need to memorize them, just take a look at them once a day or few times and you'll able to understand those concepts easily</b>
 
 
 ---
@@ -192,8 +191,6 @@ Number of questions will be divided like this:
 43. ### How can you make an image clickable in html?
       To make an image clickable, we have to use anchor tag with the image tag nested inside it and specify where we want to be directed to in "href" attribute when image in click.
 
-#### (no need to memorize them all, just see them once in a day and you will be able to easily explain them in interview)
-
 44. ### Details about all tags used in HTML table.
       | Tag Name   | Definition                                                 |
       |------------|------------------------------------------------------------|
@@ -230,4 +227,33 @@ Number of questions will be divided like this:
       | `rules`            | Specifies which parts of the table's border should be shown. Possible values are `none`, `groups`, `rows`, `cols`, and `all`. Default is `none`.                                                                                   |
       | `summary`          | Specifies a summary of the contents of the table.                                                                                                                                                                                 |
       | `dir`              | Specifies the direction of the table's text. Possible values are `ltr` (left-to-right) and `rtl` (right-to-left).                                                                                                                 |                                                                                                                                                          |
+
+## Day 10
+
+46. ### What is the purpose of the "data-*" attribute in HTML?
+      The data=* attribute allows us to store additional information about an HTML element that is not otherwise displayed on the page, but may be useful to scripts that interact with the page.
+
+47. ### What is the purpose of \<legend> tag?
+      The \<legend> tag provides semantic caption or title for a \<fieldset> element. It is optional but better for better to have for accessibility.
+
+48. ### What are HTML entities?
+      HTML entities are codes used to represent special characters in HTML that cannot be easily typed or displayed. Example: `&amp` represents  (`&`)
+
+49. ### What is the purpose of the \<picture> element in HTML5, and how is it used to optimize images?
+      The \<picture> element in HTML5 is used to provide multiple versions of an image at different resolutions or sizes, and allows the browser to choose the best version to display based on the user's device and viewport size.
+
+
+50. ### HTML ARIA attributes.
+      | Attribute | Description | Example |
+      | --------- | ----------- | ------- |
+      | `aria-label` | Provides a short, descriptive label for an element that isn't already provided by its text content or associated label element. | `<button aria-label="Search">🔍</button>` |
+      | `aria-describedby` | References another element that provides additional information about the current element, such as instructions or help text. | `<input type="text" aria-describedby="name-help"> <div id="name-help">Enter your full name</div>` |
+      | `aria-required` | Indicates which form fields are mandatory and must be filled out before the form can be submitted. | `<input type="text" aria-required="true">` |
+      | `aria-expanded` | Indicates whether a collapsible element like an accordion or dropdown menu is currently expanded or collapsed. | `<button aria-expanded="true" aria-controls="menu">Menu</button> <div id="menu">...</div>` |
+      | `aria-disabled` | Indicates whether an element is currently disabled or not, such as a disabled button. | `<button aria-disabled="true">Submit</button>` |
+      | `aria-checked` | Indicates whether a checkbox or radio button is currently checked or not. | `<input type="checkbox" aria-checked="true">` |
+      | `aria-haspopup` | Indicates that an element has a pop-up or dropdown menu associated with it. | `<button aria-haspopup="true" aria-controls="menu">Menu</button> <div id="menu">...</div>` |
+      | `aria-selected` | Indicates that an element is currently selected or highlighted, such as a selected item in a list | `<li aria-selected="true">Item 1</li>` |
+      | `aria-hidden` | Indicates that an element is currently hidden or not visible to users, such as content that is only revealed when certain conditions are met.	 | `<div aria-hidden="true">Hidden content</div>` | 
+
 

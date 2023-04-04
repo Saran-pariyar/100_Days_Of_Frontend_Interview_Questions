@@ -257,3 +257,35 @@ Number of questions will be divided like this:
       | `aria-hidden` | Indicates that an element is currently hidden or not visible to users, such as content that is only revealed when certain conditions are met.	 | `<div aria-hidden="true">Hidden content</div>` | 
 
 
+<br />
+
+---
+
+# CSS
+
+## Day 11
+
+51. ### What is CSS?
+      CSS stands for Cascading Style Sheets. CSS is used to define styles for web pages, including the design, layout and variations in display for different devices and screen sizes.
+
+52. ### What are the possible ways to apply CSS styles to a web page?
+      There are 3 ways to apply CSS styles to a web page. They are:
+      1. Inline CSS
+      2. Internal CSS
+      3. External CSs
+
+53. ### What are some new features in CSS3?
+      Some new features of CSS3 are:
+      1. New selectors.
+      2. Pseudo-classes
+      3. Rounded Corners(Border-radius)
+      4. Text shadow
+      5. Gradient, etc
+
+54. ### What are the css selectors?
+      CSS selector is a part of css rule which is used to apply styles to a target specific HTML element or group of elements.
+
+55. ### What is universal selector in css?
+      The universal selector is a css selector that can be used to apply styles to all elements on a page or to reset styles for all elements to their default values
+
+

@@ -288,4 +288,19 @@ Number of questions will be divided like this:
 55. ### What is universal selector in css?
       The universal selector is a css selector that can be used to apply styles to all elements on a page or to reset styles for all elements to their default values
 
+## Day 12
 
+56. ### Explain the difference between classes and IDs in CSS.
+      Classes are used to group together elements with similar styles, while IDs are used to target specific elements on a page. IDs must be unique, while classes can be used multiple times on a page.
+
+57. ### Explain box model in CSS.
+      The box model in CSS is a way of representing elements as boxes with content, padding, borders, and margins. The content area is the actual content of the element, the padding is the space between the content and the border, the border is a line around the element, and the margin is the space between the border and the surrounding elements.
+
+58. ### What is the difference between margin and padding in CSS?
+      Margin is the space between the border of an element and the surrounding elements, while padding is the space between the content of an element and its border.
+
+59. ### Explain the CSS display property and its values.
+      The CSS display property controls how an element is displayed on a page. The possible values are block, inline, inline-block, none, and others.
+
+60. ### What is the CSS position property and its values?
+      The CSS position property controls how an element is positioned on a page. The possible values are static, relative, absolute, fixed, and sticky

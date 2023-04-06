@@ -304,3 +304,21 @@ Number of questions will be divided like this:
 
 60. ### What is the CSS position property and its values?
       The CSS position property controls how an element is positioned on a page. The possible values are static, relative, absolute, fixed, and sticky
+
+## Day 13
+
+61. ### What is the difference between absolute and relative positioning in CSS?
+      Relative positioning moves an element relative to its current position without affecting the position of other elements, while absolute positioning positions an element relative to its closest parent element, potentially affecting the position of other elements.
+
+62. ### Explain the CSS float property and its values.
+       The CSS float property controls the alignment of an element in a page layout. The possible values include left, right, none, and inherit. When an element is floated left or right, other elements will flow around it.
+
+63. ### What is the CSS clear property?
+      The CSS clear property controls whether an element is allowed to float next to another element or not. The possible values include left, right, both, and none. When an element is cleared, it will be moved below any floated elements.
+
+64. ### What is the CSS z-index property?
+      The CSS z-index property controls the stacking order of elements on a page. Elements with a higher z-index value are displayed on top of elements with a lower z-index value. The default value of z-index is auto.
+
+65. ### What are CSS pseudo-classes? Give some examples.
+      CSS pseudo-classes are selectors that target elements based on their state or position in the document. Some examples include :hover, :active, :focus, :first-child, :last-child, and :nth-child.
+

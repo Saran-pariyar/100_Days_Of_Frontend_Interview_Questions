@@ -322,3 +322,18 @@ Number of questions will be divided like this:
 65. ### What are CSS pseudo-classes? Give some examples.
       CSS pseudo-classes are selectors that target elements based on their state or position in the document. Some examples include :hover, :active, :focus, :first-child, :last-child, and :nth-child.
 
+## Day 14
+66. ### What is CSS animation?
+      CSS animation is a way to add movement and dynamism to the HTML element on a web pages using CSS. It is used to enhance users experience.
+
+67. ### How do you define a CSS animation?
+      We can define CSS animation by creating a set of keyframes that specify the start and end states of an animation. We can apply the animation to an element using the animation property in css.
+
+68. ### How do you trigger a CSS animation to start and stop?
+      You can trigger a CSS animation to start and stop using various CSS selectors and events. For example, you can use the :hover pseudo-class to start an animation when a user hovers over an element.
+
+69. ### How do you create a responsive CSS animation?
+      We can create responsive CSS animation by using relative units like percentages instead of fixed units like pixels. We can also use media queries to adjust the animation properties based on the size of the viewport.
+
+70. ### How do you optimize CSS animations for performance?
+      We can optimize CSS animation for performance by using techniques like reducing the number of elements being animated, minimizing the use of box-shadow and text-shadow, and using transform and opacity instead of top, left, bottom, and right.

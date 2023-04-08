@@ -337,3 +337,20 @@ Number of questions will be divided like this:
 
 70. ### How do you optimize CSS animations for performance?
       We can optimize CSS animation for performance by using techniques like reducing the number of elements being animated, minimizing the use of box-shadow and text-shadow, and using transform and opacity instead of top, left, bottom, and right.
+
+## Day 15
+71. ### How do you debug CSS animations and troubleshoot common issues, such as animations not playing or playing too quickly?
+      We can debug CSS animations by checking for typos or syntax errors, checking browser's compatibility if it supports the property or not,  checking for code that may override the animation.
+
+72. ### What is transition in CSS?
+      A transition in CSS is a way to create animation effects when a property of an HTML element changes, allowing developers to smoothly animate changes to an element's style over a specified duration.
+
+73. ### Can you specify multiple CSS transitions for an element?
+       Yes, you can specify multiple CSS transitions for an element by separating them with commas in the "transition" property.
+
+74. ### What are gradients in CSS?
+      It is a property of CSS which allows you to display a smooth transformation between two or more than two specified colors. There are two types of gradients in CSS. They are: Linear gradient and radial gradient.
+
+75. ### What is the difference between linear and radial gradient in CSS?
+      A linear gradient creates a smooth transition between two or more colors in a straight line while the radial gradient creates a smooth transition between two or more colors in a circular shape.
+

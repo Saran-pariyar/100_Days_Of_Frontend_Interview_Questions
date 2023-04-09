@@ -354,3 +354,19 @@ Number of questions will be divided like this:
 75. ### What is the difference between linear and radial gradient in CSS?
       A linear gradient creates a smooth transition between two or more colors in a straight line while the radial gradient creates a smooth transition between two or more colors in a circular shape.
 
+## Day 16
+
+76. ### What is flexbox?
+      Flexbox is a CSS3 layout module which provides more flexible and efficient way to align arrange and align the elements within the container. It is widely supported by the modern web browser.
+
+77. ### What is the difference between flex-grow and flex-shrink properties in Flexbox?
+      `flex-grow` is a property in Flexbox that specifies how much a flex item should grow relative to the other items in the container, while `flex-shrink` specifies how much a flex item should shrink relative to the other items when there is not enough space available in the container.
+
+78. ### What is the difference between flex-wrap: nowrap and overflow: hidden in CSS?
+      `flex-wrap: nowrap` prevents flex items from wrapping to the next line when they overflow the container, while `overflow: hidden` hides any content that overflows the container's boundaries.
+
+79. ### What is the `gap` property in Flexbox, and how is it used to add spacing between flex items?
+      The `gap` property in Flexbox sets the spacing between flex items, both horizontally and vertically. It is a shorthand for `row-gap` and `column-gap`.
+
+80. ### How do you center an element using flexbox?
+      To center an element using flexbox, we need to set the parent container's display property to `flex` and use the `justify-content` & `align-items` properties with the value of `center`.

@@ -370,3 +370,26 @@ Number of questions will be divided like this:
 
 80. ### How do you center an element using flexbox?
       To center an element using flexbox, we need to set the parent container's display property to `flex` and use the `justify-content` & `align-items` properties with the value of `center`.
+
+## Day 17
+
+81. ### What is CSS grid?
+      CSS grid is a layout system in CSS that allows you to create complex, multi-dimensional grid layouts for web pages.
+
+82. ### How do you use the grid-template-columns and grid-template-rows properties to define the size and number of columns and rows in a grid?
+      You can use the grid-template-columns and grid-template-rows properties to define the size and number of columns and rows in a grid. For example, you might define a grid with three columns, where the first column is 100 pixels wide, the second column is 50% of the available width, and the third column takes up the remaining space, with the following CSS:
+
+      ```
+      grid-template-columns: 100px 50% 1fr;
+      ```
+83. ### How do you specify the number of columns in a grid using CSS?
+      You can specify the number of columns in a grid by using the `grid-template-columns` property. For example, `grid-template-columns: repeat(3, 1fr)` will create a grid with three columns that are each one fraction of the available space.
+
+84. ### How do you align items within a grid using CSS?
+      You can align items within a grid using the `justify-items` and `align-items` properties. justify-items aligns items horizontally within a grid, while `align-items` aligns items vertically.
+
+85. ### What is the difference between grid-row and grid-column in CSS Grid?
+      `grid-row` is used to position an item within a row, while `grid-column` is used to position an item within a column. Both properties can take a value of either a number or a named grid line.
+
+
+

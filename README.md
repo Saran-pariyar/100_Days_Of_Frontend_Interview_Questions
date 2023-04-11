@@ -392,4 +392,25 @@ Number of questions will be divided like this:
       `grid-row` is used to position an item within a row, while `grid-column` is used to position an item within a column. Both properties can take a value of either a number or a named grid line.
 
 
+# Day 18
+
+86. ### What is a CSS transition?
+      A CSS transition is a way to add a gradual animation effect to an element when its CSS properties change. 
+
+87. ### What is the purpose of the `transition-property` property in CSS transitions?
+      The `transition-property` property specifies which CSS property or properties should be transitioned when a change occurs.
+
+88. ### What is the function of the `transition-timing-function` property in CSS transitions?
+      The `transition-timing-function` property specifies the rate of change of the transition over time. This can be used to control the speed of the transition and how it accelerates and decelerates. Example: `ease-in`, `ease`, `ease-out`.
+
+89. ### How do you delay the start of a CSS transition?
+      You can delay the start of a CSS transition using the transition-delay property. This property specifies the amount of time to wait before starting the transition, in seconds or milliseconds. Example: `transition-delay: 1s;`
+
+90. ### How do you apply a transition to multiple properties at once?
+      You can apply a transition to multiple properties at once by separating the property names with commas in the `transition-property` property. example, `transition-property: background-color, color, opacity;`
+
+
+
+
+
 

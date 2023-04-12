@@ -409,6 +409,28 @@ Number of questions will be divided like this:
 90. ### How do you apply a transition to multiple properties at once?
       You can apply a transition to multiple properties at once by separating the property names with commas in the `transition-property` property. example, `transition-property: background-color, color, opacity;`
 
+# Day 19
+
+91. ### What are CSS 2D Transforms?
+      CSS 2D Transforms are a set of properties that allow you to transform the position, rotation, scaling, and skewing of an element in two dimensions, without affecting the surrounding elements.
+
+92. ### Can you use negative values with CSS 2D transforms? If so, what effect do they have?
+      Yes, you can use negative values with CSS 2D transforms. The effect of negative values depends on the function being used. For example, a negative value for the `rotate()` function will rotate the element counterclockwise instead of clockwise.
+
+93. ### What are the properties of CSS 2D transform?
+      The properties of CSS 2D Transforms are:
+      1. transform: specifies the transformation functions to be applied to an element
+      2. transform-origin: specifies the point around which the transformation should occur
+      3. translate: moves an element along the x-axis and/or y-axis
+      4. rotate: rotates an element clockwise or counterclockwise around a given point
+      5. scale: increases or decreases the size of an element
+      6. skew: skews an element along the x-axis and/or y-axis
+
+94. ### Can you apply multiple transformations to the same element using CSS 2D transforms?
+      Yes, you can apply multiple transformations to the same element using CSS 2D transforms. You can do this by separating each transformation function with a space in the `transform` property.
+
+95. ### What is the difference between the `translate()` and `rotate()` functions?
+      The `translate()` function is used to move an element along the x-axis and/or y-axis, while the `rotate()` function is used to rotate an element clockwise or counterclockwise around a given point.
 
 
 

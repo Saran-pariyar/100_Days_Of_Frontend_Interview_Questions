@@ -432,6 +432,31 @@ Number of questions will be divided like this:
 95. ### What is the difference between the `translate()` and `rotate()` functions?
       The `translate()` function is used to move an element along the x-axis and/or y-axis, while the `rotate()` function is used to rotate an element clockwise or counterclockwise around a given point.
 
+# Day 20
+
+96. ### What are the properties of CSS 3D transform?
+      The properties of CSS 3D Transforms are:
+
+      1. transform-style: determines whether an element's children are transformed in 3D space
+      2. perspective: determines the distance between the viewer and the element, affecting the appearance of 3D transforms
+      3. perspective-origin: specifies the origin point of the perspective
+      4. transform: applies a 3D transformation to an element, such as rotateX(), rotateY(), rotateZ(), translateX(), translateY(),translateZ(), scale(), and skew()
+      5. transform-origin: specifies the origin point of the transformation
+      6. backface-visibility: determines whether or not the back face of an element should be visible when the element is rotated.
+
+97. ### What is the difference between RGB and RGBA colors?
+      RGBA is similar to RGB, but it includes an additional alpha value that represents the opacity of the color. The alpha value is a number between 0 and 1, with 0 being completely transparent and 1 being completely opaque.
+
+98. ### What is color contrast?
+      Color contrast is how much the colors of the text and the background of a website stand out from each other.
+
+99. ### How does color contrast applies to accessibility in web design?
+       It is important because people with visual impairments or color blindness may have trouble seeing things if there is not enough contrast. There are guidelines for making sure there is enough contrast which makes the website content more accessible to the people.
+
+100. ### what is css filter?
+      CSS filters are a set of visual effects that can be applied to HTML elements using CSS. Filters can be used to adjust the appearance of an element in various ways, such as changing its color, blurring or sharpening it, adjusting its brightness or contrast, and more.
+
+
 
 
 

@@ -456,6 +456,22 @@ Number of questions will be divided like this:
 100. ### what is css filter?
       CSS filters are a set of visual effects that can be applied to HTML elements using CSS. Filters can be used to adjust the appearance of an element in various ways, such as changing its color, blurring or sharpening it, adjusting its brightness or contrast, and more.
 
+# Day 21
+
+101. ### What are some important considerations when using text effects?
+      Important considerations include making sure the text remains readable and legible, ensuring the effect is appropriate for the overall design, and avoiding overuse of effects.
+
+102. ### What is a CSS sprite?
+       A CSS sprite is a technique used to combine multiple images into a single image file, reducing the number of HTTP requests required to load the page and improving loading times.
+
+103. ### What is the :not() pseudo-class used for in CSS?
+      The :not() pseudo-class is used to select all elements that do not match the specified selector.
+
+104. ### How do you target all even or odd elements using a pseudo-selector in CSS?
+      The :nth-child() pseudo-selector can be used with the "even" or "odd" keyword to target all even or odd elements of a parent element.
+
+105. ### What is the :visited pseudo-class used for in CSS?
+      The :visited pseudo-class is used to target a link that has been visited by the user.
 
 
 

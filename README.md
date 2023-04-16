@@ -569,3 +569,21 @@ Number of questions will be divided like this:
 
 110. ### What is the @media rule in CSS?
      The @media rule in CSS allows developers to apply styles to a web page based on the size of the device or screen being used to view it, making it more responsive.
+
+# Day 23
+
+111. ### What is the difference between fluid and fixed layouts in CSS?
+        A fluid layout in CSS adjusts its width and height based on the size of the screen, while a fixed layout has a set width and height. Fluid layouts use percentages to set their dimensions, while fixed layouts use pixels.
+
+112. ### How do you make images responsive in CSS?
+        To make images responsive in CSS, you can use the max-width: 100% property, which will make the image scale down proportionally to fit the width of its container while maintaining its aspect ratio.
+
+113. ### What is the difference between min-width and max-width in CSS media queries?
+        In CSS media queries, min-width sets the minimum screen width at which a set of styles will be applied, while max-width sets the maximum screen width at which a set of styles will be applied. For example, if you use min-width: 768px, the styles will only be applied to screens that are 768 pixels wide or larger, while if you use max-width: 768px, the styles will only be applied to screens that are 768 pixels wide or smaller.
+
+114. ### What is the difference between responsive and adaptive design in CSS?
+        Responsive design in CSS adapts to different screen sizes and devices by using flexible grids, fluid images, and media queries to adjust the layout and content of the website. Adaptive design in CSS, on the other hand, uses predefined layout sizes and breakpoints to adjust the layout and content based on the screen size and device being used.
+
+115. ### How do you optimize responsive images for faster loading in CSS?
+        To optimize responsive images for faster loading in CSS, you can use smaller file formats like JPEG and PNG, reduce the image size and resolution, and use lazy loading to only load images when they are needed. 
+

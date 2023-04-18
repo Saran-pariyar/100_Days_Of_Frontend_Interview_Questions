@@ -608,3 +608,21 @@ Number of questions will be divided like this:
 
 120. ### Explain what are web-safe fonts and fallback fonts.
         Web-safe fonts are fonts that are commonly installed on most devices and web browsers. Fallback fonts are alternative fonts specified in case the primary font is not available on the user's device.
+
+# Day 25
+
+121. ### What is the purpose of CSS content property?
+        The CSS content property is used to insert content before or after an HTML element using the ::before and ::after pseudo-elements.
+
+122. ### How can we create custom cursor in CSS?
+        To create a custom cursor in CSS, you can use the "cursor" property and set it to "url" with the path to the image file that you want to use as the cursor.
+
+123. ### What is the "line-height" property in CSS?
+        The "line-height" property in CSS is used to control the spacing between lines of text within an element.
+
+124. ### What is specificity in CSS?
+        Specificity in CSS is a way of determining which CSS rule applies to an element. It is based on the number of selectors and their types in a CSS rule. Specificity is calculated using a formula: inline styles have the highest specificity, followed by IDs, classes, and then elements.
+
+125. ### Which property is used to control the scrolling of an image in the background?
+        The `background-attachment` property is used to control the scrolling of an image in the background.
+

@@ -17,9 +17,9 @@ Number of questions will be divided like this:
 | Techs      | No. of Questions |
 | ---------- | :--------------: |
 | HTML       |        50        |
-| CSS        |       125        |
+| CSS        |       100        |
 | Javascript |       200        |
-| React      |       125        |
+| React      |       150        |
 
 <br /><br />
 
@@ -625,4 +625,21 @@ Number of questions will be divided like this:
 
 125. ### Which property is used to control the scrolling of an image in the background?
         The `background-attachment` property is used to control the scrolling of an image in the background.
+
+# Day 26
+
+126. ### Which CSS property is used to capitalize text or convert text to uppercase or lowercase letters?
+        The text-transform property is used to capitalize text or convert text to uppercase or lowercase letters.
+
+127. ### What is word-wrap property in CSS3?
+        The word-wrap property allows long words to be able to be broken in order to prevent overflow and wrap onto the next line.
+
+128. ### Describe ‘rule set’ in CSS?
+        It is an instruction that tells browser on how to render a specific element on the HTML page. It consists of a selector with a declaration block that follows.
+
+129. ### How can you create a CSS-only dropdown menu?
+        A CSS-only dropdown menu can be created by using the "hover" pseudo-class and the "display" property. When the user hovers over a parent element, the "display" property of the child element can be set to "block" or "inline-block" to reveal the dropdown menu.
+
+130. ### What are the potential drawbacks of using CSS frameworks such as Bootstrap?
+        Using CSS frameworks like Bootstrap can lead to bloated code, difficulties in customizing the design, and unoriginal or generic looks
 

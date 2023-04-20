@@ -643,3 +643,19 @@ Number of questions will be divided like this:
 130. ### What are the potential drawbacks of using CSS frameworks such as Bootstrap?
         Using CSS frameworks like Bootstrap can lead to bloated code, difficulties in customizing the design, and unoriginal or generic looks
 
+# Day 27
+
+131. ### What is Tailwind CSS?
+        TailwindCSS is a utility-first CSS framework that provides pre-defined CSS classes that can be used to rapidly build custom user interfaces.
+
+132. ### How do you customize TailwindCSS to match a specific design system or brand guidelines?
+        TailwindCSS provides a configuration file that can be customized to match a specific design system or brand guidelines. This file includes variables for colors, fonts, spacing, and more, which can be adjusted to match the project's needs.
+
+133. ### Can you explain the difference between utility classes and component classes in TailwindCSS?
+        Utility classes in TailwindCSS are small, single-purpose classes that provide a specific styling utility, such as padding, margin, or text alignment. Component classes, on the other hand, are larger classes that provide a collection of styles for a specific component, such as a button or card.
+
+134. ### How do you optimize the file size of TailwindCSS in a production environment?
+        TailwindCSS provides a purge option that removes any unused classes from the final CSS file, reducing its size. This option should be enabled in a production environment to minimize the CSS file size.
+
+135. ### What are some common performance issues with TailwindCSS, and how do you optimize performance in your projects?
+        Common performance issues with TailwindCSS include the size of the CSS file and the number of classes being generated. To optimize performance, it is important to enable the purge option in a production environment, use a caching mechanism to speed up builds, and avoid generating unnecessary classes.

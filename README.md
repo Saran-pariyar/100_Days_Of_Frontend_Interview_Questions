@@ -659,3 +659,21 @@ Number of questions will be divided like this:
 
 135. ### What are some common performance issues with TailwindCSS, and how do you optimize performance in your projects?
         Common performance issues with TailwindCSS include the size of the CSS file and the number of classes being generated. To optimize performance, it is important to enable the purge option in a production environment, use a caching mechanism to speed up builds, and avoid generating unnecessary classes.
+
+# Day 28
+
+136. ### What is CSS preprocessor?
+        A CSS preprocessor is a scripting language that extends the capabilities of CSS which makes it easier and more efficient to write CSS code.
+
+137. ### What is the difference between a CSS preprocessor and a post-processor?
+        A CSS preprocessor generates CSS code from source code written in a higher-level scripting language, whereas a post-processor takes existing CSS code and applies transformations or optimizations to it. In other words, a preprocessor is used during development, while a post-processor is used after development to optimize performance.
+
+
+138. ### What is SASS?
+        Sass is a CSS preprocessor that adds functionality to CSS, such as variables, nesting, and more. It allows us to write more efficient code and simplifies task like browser compatibility.
+
+139. ### what is the difference between sass and scss?
+        Sass and SCSS are both CSS pre-processors and are very similar, but they have different syntax. Sass has a more concise and less verbose syntax, with no curly braces and no semicolon whereas SCSS has a syntax that is almost identical to standard CSS, with curly braces and semicolons
+
+140. ### Can you describe a situation where you would choose not to use Sass?
+        A developer might choose not to use Sass if they prefer to stick with standard CSS for simplicity or if they are working on a small project where the added features of Sass may not be necessary.

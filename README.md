@@ -668,7 +668,6 @@ Number of questions will be divided like this:
 137. ### What is the difference between a CSS preprocessor and a post-processor?
         A CSS preprocessor generates CSS code from source code written in a higher-level scripting language, whereas a post-processor takes existing CSS code and applies transformations or optimizations to it. In other words, a preprocessor is used during development, while a post-processor is used after development to optimize performance.
 
-
 138. ### What is SASS?
         Sass is a CSS preprocessor that adds functionality to CSS, such as variables, nesting, and more. It allows us to write more efficient code and simplifies task like browser compatibility.
 
@@ -677,3 +676,68 @@ Number of questions will be divided like this:
 
 140. ### Can you describe a situation where you would choose not to use Sass?
         A developer might choose not to use Sass if they prefer to stick with standard CSS for simplicity or if they are working on a small project where the added features of Sass may not be necessary.
+
+# Day 29
+
+141. ### What is SASS nesting?
+        Sass nesting is a feature that allows us to write CSS selectors that are nested within one another which makes our code easier to read and understand.
+
+142. ### What are variables in Sass?
+        Variables in Sass allow you to assign values to a variable name, which can then be used throughout your stylesheet.
+
+143. ### What are mixins in Sass?
+        A mixin is a feature in Sass that allows you to define a set of CSS styles that can be reused throughout your stylesheet. Example:
+        ```
+        @mixin my-text-style {
+         font-size: 16px;
+         font-weight: bold;
+        }
+
+        /* we can use the whole style like this now */
+
+        h1 {
+         @include my-text-style;
+        }
+        ```
+
+144. ### What is Sass inheritance?
+        Inheritance allows us to define a set of styles in one selector, called a "parent", and then extend those styles to another selector, called a "child". Example:
+        ```
+        @mixin button-style($bg-color, $text-color) {
+            background-color: $bg-color;
+            color: $text-color;
+            display: inline-block;
+            padding: 8px 16px;  
+        }
+
+        // Use the mixin to create different button styles
+
+        .button-primary {
+            @include button-style(#007bff, #fff);
+        }
+
+        .button-secondary {
+            @include button-style(#6c757d, #fff);
+        }
+        ```
+
+145. ### How do you use 'if' statements in SCSS?
+        In SCSS, you can use the @if directive to add conditional logic to your styles. Example:
+        ```
+        //declaring variable
+        $background-color: #333;
+
+        body {
+
+        @if $background-color == #333 {
+        background-color: $background-color;
+
+        } @else {
+
+        background-color: #fff;
+            }
+        }
+        ```
+
+
+

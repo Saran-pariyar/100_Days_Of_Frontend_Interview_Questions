@@ -745,16 +745,16 @@ Number of questions will be divided like this:
         Common mistakes in CSS include over-reliance on frameworks, lack of organization, and using non-semantic HTML
 
 147. ### How do you balance the need for visual aesthetics with the need for website or application functionality?
-         I balance the need for visual aesthetics with the need for functionality by designing with the user in mind, testing designs with real users, and incorporating feedback and data into the design process.
+        I balance the need for visual aesthetics with the need for functionality by designing with the user in mind, testing designs with real users, and incorporating feedback and data into the design process.
 
 148. ### How do you ensure that your CSS is optimized for search engine optimization (SEO)?
         We can ensure CSS is optimized for SEO by minimizing code bloat to improve load time, use relevant class names, avoiding inline styles, etc.
 
 149. ### How do you ensure that your CSS is scalable and maintainable for large projects?
         We can ensure that our CSS is scalable and maintainable for large project by:
-            1. Using proper naming convection for ID and classes.
-            2. Using preprocessor like sass, less, etc.
-            3. Using performance enhancing techniques like lazy-loading, etc.
+        1. Using proper naming convection for ID and classes.
+        2. Using preprocessor like sass, less, etc.
+        3. Using performance enhancing techniques like lazy-loading, etc.
 
 150. ### How do you use CSS variables to create more flexible and dynamic designs, and what are some use cases where variables are particularly useful?
         CSS variables can improve maintainability and reduce repetition. Variables are particularly useful for theming, creating responsive designs, and making changes to global styles.

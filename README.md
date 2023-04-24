@@ -760,6 +760,23 @@ Number of questions will be divided like this:
         CSS variables can improve maintainability and reduce repetition. Variables are particularly useful for theming, creating responsive designs, and making changes to global styles.
 
 
+# Day 31
+
+151. ### What is javascript?
+        JavaScript is a programming language used to create interactive and dynamic web pages, as well as to create more complex applications on the client and server side.
+
+152. ### What is the difference between null and undefined in JavaScript?
+        Null represents a deliberate non-value or absence of any object value, while undefined represents a lack of value or an uninitialized variable.
+
+153. ### What is the difference between == and === in JavaScript?
+        The double equals (==) compares the value of two variables, while the triple equals (===) compares both the value and the data type of two variables.
+
+154. ### What is the difference between let, const, and var in JavaScript?
+        The var keyword is used for variable declaration in older versions of JavaScript, while let and const were introduced in ES6. Var has a function-level scope, while let and const have block-level scope. Additionally, const variables cannot be reassigned after being declared, while let variables can be.
+
+155. ### How do you convert a string to a number in JavaScript?
+        You can use the `Number()` or `parseFloat()` functions to convert a string to a number in JavaScript.
+
 
     
 

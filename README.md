@@ -8,6 +8,8 @@ If you want to see the 5 questions daily in your social media feed, connect with
 
 <b>I've also added some tables, no need to memorize them, just take a look at them once a day or few times and you'll able to understand those concepts easily</b>
 
+`Source of the questions: google, chatGPT, github repos, etc`
+
 ---
 
 ## Tables of content
@@ -829,11 +831,9 @@ Number of questions will be divided like this:
      | Doesn't modify the original array(immutable) |      Modifies the original array(mutable)       |
      | Returns the subset of original array         |      Returns the deleted elements as array      |
      | Used to pick the elements from array         | Used to insert or delete elements to/from array |
-     |  |
 
-
-159. ### what are arrow function?
+159. ### What are arrow function?
         Arrow functions are a shorthand syntax for writing function expressions in JavaScript. They use the `=>` syntax to separate the function parameters from the function body and have a concise syntax that makes them ideal for writing short, one-liner functions.
 
 160. ### What are first class function?
-         First-class functions means when functions in that language are treated like any other variable. This means that functions can be assigned to variables, passed as arguments to other functions, and returned from functions.     
+        First-class functions means when functions in that language are treated like any other variable. This means that functions can be assigned to variables, passed as arguments to other functions, and returned from functions.     

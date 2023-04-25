@@ -594,192 +594,246 @@ Number of questions will be divided like this:
 # Day 24
 
 116.  ### How does calc() work in css?
-        The CSS3 calc() function allows us to perform mathematical operations on property values. 
-        Example: ```div{width: calc(100px + 50px)}```
 
-117. ###  What is the overflow property in CSS used for?
-        The overflow property specifies what should happen if content overflows an element’s box. It's possible values are: auto, none, scroll, visible.
+      The CSS3 calc() function allows us to perform mathematical operations on property values.
+      Example: `div{width: calc(100px + 50px)}`
 
-118. ### What is the difference between `visibility:hidden` and `display:none`?
-        `visibility:hidden` means the tag is not visible, but the space is allocated for it on the page. `display:none` means the tag will not appear at all and there will be no space allocated for it between the other tags.
+117.  ### What is the overflow property in CSS used for?
 
-119. ### Are quotes mandatory in URL’s?
-        Quotes are optional in URL’s, and it can be single or double.
+      The overflow property specifies what should happen if content overflows an element’s box. It's possible values are: auto, none, scroll, visible.
 
-120. ### Explain what are web-safe fonts and fallback fonts.
-        Web-safe fonts are fonts that are commonly installed on most devices and web browsers. Fallback fonts are alternative fonts specified in case the primary font is not available on the user's device.
+118.  ### What is the difference between `visibility:hidden` and `display:none`?
+
+      `visibility:hidden` means the tag is not visible, but the space is allocated for it on the page. `display:none` means the tag will not appear at all and there will be no space allocated for it between the other tags.
+
+119.  ### Are quotes mandatory in URL’s?
+
+      Quotes are optional in URL’s, and it can be single or double.
+
+120.  ### Explain what are web-safe fonts and fallback fonts.
+      Web-safe fonts are fonts that are commonly installed on most devices and web browsers. Fallback fonts are alternative fonts specified in case the primary font is not available on the user's device.
 
 # Day 25
 
 121. ### What is the purpose of CSS content property?
-        The CSS content property is used to insert content before or after an HTML element using the ::before and ::after pseudo-elements.
+
+     The CSS content property is used to insert content before or after an HTML element using the ::before and ::after pseudo-elements.
 
 122. ### How can we create custom cursor in CSS?
-        To create a custom cursor in CSS, you can use the "cursor" property and set it to "url" with the path to the image file that you want to use as the cursor.
+
+     To create a custom cursor in CSS, you can use the "cursor" property and set it to "url" with the path to the image file that you want to use as the cursor.
 
 123. ### What is the "line-height" property in CSS?
-        The "line-height" property in CSS is used to control the spacing between lines of text within an element.
+
+     The "line-height" property in CSS is used to control the spacing between lines of text within an element.
 
 124. ### What is specificity in CSS?
-        Specificity in CSS is a way of determining which CSS rule applies to an element. It is based on the number of selectors and their types in a CSS rule. Specificity is calculated using a formula: inline styles have the highest specificity, followed by IDs, classes, and then elements.
+
+     Specificity in CSS is a way of determining which CSS rule applies to an element. It is based on the number of selectors and their types in a CSS rule. Specificity is calculated using a formula: inline styles have the highest specificity, followed by IDs, classes, and then elements.
 
 125. ### Which property is used to control the scrolling of an image in the background?
-        The `background-attachment` property is used to control the scrolling of an image in the background.
+     The `background-attachment` property is used to control the scrolling of an image in the background.
 
 # Day 26
 
 126. ### Which CSS property is used to capitalize text or convert text to uppercase or lowercase letters?
-        The text-transform property is used to capitalize text or convert text to uppercase or lowercase letters.
+
+     The text-transform property is used to capitalize text or convert text to uppercase or lowercase letters.
 
 127. ### What is word-wrap property in CSS3?
-        The word-wrap property allows long words to be able to be broken in order to prevent overflow and wrap onto the next line.
+
+     The word-wrap property allows long words to be able to be broken in order to prevent overflow and wrap onto the next line.
 
 128. ### Describe ‘rule set’ in CSS?
-        It is an instruction that tells browser on how to render a specific element on the HTML page. It consists of a selector with a declaration block that follows.
+
+     It is an instruction that tells browser on how to render a specific element on the HTML page. It consists of a selector with a declaration block that follows.
 
 129. ### How can you create a CSS-only dropdown menu?
-        A CSS-only dropdown menu can be created by using the "hover" pseudo-class and the "display" property. When the user hovers over a parent element, the "display" property of the child element can be set to "block" or "inline-block" to reveal the dropdown menu.
+
+     A CSS-only dropdown menu can be created by using the "hover" pseudo-class and the "display" property. When the user hovers over a parent element, the "display" property of the child element can be set to "block" or "inline-block" to reveal the dropdown menu.
 
 130. ### What are the potential drawbacks of using CSS frameworks such as Bootstrap?
-        Using CSS frameworks like Bootstrap can lead to bloated code, difficulties in customizing the design, and unoriginal or generic looks
+     Using CSS frameworks like Bootstrap can lead to bloated code, difficulties in customizing the design, and unoriginal or generic looks
 
 # Day 27
 
 131. ### What is Tailwind CSS?
-        TailwindCSS is a utility-first CSS framework that provides pre-defined CSS classes that can be used to rapidly build custom user interfaces.
+
+     TailwindCSS is a utility-first CSS framework that provides pre-defined CSS classes that can be used to rapidly build custom user interfaces.
 
 132. ### How do you customize TailwindCSS to match a specific design system or brand guidelines?
-        TailwindCSS provides a configuration file that can be customized to match a specific design system or brand guidelines. This file includes variables for colors, fonts, spacing, and more, which can be adjusted to match the project's needs.
+
+     TailwindCSS provides a configuration file that can be customized to match a specific design system or brand guidelines. This file includes variables for colors, fonts, spacing, and more, which can be adjusted to match the project's needs.
 
 133. ### Can you explain the difference between utility classes and component classes in TailwindCSS?
-        Utility classes in TailwindCSS are small, single-purpose classes that provide a specific styling utility, such as padding, margin, or text alignment. Component classes, on the other hand, are larger classes that provide a collection of styles for a specific component, such as a button or card.
+
+     Utility classes in TailwindCSS are small, single-purpose classes that provide a specific styling utility, such as padding, margin, or text alignment. Component classes, on the other hand, are larger classes that provide a collection of styles for a specific component, such as a button or card.
 
 134. ### How do you optimize the file size of TailwindCSS in a production environment?
-        TailwindCSS provides a purge option that removes any unused classes from the final CSS file, reducing its size. This option should be enabled in a production environment to minimize the CSS file size.
+
+     TailwindCSS provides a purge option that removes any unused classes from the final CSS file, reducing its size. This option should be enabled in a production environment to minimize the CSS file size.
 
 135. ### What are some common performance issues with TailwindCSS, and how do you optimize performance in your projects?
-        Common performance issues with TailwindCSS include the size of the CSS file and the number of classes being generated. To optimize performance, it is important to enable the purge option in a production environment, use a caching mechanism to speed up builds, and avoid generating unnecessary classes.
+     Common performance issues with TailwindCSS include the size of the CSS file and the number of classes being generated. To optimize performance, it is important to enable the purge option in a production environment, use a caching mechanism to speed up builds, and avoid generating unnecessary classes.
 
 # Day 28
 
 136. ### What is CSS preprocessor?
-        A CSS preprocessor is a scripting language that extends the capabilities of CSS which makes it easier and more efficient to write CSS code.
+
+     A CSS preprocessor is a scripting language that extends the capabilities of CSS which makes it easier and more efficient to write CSS code.
 
 137. ### What is the difference between a CSS preprocessor and a post-processor?
-        A CSS preprocessor generates CSS code from source code written in a higher-level scripting language, whereas a post-processor takes existing CSS code and applies transformations or optimizations to it. In other words, a preprocessor is used during development, while a post-processor is used after development to optimize performance.
+
+     A CSS preprocessor generates CSS code from source code written in a higher-level scripting language, whereas a post-processor takes existing CSS code and applies transformations or optimizations to it. In other words, a preprocessor is used during development, while a post-processor is used after development to optimize performance.
 
 138. ### What is SASS?
-        Sass is a CSS preprocessor that adds functionality to CSS, such as variables, nesting, and more. It allows us to write more efficient code and simplifies task like browser compatibility.
+
+     Sass is a CSS preprocessor that adds functionality to CSS, such as variables, nesting, and more. It allows us to write more efficient code and simplifies task like browser compatibility.
 
 139. ### what is the difference between sass and scss?
-        Sass and SCSS are both CSS pre-processors and are very similar, but they have different syntax. Sass has a more concise and less verbose syntax, with no curly braces and no semicolon whereas SCSS has a syntax that is almost identical to standard CSS, with curly braces and semicolons
+
+     Sass and SCSS are both CSS pre-processors and are very similar, but they have different syntax. Sass has a more concise and less verbose syntax, with no curly braces and no semicolon whereas SCSS has a syntax that is almost identical to standard CSS, with curly braces and semicolons
 
 140. ### Can you describe a situation where you would choose not to use Sass?
-        A developer might choose not to use Sass if they prefer to stick with standard CSS for simplicity or if they are working on a small project where the added features of Sass may not be necessary.
+     A developer might choose not to use Sass if they prefer to stick with standard CSS for simplicity or if they are working on a small project where the added features of Sass may not be necessary.
 
 # Day 29
 
 141. ### What is SASS nesting?
-        Sass nesting is a feature that allows us to write CSS selectors that are nested within one another which makes our code easier to read and understand.
+
+     Sass nesting is a feature that allows us to write CSS selectors that are nested within one another which makes our code easier to read and understand.
 
 142. ### What are variables in Sass?
-        Variables in Sass allow you to assign values to a variable name, which can then be used throughout your stylesheet.
+
+     Variables in Sass allow you to assign values to a variable name, which can then be used throughout your stylesheet.
 
 143. ### What are mixins in Sass?
-        A mixin is a feature in Sass that allows you to define a set of CSS styles that can be reused throughout your stylesheet. Example:
-        ```
-        @mixin my-text-style {
-         font-size: 16px;
-         font-weight: bold;
-        }
 
-        /* we can use the whole style like this now */
+     A mixin is a feature in Sass that allows you to define a set of CSS styles that can be reused throughout your stylesheet. Example:
 
-        h1 {
-         @include my-text-style;
-        }
-        ```
+     ```
+     @mixin my-text-style {
+      font-size: 16px;
+      font-weight: bold;
+     }
+
+     /* we can use the whole style like this now */
+
+     h1 {
+      @include my-text-style;
+     }
+     ```
 
 144. ### What is Sass inheritance?
-        Inheritance allows us to define a set of styles in one selector, called a "parent", and then extend those styles to another selector, called a "child". Example:
-        ```
-        @mixin button-style($bg-color, $text-color) {
-            background-color: $bg-color;
-            color: $text-color;
-            display: inline-block;
-            padding: 8px 16px;  
-        }
 
-        // Use the mixin to create different button styles
+     Inheritance allows us to define a set of styles in one selector, called a "parent", and then extend those styles to another selector, called a "child". Example:
 
-        .button-primary {
-            @include button-style(#007bff, #fff);
-        }
+     ```
+     @mixin button-style($bg-color, $text-color) {
+         background-color: $bg-color;
+         color: $text-color;
+         display: inline-block;
+         padding: 8px 16px;
+     }
 
-        .button-secondary {
-            @include button-style(#6c757d, #fff);
-        }
-        ```
+     // Use the mixin to create different button styles
+
+     .button-primary {
+         @include button-style(#007bff, #fff);
+     }
+
+     .button-secondary {
+         @include button-style(#6c757d, #fff);
+     }
+     ```
 
 145. ### How do you use 'if' statements in SCSS?
-        In SCSS, you can use the @if directive to add conditional logic to your styles. Example:
-        ```
-        //declaring variable
-        $background-color: #333;
 
-        body {
+     In SCSS, you can use the @if directive to add conditional logic to your styles. Example:
 
-        @if $background-color == #333 {
-        background-color: $background-color;
+     ```
+     //declaring variable
+     $background-color: #333;
 
-        } @else {
+     body {
 
-        background-color: #fff;
-            }
-        }
-        ```
+     @if $background-color == #333 {
+     background-color: $background-color;
+
+     } @else {
+
+     background-color: #fff;
+         }
+     }
+     ```
 
 # Day 30
 
 146. ### What are some common mistakes that developers make when writing CSS, and how do you avoid them?
-        Common mistakes in CSS include over-reliance on frameworks, lack of organization, and using non-semantic HTML
+
+     Common mistakes in CSS include over-reliance on frameworks, lack of organization, and using non-semantic HTML
 
 147. ### How do you balance the need for visual aesthetics with the need for website or application functionality?
-        I balance the need for visual aesthetics with the need for functionality by designing with the user in mind, testing designs with real users, and incorporating feedback and data into the design process.
+
+     I balance the need for visual aesthetics with the need for functionality by designing with the user in mind, testing designs with real users, and incorporating feedback and data into the design process.
 
 148. ### How do you ensure that your CSS is optimized for search engine optimization (SEO)?
-        We can ensure CSS is optimized for SEO by minimizing code bloat to improve load time, use relevant class names, avoiding inline styles, etc.
+
+     We can ensure CSS is optimized for SEO by minimizing code bloat to improve load time, use relevant class names, avoiding inline styles, etc.
 
 149. ### How do you ensure that your CSS is scalable and maintainable for large projects?
-        We can ensure that our CSS is scalable and maintainable for large project by:
-        1. Using proper naming convection for ID and classes.
-        2. Using preprocessor like sass, less, etc.
-        3. Using performance enhancing techniques like lazy-loading, etc.
+
+     We can ensure that our CSS is scalable and maintainable for large project by:
+
+     1. Using proper naming convection for ID and classes.
+     2. Using preprocessor like sass, less, etc.
+     3. Using performance enhancing techniques like lazy-loading, etc.
 
 150. ### How do you use CSS variables to create more flexible and dynamic designs, and what are some use cases where variables are particularly useful?
-        CSS variables can improve maintainability and reduce repetition. Variables are particularly useful for theming, creating responsive designs, and making changes to global styles.
-
+     CSS variables can improve maintainability and reduce repetition. Variables are particularly useful for theming, creating responsive designs, and making changes to global styles.
 
 # Day 31
 
 151. ### What is javascript?
-        JavaScript is a programming language used to create interactive and dynamic web pages, as well as to create more complex applications on the client and server side.
+
+     JavaScript is a programming language used to create interactive and dynamic web pages, as well as to create more complex applications on the client and server side.
 
 152. ### What is the difference between null and undefined in JavaScript?
-        Null represents a deliberate non-value or absence of any object value, while undefined represents a lack of value or an uninitialized variable.
+
+     Null represents a deliberate non-value or absence of any object value, while undefined represents a lack of value or an uninitialized variable.
 
 153. ### What is the difference between == and === in JavaScript?
-        The double equals (==) compares the value of two variables, while the triple equals (===) compares both the value and the data type of two variables.
+
+     The double equals (==) compares the value of two variables, while the triple equals (===) compares both the value and the data type of two variables.
 
 154. ### What is the difference between let, const, and var in JavaScript?
-        The var keyword is used for variable declaration in older versions of JavaScript, while let and const were introduced in ES6. Var has a function-level scope, while let and const have block-level scope. Additionally, const variables cannot be reassigned after being declared, while let variables can be.
+
+     The var keyword is used for variable declaration in older versions of JavaScript, while let and const were introduced in ES6. Var has a function-level scope, while let and const have block-level scope. Additionally, const variables cannot be reassigned after being declared, while let variables can be.
 
 155. ### How do you convert a string to a number in JavaScript?
-        You can use the `Number()` or `parseFloat()` functions to convert a string to a number in JavaScript.
+     You can use the `Number()` or `parseFloat()` functions to convert a string to a number in JavaScript.
+
+# Day 32
+
+156. ### What is the purpose of the array slice method?
+
+     The `slice()` method returns the selected elements in an array as a new array object. It selects the elements starting at the given start argument, and ends at the given optional end argument without including the last element.
+
+157. ### What is the purpose of the array splice method?
+
+     The `splice()` is an array method in JavaScript that allows you to modify an array by adding, removing, or replacing elements. It takes two required parameters: the index at which to start making changes to the array, and the number of elements to remove. It also has an optional parameter for adding one or more elements to the array.
+
+158. ### What is the difference between slice and splice?
+     | slice                                        |                     splice                      |
+     | -------------------------------------------- | :---------------------------------------------: |
+     | Doesn't modify the original array(immutable) |      Modifies the original array(mutable)       |
+     | Returns the subset of original array         |      Returns the deleted elements as array      |
+     | Used to pick the elements from array         | Used to insert or delete elements to/from array |
+     |  |
 
 
-    
+159. ### what are arrow function?
+        Arrow functions are a shorthand syntax for writing function expressions in JavaScript. They use the `=>` syntax to separate the function parameters from the function body and have a concise syntax that makes them ideal for writing short, one-liner functions.
 
-
-
-
+160. ### What are first class function?
+         First-class functions means when functions in that language are treated like any other variable. This means that functions can be assigned to variables, passed as arguments to other functions, and returned from functions.     

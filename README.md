@@ -8,7 +8,7 @@ If you want to see the 5 questions daily in your social media feed, connect with
 
 <b>I've also added some tables, no need to memorize them, just take a look at them once a day or few times and you'll able to understand those concepts easily</b>
 
-`Source of the questions: google, chatGPT, github repos, etc`
+`Source of the questions: Google, ChatGPT, Github repos, etc`
 
 ---
 
@@ -837,3 +837,24 @@ Number of questions will be divided like this:
 
 160. ### What are first class function?
         First-class functions means when functions in that language are treated like any other variable. This means that functions can be assigned to variables, passed as arguments to other functions, and returned from functions.     
+
+# Day 33
+
+161. ### What is a pure function?
+        A pure function is a function that, given the same input, will always return the same output and does not have any observable side effect.
+
+162. ### What is the scope chain in JavaScript?
+        The scope chain is how Javascript looks for variables. When looking for variables through the nested scope, the inner scope first looks at its own scope.
+
+163. ### What is a higher order function?
+        A higher-order function is a function that takes one or more functions as arguments and/or returns a function as its result. 
+
+164. ### What is hoisting?
+        Hoisting is a behavior in JavaScript where variable and function declarations are moved to the top of their respective scopes during compilation or interpretation, before the code is actually executed. This means that you can use a variable or function before it has been declared, but only if it is declared using the `var` or `function` keywords. However, only the declarations themselves are hoisted, not their values or assignments.
+
+165. ### What are modules in javascript?
+        modules are a way of organizing code into separate files or components that can be reused in different parts of an application. Modules allow you to encapsulate data and functionality, making your code more organized and easier to maintain
+
+
+
+

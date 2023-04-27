@@ -856,5 +856,30 @@ Number of questions will be divided like this:
         modules are a way of organizing code into separate files or components that can be reused in different parts of an application. Modules allow you to encapsulate data and functionality, making your code more organized and easier to maintain
 
 
+# Day 34
 
+166. ### What is a closure in JavaScript?
+        In JavaScript, a closure is created when a function is defined inside another function and the inner function is returned from the outer function. The inner function has access to the variables in the outer function, even after the outer function has returned.
+        ```
+        function outer() {
+          var name = "John";
+          function inner() {
+            console.log("Hello " + name);
+          }
+          return inner;
+        }
 
+        var greeting = outer();
+        greeting(); // Output: "Hello John"
+        ```
+167. ### What is callback in JavaScript?
+        A callback is a function that is passed as an argument to another function and is intended to be called when the first function has completed its task. The primary use of callbacks in JavaScript is to handle asynchronous operations, such as making an AJAX request or waiting for a user to click a button.
+
+168. ### What is a callback hell in javascript?
+        Callback hell is a term used to describe a situation where multiple callbacks are nested within one another, making the code difficult to read, debug, and maintain. It often arises when dealing with asynchronous operations, such as making HTTP requests or working with databases.
+
+169. ### What is memoization?
+        Memoization is a technique used in computer science to speed up the execution of functions by caching the results of expensive function calls and returning the cached result when the same inputs occur again.
+
+170. ### What is the purpose of the "use strict" statement in JavaScript?
+        The "use strict" statement is used to enable strict mode in JavaScript, which helps to prevent common errors and make the code more secure. It prevents things like use of undeclared variable, use of keywords as variable name, using duplicate property names in objects, etc.

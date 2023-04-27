@@ -4,7 +4,7 @@ This repo will contain 500 frontend interview questions which will have HTML, CS
 
 I will add 5 questions a day in this repo till day 100 days and after this, I am also planning to do 100 days of javascript questions too.
 
-If you want to see the 5 questions daily in your social media feed, connect with me on [Twitter](https://twitter.com/saran_pariyar1), [Instagram](https://instagram.com/saran_pariyar1) or [LinkedIn](https://www.linkedin.com/in/saran-pariyar-5078b5217/) cause I will be posting them on my social media accounts too.
+If you want to see the 5 questions daily in your social media feed, connect with me on [Twitter](https://twitter.com/saran_pariyar1) and [LinkedIn](https://www.linkedin.com/in/saran-pariyar-5078b5217/) cause I will be posting them on my social media accounts too.
 
 <b>I've also added some tables, no need to memorize them, just take a look at them once a day or few times and you'll able to understand those concepts easily</b>
 

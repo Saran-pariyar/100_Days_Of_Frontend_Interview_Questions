@@ -894,3 +894,26 @@ Number of questions will be divided like this:
 
 170. ### What is the purpose of the "use strict" statement in JavaScript?
      The "use strict" statement is used to enable strict mode in JavaScript, which helps to prevent common errors and make the code more secure. It prevents things like use of undeclared variable, use of keywords as variable name, using duplicate property names in objects, etc.
+
+# Day 35
+
+171.  ### What is a cookie in javascript?
+
+      A cookie is a small data file that a website stores on a user's computer or device. Cookies are commonly used to remember user preferences and login information, and to track user activity on a website. Cookies can also have an expiration date, after which they are automatically deleted.
+
+172.  ### What are the differences between cookie, local storage and session storage?
+        | Feature                           | Cookie                             | Local storage    | Session storage     |
+        | --------------------------------- | ---------------------------------- | ---------------- | ------------------- |
+        | Accessed on client or server side | Both server-side & client-side | client-side only | client-side only |
+        | Lifetime | As configured using Expires option | until deleted | until tab is closed |
+        | SSL support | Supported | Not supported | Not supported |
+        | Maximum data size | 4KB | 5 MB | 5MB |
+
+173. ### What is AJAX?
+        AJAX (Asynchronous JavaScript and XML) is a technique to create more dynamic and interactive web pages. It allows a web page to update content without requiring the page to reload. With AJAX, data is sent to and from the server in the background, using JavaScript and other data formats like JSON. This makes web applications more seamless and responsive, providing users with a faster and more engaging browsing experience.
+
+174. ### What is the difference between synchronous and asynchronous code in JavaScript?
+        Synchronous code executes tasks in sequence and waits for each task to complete before moving on, while asynchronous code can execute multiple tasks simultaneously and doesn't wait for them to complete before moving on to the next task.
+
+175. ### What are promises in JavaScript?
+        Promises in JavaScript are a way of handling async operations. They help us write async code that looks and behaves like sync code, making it easier to read and maintain. Promises have three states: pending, fulfilled, and rejected.

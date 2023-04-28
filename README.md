@@ -16,12 +16,12 @@ If you want to see the 5 questions daily in your social media feed, connect with
 
 Number of questions will be divided like this:
 
-| Techs      | No. of Questions |
-| ---------- | :--------------: |
-| HTML       |        50        |
-| CSS        |       100        |
-| Javascript |       200        |
-| React      |       150        |
+| Techs      | No. of Questions |  Range  |
+| ---------- | :--------------: | :-----: |
+| HTML       |        50        |  0-50   |
+| CSS        |       100        | 51-150  |
+| Javascript |       200        | 151-350 |
+| React      |       150        | 351-500 |
 
 <br /><br />
 
@@ -826,6 +826,7 @@ Number of questions will be divided like this:
      The `splice()` is an array method in JavaScript that allows you to modify an array by adding, removing, or replacing elements. It takes two required parameters: the index at which to start making changes to the array, and the number of elements to remove. It also has an optional parameter for adding one or more elements to the array.
 
 158. ### What is the difference between slice and splice?
+
      | slice                                        |                     splice                      |
      | -------------------------------------------- | :---------------------------------------------: |
      | Doesn't modify the original array(immutable) |      Modifies the original array(mutable)       |
@@ -833,53 +834,63 @@ Number of questions will be divided like this:
      | Used to pick the elements from array         | Used to insert or delete elements to/from array |
 
 159. ### What are arrow function?
-        Arrow functions are a shorthand syntax for writing function expressions in JavaScript. They use the `=>` syntax to separate the function parameters from the function body and have a concise syntax that makes them ideal for writing short, one-liner functions.
+
+     Arrow functions are a shorthand syntax for writing function expressions in JavaScript. They use the `=>` syntax to separate the function parameters from the function body and have a concise syntax that makes them ideal for writing short, one-liner functions.
 
 160. ### What are first class function?
-        First-class functions means when functions in that language are treated like any other variable. This means that functions can be assigned to variables, passed as arguments to other functions, and returned from functions.     
+     First-class functions means when functions in that language are treated like any other variable. This means that functions can be assigned to variables, passed as arguments to other functions, and returned from functions.
 
 # Day 33
 
 161. ### What is a pure function?
-        A pure function is a function that, given the same input, will always return the same output and does not have any observable side effect.
+
+     A pure function is a function that, given the same input, will always return the same output and does not have any observable side effect.
 
 162. ### What is the scope chain in JavaScript?
-        The scope chain is how Javascript looks for variables. When looking for variables through the nested scope, the inner scope first looks at its own scope.
+
+     The scope chain is how Javascript looks for variables. When looking for variables through the nested scope, the inner scope first looks at its own scope.
 
 163. ### What is a higher order function?
-        A higher-order function is a function that takes one or more functions as arguments and/or returns a function as its result. 
+
+     A higher-order function is a function that takes one or more functions as arguments and/or returns a function as its result.
 
 164. ### What is hoisting?
-        Hoisting is a behavior in JavaScript where variable and function declarations are moved to the top of their respective scopes during compilation or interpretation, before the code is actually executed. This means that you can use a variable or function before it has been declared, but only if it is declared using the `var` or `function` keywords. However, only the declarations themselves are hoisted, not their values or assignments.
+
+     Hoisting is a behavior in JavaScript where variable and function declarations are moved to the top of their respective scopes during compilation or interpretation, before the code is actually executed. This means that you can use a variable or function before it has been declared, but only if it is declared using the `var` or `function` keywords. However, only the declarations themselves are hoisted, not their values or assignments.
 
 165. ### What are modules in javascript?
-        modules are a way of organizing code into separate files or components that can be reused in different parts of an application. Modules allow you to encapsulate data and functionality, making your code more organized and easier to maintain
-
+     modules are a way of organizing code into separate files or components that can be reused in different parts of an application. Modules allow you to encapsulate data and functionality, making your code more organized and easier to maintain
 
 # Day 34
 
 166. ### What is a closure in JavaScript?
-        In JavaScript, a closure is created when a function is defined inside another function and the inner function is returned from the outer function. The inner function has access to the variables in the outer function, even after the outer function has returned.
-        ```
-        function outer() {
-          var name = "John";
-          function inner() {
-            console.log("Hello " + name);
-          }
-          return inner;
-        }
 
-        var greeting = outer();
-        greeting(); // Output: "Hello John"
-        ```
+     In JavaScript, a closure is created when a function is defined inside another function and the inner function is returned from the outer function. The inner function has access to the variables in the outer function, even after the outer function has returned.
+
+     ```
+     function outer() {
+       var name = "John";
+       function inner() {
+         console.log("Hello " + name);
+       }
+       return inner;
+     }
+
+     var greeting = outer();
+     greeting(); // Output: "Hello John"
+     ```
+
 167. ### What is callback in JavaScript?
-        A callback is a function that is passed as an argument to another function and is intended to be called when the first function has completed its task. The primary use of callbacks in JavaScript is to handle asynchronous operations, such as making an AJAX request or waiting for a user to click a button.
+
+     A callback is a function that is passed as an argument to another function and is intended to be called when the first function has completed its task. The primary use of callbacks in JavaScript is to handle asynchronous operations, such as making an AJAX request or waiting for a user to click a button.
 
 168. ### What is a callback hell in javascript?
-        Callback hell is a term used to describe a situation where multiple callbacks are nested within one another, making the code difficult to read, debug, and maintain. It often arises when dealing with asynchronous operations, such as making HTTP requests or working with databases.
+
+     Callback hell is a term used to describe a situation where multiple callbacks are nested within one another, making the code difficult to read, debug, and maintain. It often arises when dealing with asynchronous operations, such as making HTTP requests or working with databases.
 
 169. ### What is memoization?
-        Memoization is a technique used in computer science to speed up the execution of functions by caching the results of expensive function calls and returning the cached result when the same inputs occur again.
+
+     Memoization is a technique used in computer science to speed up the execution of functions by caching the results of expensive function calls and returning the cached result when the same inputs occur again.
 
 170. ### What is the purpose of the "use strict" statement in JavaScript?
-        The "use strict" statement is used to enable strict mode in JavaScript, which helps to prevent common errors and make the code more secure. It prevents things like use of undeclared variable, use of keywords as variable name, using duplicate property names in objects, etc.
+     The "use strict" statement is used to enable strict mode in JavaScript, which helps to prevent common errors and make the code more secure. It prevents things like use of undeclared variable, use of keywords as variable name, using duplicate property names in objects, etc.

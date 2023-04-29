@@ -902,18 +902,42 @@ Number of questions will be divided like this:
       A cookie is a small data file that a website stores on a user's computer or device. Cookies are commonly used to remember user preferences and login information, and to track user activity on a website. Cookies can also have an expiration date, after which they are automatically deleted.
 
 172.  ### What are the differences between cookie, local storage and session storage?
-        | Feature                           | Cookie                             | Local storage    | Session storage     |
-        | --------------------------------- | ---------------------------------- | ---------------- | ------------------- |
-        | Accessed on client or server side | Both server-side & client-side | client-side only | client-side only |
-        | Lifetime | As configured using Expires option | until deleted | until tab is closed |
-        | SSL support | Supported | Not supported | Not supported |
-        | Maximum data size | 4KB | 5 MB | 5MB |
 
-173. ### What is AJAX?
-        AJAX (Asynchronous JavaScript and XML) is a technique to create more dynamic and interactive web pages. It allows a web page to update content without requiring the page to reload. With AJAX, data is sent to and from the server in the background, using JavaScript and other data formats like JSON. This makes web applications more seamless and responsive, providing users with a faster and more engaging browsing experience.
+      | Feature                           | Cookie                             | Local storage    | Session storage     |
+      | --------------------------------- | ---------------------------------- | ---------------- | ------------------- |
+      | Accessed on client or server side | Both server-side & client-side     | client-side only | client-side only    |
+      | Lifetime                          | As configured using Expires option | until deleted    | until tab is closed |
+      | SSL support                       | Supported                          | Not supported    | Not supported       |
+      | Maximum data size                 | 4KB                                | 5 MB             | 5MB                 |
 
-174. ### What is the difference between synchronous and asynchronous code in JavaScript?
-        Synchronous code executes tasks in sequence and waits for each task to complete before moving on, while asynchronous code can execute multiple tasks simultaneously and doesn't wait for them to complete before moving on to the next task.
+173.  ### What is AJAX?
 
-175. ### What are promises in JavaScript?
-        Promises in JavaScript are a way of handling async operations. They help us write async code that looks and behaves like sync code, making it easier to read and maintain. Promises have three states: pending, fulfilled, and rejected.
+      AJAX (Asynchronous JavaScript and XML) is a technique to create more dynamic and interactive web pages. It allows a web page to update content without requiring the page to reload. With AJAX, data is sent to and from the server in the background, using JavaScript and other data formats like JSON. This makes web applications more seamless and responsive, providing users with a faster and more engaging browsing experience.
+
+174.  ### What is the difference between synchronous and asynchronous code in JavaScript?
+
+      Synchronous code executes tasks in sequence and waits for each task to complete before moving on, while asynchronous code can execute multiple tasks simultaneously and doesn't wait for them to complete before moving on to the next task.
+
+175.  ### What are promises in JavaScript?
+      Promises in JavaScript are a way of handling async operations. They help us write async code that looks and behaves like sync code, making it easier to read and maintain. Promises have three states: pending, fulfilled, and rejected.
+
+# Day 36
+
+176. ### Who created Javascript?
+
+     JavaScript was created by Brendan Eich in 1995.
+
+177. ### What is the difference between async/await and promises in JavaScript?
+
+     Both async/await and Promises are used to handle asynchronous operations in JavaScript. However, async/await is built on top of Promises which makes asynchronous code more readable, easier to write and reason about.
+
+178. ### How do you handle errors in javascript?
+
+     In JavaScript, errors can be handled using try-catch blocks. The code that might generate an error is enclosed in a try block, and if an error occurs, the catch block is executed. The catch block can then handle the error, such as by logging it to the console or displaying an error message to the user.
+
+179. ### What is NaN in javascript?
+
+     NaN (Not A Number) is a special value in JavaScript that represents a situation where a value is not a valid number. One important thing to note is that NaN is not equal to any value, including itself. We can use the `isNaN()` function to check whether a value is NaN or not.
+
+180. ### How do you find operating system details in javascript?
+     In JavaScript, you can find the operating system details of the user by accessing the `navigator` object, which contains information about the user's browser and environment.

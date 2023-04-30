@@ -941,3 +941,20 @@ Number of questions will be divided like this:
 
 180. ### How do you find operating system details in javascript?
      In JavaScript, you can find the operating system details of the user by accessing the `navigator` object, which contains information about the user's browser and environment.
+
+# Day 37
+
+181. ### What is the Document Object Model (DOM)?
+        The DOM (Document Object Model) is a programming interface that represents the structure and content of an HTML document as a tree-like structure of nodes. It allows developers to access and manipulate the content and structure of a web page using programming languages like JavaScript.
+
+182. ### What is the difference between the DOM and HTML?
+        HTML is a markup language used to define the structure and content of a web page, while the DOM is an interface that represents that structure and content as a tree-like structure. The DOM provides a way to access and manipulate the content and structure of a web page, while HTML is simply a static markup language.
+
+183. ### What is the difference between the DOMContentLoaded event and the load event?
+        The DOMContentLoaded event is fired when the initial HTML document has been completely loaded and parsed, while the load event is fired when all resources on the page, including images and scripts, have finished loading.
+
+184. ### What is the difference between innerHTML and innerText?
+        The main difference between `innerText` and `innerHTML` in the DOM is that `innerText` returns only the visible text content of an element, excluding any HTML tags, while `innerHTML` returns the complete HTML content of an element, including any nested elements and tags.
+
+185. ### What is the role of the Window object in the DOM?
+        The Window object in the DOM represents the browser window or tab that displays the web page. It provides methods and properties for controlling and manipulating the browser window.

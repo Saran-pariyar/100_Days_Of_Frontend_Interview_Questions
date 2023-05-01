@@ -14,8 +14,6 @@ If you want to see the 5 questions daily in your social media feed, connect with
 
 ## Tables of content
 
-Number of questions will be divided like this:
-
 | Techs      | No. of Questions |  Range  |
 | ---------- | :--------------: | :-----: |
 | HTML       |        50        |  0-50   |
@@ -23,8 +21,7 @@ Number of questions will be divided like this:
 | Javascript |       200        | 151-350 |
 | React      |       150        | 351-500 |
 
-<br /><br />
-
+<br />
 ---
 
 # HTML
@@ -958,3 +955,21 @@ Number of questions will be divided like this:
 
 185. ### What is the role of the Window object in the DOM?
         The Window object in the DOM represents the browser window or tab that displays the web page. It provides methods and properties for controlling and manipulating the browser window.
+
+
+# Day 38
+
+186. ### What is a DOM node in JavaScript?
+        A node in the DOM is a fundamental unit that represents an element, attribute, or text content in a web page. Every node has a relationship with other nodes, such as a parent, child, or sibling. The parent node contains the child nodes, and the child nodes can have siblings that share the same parent
+
+187. ### How do you prevent default behavior of an event in the DOM using JavaScript?
+        To prevent the default behavior of an event in the DOM using JavaScript, you can use the preventDefault() method. This method is called on the event object that is passed to the event handler function
+
+188. ### What is event propagation?
+        Event propagation in the DOM refers to how events move or flow through different elements on a webpage. When an event happens on an element, like a click, it can travel to its parent elements and eventually to the whole document. This is called event bubbling. Alternatively, events can also travel from the document to the element that triggered the event, which is called event capturing.
+
+189. ### What is call stack in javascript?
+        The call stack in JavaScript is a data structure that stores information about the currently executing functions. When a function is called, a new frame is added to the top of the stack, and when the function completes, its frame is removed from the stack. This helps the JavaScript engine keep track of where it is in the execution of a script and manage the order in which functions are called.
+
+190. ### What is an event loop?
+        The event loop in JavaScript handles asynchronous operations by queuing them up and processing them one by one in a non-blocking way. It checks the event queue continuously and processes the oldest operation first. When an operation is completed, its callback function is executed.

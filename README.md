@@ -232,7 +232,7 @@ If you want to see the 5 questions daily in your social media feed, connect with
 
 45. ### HTML table attributes.
     | Attribute         | Description                                                                                                                                                                    |
-    | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --- |
+    | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | 
     | `border`          | Specifies the width of the border around the table.                                                                                                                            |
     | `cellpadding`     | Specifies the amount of padding to be added to the cells in the table.                                                                                                         |
     | `cellspacing`     | Specifies the amount of space to be added between cells in the table.                                                                                                          |
@@ -250,7 +250,7 @@ If you want to see the 5 questions daily in your social media feed, connect with
     | `frame`           | Specifies which sides of the table should have borders. Possible values are `void`, `above`, `below`, `hsides`, `vsides`, `lhs`, `rhs`, and `box`.                             |
     | `rules`           | Specifies which parts of the table's border should be shown. Possible values are `none`, `groups`, `rows`, `cols`, and `all`. Default is `none`.                               |
     | `summary`         | Specifies a summary of the contents of the table.                                                                                                                              |
-    | `dir`             | Specifies the direction of the table's text. Possible values are `ltr` (left-to-right) and `rtl` (right-to-left).                                                              |     |
+    | `dir`             | Specifies the direction of the table's text. Possible values are `ltr` (left-to-right) and `rtl` (right-to-left).                                                              |    
 
 ## Day 10
 

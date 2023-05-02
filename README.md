@@ -973,3 +973,34 @@ If you want to see the 5 questions daily in your social media feed, connect with
 
 190. ### What is an event loop?
         The event loop in JavaScript handles asynchronous operations by queuing them up and processing them one by one in a non-blocking way. It checks the event queue continuously and processes the oldest operation first. When an operation is completed, its callback function is executed.
+
+# Day 39
+
+191. ### What is BOM?
+        BOM stands for Browser Object Model. It is a set of APIs provided by the browser that allow JavaScript to interact with the browser window. 
+
+192. ### What is the use of `setTimeOut()` in javascript?
+        `setTimeout()` is a built-in function in JavaScript that allows you to schedule a function to be executed after a specified amount of time has elapsed. 
+
+193. ### What is the use of `setInterval()` in javascript?
+        `setInterval()` is a function in JavaScript that allows you to repeatedly execute a given function at a specified interval. It works by calling the function repeatedly with a specified time delay between each call, until the interval is cancelled.
+
+194. ### What is the purpose of clearTimeout method and clearInterval?
+        The clearTimeout method is a built-in function in JavaScript that is used to cancel a timer created by the setTimeout function and clearInterval method is a built-in function in JavaScript that is used to cancel a recurring timer created by the setInterval function.
+
+195. ### How do you redirect new page in javascript
+        To redirect to a new page using JavaScript, you can use the `window.location` object's `assign` or `replace` methods.
+        Example:
+        ```
+        // Redirect to a new page
+        window.location.assign("https://www.example.com");
+
+        // Redirect to a new page and replace the current page in the browser history
+        window.location.replace("https://www.example.com");
+
+        ```
+
+
+
+
+

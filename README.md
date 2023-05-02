@@ -21,8 +21,7 @@ If you want to see the 5 questions daily in your social media feed, connect with
 | Javascript |       200        | 151-350 |
 | React      |       150        | 351-500 |
 
-<br />
----
+## <br />
 
 # HTML
 
@@ -232,7 +231,7 @@ If you want to see the 5 questions daily in your social media feed, connect with
 
 45. ### HTML table attributes.
     | Attribute         | Description                                                                                                                                                                    |
-    | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | 
+    | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
     | `border`          | Specifies the width of the border around the table.                                                                                                                            |
     | `cellpadding`     | Specifies the amount of padding to be added to the cells in the table.                                                                                                         |
     | `cellspacing`     | Specifies the amount of space to be added between cells in the table.                                                                                                          |
@@ -250,7 +249,7 @@ If you want to see the 5 questions daily in your social media feed, connect with
     | `frame`           | Specifies which sides of the table should have borders. Possible values are `void`, `above`, `below`, `hsides`, `vsides`, `lhs`, `rhs`, and `box`.                             |
     | `rules`           | Specifies which parts of the table's border should be shown. Possible values are `none`, `groups`, `rows`, `cols`, and `all`. Default is `none`.                               |
     | `summary`         | Specifies a summary of the contents of the table.                                                                                                                              |
-    | `dir`             | Specifies the direction of the table's text. Possible values are `ltr` (left-to-right) and `rtl` (right-to-left).                                                              |    
+    | `dir`             | Specifies the direction of the table's text. Possible values are `ltr` (left-to-right) and `rtl` (right-to-left).                                                              |
 
 ## Day 10
 
@@ -942,65 +941,72 @@ If you want to see the 5 questions daily in your social media feed, connect with
 # Day 37
 
 181. ### What is the Document Object Model (DOM)?
-        The DOM (Document Object Model) is a programming interface that represents the structure and content of an HTML document as a tree-like structure of nodes. It allows developers to access and manipulate the content and structure of a web page using programming languages like JavaScript.
+
+     The DOM (Document Object Model) is a programming interface that represents the structure and content of an HTML document as a tree-like structure of nodes. It allows developers to access and manipulate the content and structure of a web page using programming languages like JavaScript.
 
 182. ### What is the difference between the DOM and HTML?
-        HTML is a markup language used to define the structure and content of a web page, while the DOM is an interface that represents that structure and content as a tree-like structure. The DOM provides a way to access and manipulate the content and structure of a web page, while HTML is simply a static markup language.
+
+     HTML is a markup language used to define the structure and content of a web page, while the DOM is an interface that represents that structure and content as a tree-like structure. The DOM provides a way to access and manipulate the content and structure of a web page, while HTML is simply a static markup language.
 
 183. ### What is the difference between the DOMContentLoaded event and the load event?
-        The DOMContentLoaded event is fired when the initial HTML document has been completely loaded and parsed, while the load event is fired when all resources on the page, including images and scripts, have finished loading.
+
+     The DOMContentLoaded event is fired when the initial HTML document has been completely loaded and parsed, while the load event is fired when all resources on the page, including images and scripts, have finished loading.
 
 184. ### What is the difference between innerHTML and innerText?
-        The main difference between `innerText` and `innerHTML` in the DOM is that `innerText` returns only the visible text content of an element, excluding any HTML tags, while `innerHTML` returns the complete HTML content of an element, including any nested elements and tags.
+
+     The main difference between `innerText` and `innerHTML` in the DOM is that `innerText` returns only the visible text content of an element, excluding any HTML tags, while `innerHTML` returns the complete HTML content of an element, including any nested elements and tags.
 
 185. ### What is the role of the Window object in the DOM?
-        The Window object in the DOM represents the browser window or tab that displays the web page. It provides methods and properties for controlling and manipulating the browser window.
-
+     The Window object in the DOM represents the browser window or tab that displays the web page. It provides methods and properties for controlling and manipulating the browser window.
 
 # Day 38
 
 186. ### What is a DOM node in JavaScript?
-        A node in the DOM is a fundamental unit that represents an element, attribute, or text content in a web page. Every node has a relationship with other nodes, such as a parent, child, or sibling. The parent node contains the child nodes, and the child nodes can have siblings that share the same parent
+
+     A node in the DOM is a fundamental unit that represents an element, attribute, or text content in a web page. Every node has a relationship with other nodes, such as a parent, child, or sibling. The parent node contains the child nodes, and the child nodes can have siblings that share the same parent
 
 187. ### How do you prevent default behavior of an event in the DOM using JavaScript?
-        To prevent the default behavior of an event in the DOM using JavaScript, you can use the preventDefault() method. This method is called on the event object that is passed to the event handler function
+
+     To prevent the default behavior of an event in the DOM using JavaScript, you can use the preventDefault() method. This method is called on the event object that is passed to the event handler function
 
 188. ### What is event propagation?
-        Event propagation in the DOM refers to how events move or flow through different elements on a webpage. When an event happens on an element, like a click, it can travel to its parent elements and eventually to the whole document. This is called event bubbling. Alternatively, events can also travel from the document to the element that triggered the event, which is called event capturing.
+
+     Event propagation in the DOM refers to how events move or flow through different elements on a webpage. When an event happens on an element, like a click, it can travel to its parent elements and eventually to the whole document. This is called event bubbling. Alternatively, events can also travel from the document to the element that triggered the event, which is called event capturing.
 
 189. ### What is call stack in javascript?
-        The call stack in JavaScript is a data structure that stores information about the currently executing functions. When a function is called, a new frame is added to the top of the stack, and when the function completes, its frame is removed from the stack. This helps the JavaScript engine keep track of where it is in the execution of a script and manage the order in which functions are called.
+
+     The call stack in JavaScript is a data structure that stores information about the currently executing functions. When a function is called, a new frame is added to the top of the stack, and when the function completes, its frame is removed from the stack. This helps the JavaScript engine keep track of where it is in the execution of a script and manage the order in which functions are called.
 
 190. ### What is an event loop?
-        The event loop in JavaScript handles asynchronous operations by queuing them up and processing them one by one in a non-blocking way. It checks the event queue continuously and processes the oldest operation first. When an operation is completed, its callback function is executed.
+     The event loop in JavaScript handles asynchronous operations by queuing them up and processing them one by one in a non-blocking way. It checks the event queue continuously and processes the oldest operation first. When an operation is completed, its callback function is executed.
 
 # Day 39
 
 191. ### What is BOM?
-        BOM stands for Browser Object Model. It is a set of APIs provided by the browser that allow JavaScript to interact with the browser window. 
+
+     BOM stands for Browser Object Model. It is a set of APIs provided by the browser that allow JavaScript to interact with the browser window.
 
 192. ### What is the use of `setTimeOut()` in javascript?
-        `setTimeout()` is a built-in function in JavaScript that allows you to schedule a function to be executed after a specified amount of time has elapsed. 
+
+     `setTimeout()` is a built-in function in JavaScript that allows you to schedule a function to be executed after a specified amount of time has elapsed.
 
 193. ### What is the use of `setInterval()` in javascript?
-        `setInterval()` is a function in JavaScript that allows you to repeatedly execute a given function at a specified interval. It works by calling the function repeatedly with a specified time delay between each call, until the interval is cancelled.
+
+     `setInterval()` is a function in JavaScript that allows you to repeatedly execute a given function at a specified interval. It works by calling the function repeatedly with a specified time delay between each call, until the interval is cancelled.
 
 194. ### What is the purpose of clearTimeout method and clearInterval?
-        The clearTimeout method is a built-in function in JavaScript that is used to cancel a timer created by the setTimeout function and clearInterval method is a built-in function in JavaScript that is used to cancel a recurring timer created by the setInterval function.
 
-195. ### How do you redirect new page in javascript
-        To redirect to a new page using JavaScript, you can use the `window.location` object's `assign` or `replace` methods.
-        Example:
-        ```
-        // Redirect to a new page
-        window.location.assign("https://www.example.com");
+     The clearTimeout method is a built-in function in JavaScript that is used to cancel a timer created by the setTimeout function and clearInterval method is a built-in function in JavaScript that is used to cancel a recurring timer created by the setInterval function.
 
-        // Redirect to a new page and replace the current page in the browser history
-        window.location.replace("https://www.example.com");
+195. ### How do you redirect new page in javascript?
 
-        ```
+     To redirect to a new page using JavaScript, you can use the `window.location` object's `assign` or `replace` methods.
+     Example:
 
+     ```
+     // Redirect to a new page
+     window.location.assign("https://www.example.com");
 
-
-
-
+     // Redirect to a new page and replace the current page in the browser history
+     window.location.replace("https://www.example.com");
+     ```

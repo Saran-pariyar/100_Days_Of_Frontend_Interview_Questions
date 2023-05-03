@@ -1010,3 +1010,45 @@ If you want to see the 5 questions daily in your social media feed, connect with
      // Redirect to a new page and replace the current page in the browser history
      window.location.replace("https://www.example.com");
      ```
+
+# Day 40
+
+196. ### What is a JavaScript object?
+
+     JavaScript object is a non-primitive data-type that allows you to store multiple collections of data. It is a container of key-value pairs in which value may be a variable, function or object itself.
+
+197. ### What is the difference between dot notation and bracket notation when accessing properties of an object?
+
+     Dot Notation only allows static keys while Bracket Notation accepts dynamic keys. Static key here means that the key is typed directly, while Dynamic key here means that the key is evaluated from an expression.
+
+198. ### What is an object literal in javascript?
+
+     Object literal is a syntax for creating object in javascript in which property and method are inside of curly braces separated by comma. We assign a variable to an object in object literal.
+
+199. ### How would you clone an object in JavaScript?
+
+     There are four ways to clone an object in javascript. They are:
+
+     1. Use the spread operator.
+     2. Call the Object.assign() function.
+     3. Use JSON parsing.
+     4. Use the structuredClone() function.
+
+     ```
+     const data = { name: "Alice", age: 26 }
+     // 1
+     const copy1 = { ...data }
+     // 2
+     const copy2 = Object.assign({}, data)
+     // 3
+     const copy3 = JSON.parse(JSON.stringify(data))
+     // 4
+     const copy4 = structuredClone(data)
+     ```
+200. ### How do you copy properties from one object to other?
+        You can use the Object.assign() method which is used to copy the values and properties from one or more source objects to a target object. It returns the target object which has properties and values copied from the source objects. The syntax would be as below:
+        ```
+        Object.assign(target, ...sources);
+        ```
+
+

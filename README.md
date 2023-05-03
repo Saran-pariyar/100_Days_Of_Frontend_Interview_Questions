@@ -1045,10 +1045,7 @@ If you want to see the 5 questions daily in your social media feed, connect with
      // 4
      const copy4 = structuredClone(data)
      ```
-200. ### How do you copy properties from one object to other?
-        You can use the Object.assign() method which is used to copy the values and properties from one or more source objects to a target object. It returns the target object which has properties and values copied from the source objects. The syntax would be as below:
-        ```
-        Object.assign(target, ...sources);
-        ```
+200. ### What is a JSON?
+        JavaScript Object Notation (JSON) is a standard text-based format for representing structured data based on JavaScript object syntax. It is commonly used for transmitting data in web applications .
 
 

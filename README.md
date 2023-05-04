@@ -1045,7 +1045,36 @@ If you want to see the 5 questions daily in your social media feed, connect with
      // 4
      const copy4 = structuredClone(data)
      ```
+
 200. ### What is a JSON?
-        JavaScript Object Notation (JSON) is a standard text-based format for representing structured data based on JavaScript object syntax. It is commonly used for transmitting data in web applications .
+     JavaScript Object Notation (JSON) is a standard text-based format for representing structured data based on JavaScript object syntax. It is commonly used for transmitting data in web applications .
 
+# Day 41
 
+201. ### What is Class in JavaScript?
+
+     Class is a template that can be used to create objects that share the same properties and methods. When an object is created from a class, it is called an instance of that class. Class was introduced in ECMAScript(ES6).
+
+202. ### What is a constructor in javascript?
+
+     In JavaScript, a constructor is a special method that is used to create and initialize objects that are based on a class. It's like a blueprint for creating new objects.The constructor method is called automatically when a new object is created from a class, using the new keyword. It's used to set the initial state of the object by assigning values to its properties.
+
+203. ### What is the difference between a static method and an instance method in a class?
+
+     An instance method is a method that can be called on an instance of a class, and it can access and modify instance-specific data, like properties of the object. A static method, on the other hand, is a method that belongs to the class itself, not to any instance of the class. It can only access class-level data and can be called on the class itself, rather than on an instance of the class.
+
+204. ### What is "this" in javascript Classes?
+
+     In JavaScript classes, `this` refers to the current object that is being worked on. It's like a placeholder for the object. For example, if you have a class that creates `Person` objects, and you want to give each person a `name`, you can use `this.name` to refer to the `name` property of the current `Person` object that is being created or accessed. So, `this` is just a way to access the current object's properties and methods inside a class.
+
+205. ### What are the benefits of using classes in JavaScript?
+
+     There are several benefits of using classes in javascript. Some of them are:
+
+     1. Encapsulation: Classes allow you to encapsulate related data and behavior into a single object, making it easier to manage and organize your code.
+
+     2. Inheritance: Classes support inheritance, which allows you to create subclasses that inherit properties and methods from a parent class. This can help you avoid duplicating code and make your code more modular and reusable.
+
+     3. Code Reusability: With classes, you can create objects that share common properties and behavior. This can help you avoid writing the same code over and over again, making your code more efficient and easier to maintain.
+
+     4. Readability: Classes provide a clean and organized way to structure your code, which can make it easier to read and understand.

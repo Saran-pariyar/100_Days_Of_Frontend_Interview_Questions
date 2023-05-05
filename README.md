@@ -1078,3 +1078,27 @@ If you want to see the 5 questions daily in your social media feed, connect with
      3. Code Reusability: With classes, you can create objects that share common properties and behavior. This can help you avoid writing the same code over and over again, making your code more efficient and easier to maintain.
 
      4. Readability: Classes provide a clean and organized way to structure your code, which can make it easier to read and understand.
+
+# Day 42
+
+206.  ### Can you explain the concept of method overriding in a class in JavaScript?
+
+      Method overriding is a concept in JavaScript where a subclass can provide its own implementation of a method that is already defined in the parent class. To override a method in a subclass, you simply define a method with the same name as the method in the parent class
+
+207.  ### What is composition in classes in JavaScript?
+
+      Composition in class JS is a technique of building complex classes by combining smaller, more focused classes that represent specific behaviors or properties.Composition is a flexible and powerful technique for creating modular, reusable code in JavaScript.
+
+208.  ### What is inheritance in classes in javascript?
+
+      Inheritance in classes in JavaScript is the ability to create a new class based on an existing class. The new class inherits all the properties and methods of the existing class, and can also add new properties and methods or override existing ones.
+
+209.  ### What is the `extends` keyword in JavaScript, and how is it used for inheritance?
+      The `extends` keyword is used in JavaScript to create a new class that inherits from an existing class. It is used in the class declaration syntax, like this:
+      ```
+      class ChildClass extends ParentClass {
+       // ChildClass methods and properties
+      }
+      ```
+210.  ### what is the purpose of `super()` in javascript classes?
+      The `super()` keyword in JavaScript is used to call a method or constructor of a parent class from within a subclass. It allows a subclass to inherit and use functionality from the parent class, while also adding its own functionality.

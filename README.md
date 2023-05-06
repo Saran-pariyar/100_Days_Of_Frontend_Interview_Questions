@@ -1102,3 +1102,24 @@ If you want to see the 5 questions daily in your social media feed, connect with
       ```
 210.  ### what is the purpose of `super()` in javascript classes?
       The `super()` keyword in JavaScript is used to call a method or constructor of a parent class from within a subclass. It allows a subclass to inherit and use functionality from the parent class, while also adding its own functionality.
+
+
+# Day 43
+
+211. ### What is a private class field in JavaScript?
+     A private class field in JavaScript refers to a class field that is only accessible within the class in which it is defined. It cannot be accessed or modified from outside the class, not even by instances of the class.
+
+212. ### Can you explain the concept of encapsulation in JavaScript classes?
+     Encapsulation is a concept in object-oriented programming that refers to bundling data and methods within a single unit, such as a class, and hiding the internal details of the class from the outside world. This makes the code more secure and maintainable.
+
+213. ### What is `get` keyword in javascript classes?
+     The `get` keyword is used to define a method that retrieves the value of a property. When the property is accessed, the `get` method is automatically called, and its return value is used as the property's value.
+
+214. ### What is `set` keyword in javascript classes?
+     The `set` keyword is used to define a method that sets the value of a property. When the property is assigned a value, the `set` method is automatically called, and it can perform any necessary validation or processing before setting the property's value.
+
+215. ### Can you explain the concept of instance variables in a class in JavaScript?
+     In JavaScript, instance variables are properties of an object that are specific to an instance of a class. When we create a new instance of a class using the `new` keyword, each instance has its own set of instance variables that are separate from other instances.
+
+
+

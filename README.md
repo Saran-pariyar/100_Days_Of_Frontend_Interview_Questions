@@ -1121,5 +1121,25 @@ If you want to see the 5 questions daily in your social media feed, connect with
 215. ### Can you explain the concept of instance variables in a class in JavaScript?
      In JavaScript, instance variables are properties of an object that are specific to an instance of a class. When we create a new instance of a class using the `new` keyword, each instance has its own set of instance variables that are separate from other instances.
 
+# Day 44
+
+216. ### What is the difference between a class and a function in JavaScript?
+     functions and classes are both important tools in JavaScript for defining reusable code, but they serve different purposes. Functions are used to encapsulate logic and perform specific tasks, while classes are used to create objects with shared properties and methods. Knowing when to use each one depends on the specific problem being solved and the design of the application.
+
+217. ### What is abstract class in javascript?
+     In JavaScript, an abstract class is a blueprint for creating other classes that share some common properties and methods. However, unlike regular classes, abstract classes cannot be directly instantiated. Instead, they are meant to be extended or subclassed by other classes.
+
+218. ### How would you convert an object to a JSON string in JavaScript, and vice versa?
+     In JavaScript, you can convert an object to a JSON string using the `JSON.stringify()` method, and you can convert a JSON string back to an object using the `JSON.parse()` method. 
+
+219. ### What is the difference between a class and an interface in JavaScript?
+     Classes and interfaces are both used in JavaScript to define object types, but serve different purposes. A class defines a blueprint for creating objects that have properties and methods, while an interface describes the shape of an object and enforces a contract between different parts of a program. Classes define what an object is, while interfaces define what an object can do.
+
+220. ### Can you explain the concept of polymorphism in classes in JavaScript?
+     Polymorphism in JavaScript classes means that different objects can share the same methods, even if they belong to different classes. This allows us to reuse code across multiple classes and write more flexible, maintainable code.
+
+
+
+
 
 

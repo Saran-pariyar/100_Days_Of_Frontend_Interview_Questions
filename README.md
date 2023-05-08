@@ -1103,19 +1103,22 @@ If you want to see the 5 questions daily in your social media feed, connect with
 210.  ### what is the purpose of `super()` in javascript classes?
       The `super()` keyword in JavaScript is used to call a method or constructor of a parent class from within a subclass. It allows a subclass to inherit and use functionality from the parent class, while also adding its own functionality.
 
-
 # Day 43
 
 211. ### What is a private class field in JavaScript?
+
      A private class field in JavaScript refers to a class field that is only accessible within the class in which it is defined. It cannot be accessed or modified from outside the class, not even by instances of the class.
 
 212. ### Can you explain the concept of encapsulation in JavaScript classes?
+
      Encapsulation is a concept in object-oriented programming that refers to bundling data and methods within a single unit, such as a class, and hiding the internal details of the class from the outside world. This makes the code more secure and maintainable.
 
 213. ### What is `get` keyword in javascript classes?
+
      The `get` keyword is used to define a method that retrieves the value of a property. When the property is accessed, the `get` method is automatically called, and its return value is used as the property's value.
 
 214. ### What is `set` keyword in javascript classes?
+
      The `set` keyword is used to define a method that sets the value of a property. When the property is assigned a value, the `set` method is automatically called, and it can perform any necessary validation or processing before setting the property's value.
 
 215. ### Can you explain the concept of instance variables in a class in JavaScript?
@@ -1124,22 +1127,47 @@ If you want to see the 5 questions daily in your social media feed, connect with
 # Day 44
 
 216. ### What is the difference between a class and a function in JavaScript?
+
      functions and classes are both important tools in JavaScript for defining reusable code, but they serve different purposes. Functions are used to encapsulate logic and perform specific tasks, while classes are used to create objects with shared properties and methods. Knowing when to use each one depends on the specific problem being solved and the design of the application.
 
 217. ### What is abstract class in javascript?
+
      In JavaScript, an abstract class is a blueprint for creating other classes that share some common properties and methods. However, unlike regular classes, abstract classes cannot be directly instantiated. Instead, they are meant to be extended or subclassed by other classes.
 
 218. ### How would you convert an object to a JSON string in JavaScript, and vice versa?
-     In JavaScript, you can convert an object to a JSON string using the `JSON.stringify()` method, and you can convert a JSON string back to an object using the `JSON.parse()` method. 
+
+     In JavaScript, you can convert an object to a JSON string using the `JSON.stringify()` method, and you can convert a JSON string back to an object using the `JSON.parse()` method.
 
 219. ### What is the difference between a class and an interface in JavaScript?
+
      Classes and interfaces are both used in JavaScript to define object types, but serve different purposes. A class defines a blueprint for creating objects that have properties and methods, while an interface describes the shape of an object and enforces a contract between different parts of a program. Classes define what an object is, while interfaces define what an object can do.
 
 220. ### Can you explain the concept of polymorphism in classes in JavaScript?
      Polymorphism in JavaScript classes means that different objects can share the same methods, even if they belong to different classes. This allows us to reuse code across multiple classes and write more flexible, maintainable code.
 
+# Day 45
 
+221.  ### What is prototype in javascript?
 
+      In JavaScript, a prototype is an object that contains properties and methods that can be shared by all objects created with the same constructor function. It helps to reduce code duplication and makes your code more efficient.
 
+222.  ### What is prototype chain?
 
+      Every object in JavaScript has a built-in property, which is called its prototype. The prototype is itself an object, so the prototype will have its own prototype, making what's called a prototype chain. The chain ends when we reach a prototype that has null for its own prototype.
 
+223.  ### How does prototypal inheritance work in JavaScript?
+
+      Prototypal inheritance allows objects to inherit properties and methods from their parent objects. When an object is created with a constructor function, its prototype is automatically set to the prototype object associated with that constructor function. Any properties or methods defined in the prototype object are shared by all objects created with that constructor function. When an object tries to access a property or method, JavaScript first looks for it in the object itself. If it's not found, it looks up the prototype chain until it finds the property or method.
+
+224.  ### What is the difference between prototypal inheritance and classical inheritance?
+
+      The main difference between prototypal and classical inheritance is that prototypal inheritance allows objects to inherit properties and methods directly from other objects, without the need for classes or constructors. This makes the code more flexible and easier to maintain. Classical inheritance relies on classes and constructors to define the inheritance hierarchy, which can provide better organization and structure but is more rigid and requires more upfront planning.
+
+225.  ### What is the difference between an object's prototype and its constructor function?
+      | Prototype                                                                         | Constructor Function                                                   |
+      | --------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+      | An object that is shared by all instances created by the constructor function     | A function that is used to create new objects                          |
+      | Used to define properties and methods that are shared by all instances            | Used to define properties and methods that are unique to each instance |
+      | Accessed using the `prototype` property of the constructor function               | Accessed using the `new` keyword followed by the constructor function  |
+      | Modifying the prototype affects all instances created by the constructor function | Modifying the constructor function does not affect existing instances  |
+      | Used to implement prototypal inheritance in JavaScript                            | Used to create and customize objects in JavaScript                     |

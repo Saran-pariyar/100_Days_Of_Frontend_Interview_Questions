@@ -1170,4 +1170,33 @@ If you want to see the 5 questions daily in your social media feed, connect with
       | Used to define properties and methods that are shared by all instances            | Used to define properties and methods that are unique to each instance |
       | Accessed using the `prototype` property of the constructor function               | Accessed using the `new` keyword followed by the constructor function  |
       | Modifying the prototype affects all instances created by the constructor function | Modifying the constructor function does not affect existing instances  |
-      | Used to implement prototypal inheritance in JavaScript                            | Used to create and customize objects in JavaScript                     |
+
+### Day 46
+
+226. ### How do you add properties and methods to an object's prototype in JavaScript?
+
+     We can add properties and methods to an object's prototype by using the constructor function's prototype property. To add a property, simply assign a value to a property on the prototype object. To add a method, define a function and assign it to a property on the prototype object.
+
+     ```
+     MyConstructor.prototype.myProperty = "some value";
+     ```
+
+227. ### What is the difference between `Object.prototype` and `Object.__proto__` in JavaScript?
+
+     In other words, `Object.prototype` is the object that provides default properties and methods that all objects in JavaScript inherit from. On the other hand, `Object.__proto__` is the object that the `Object` constructor itself inherits from, and it provides the properties and methods that are specific to the `Object` constructor.
+
+228. ### How do you check if an object inherits from a specific prototype in JavaScript?
+
+     We can check if an object inherits from a specific prototype by using the `isPrototypeOf()` method. This method can be called on a prototype object to check if it appears anywhere in the prototype chain of another object. If the prototype object does appear in the prototype chain of the other object, `isPrototypeOf()` will return `true`. Otherwise, it will return `false`.
+
+     ```
+     // Check if person inherits from the Object.prototype
+     console.log(Object.prototype.isPrototypeOf(person)); // Outputs true if it inherits or else false
+     ```
+
+229. ### How do you override a method in an object's prototype in JavaScript?
+
+     We can override a method in an object's prototype by redefining the method on the prototype. To do this, you simply assign a new function to the existing property on the prototype. When you do this, any objects that were created using the constructor function whose prototype you are modifying will now have the new version of the method available to them.
+
+230. ### What is the difference between Object.create() and new Object() in JavaScript?
+     The main difference between `new Object()` and `Object.create()` is that `new Object()` creates a new object from scratch, while `Object.create()` creates a new object that inherits from an existing object.

@@ -1200,3 +1200,38 @@ If you want to see the 5 questions daily in your social media feed, connect with
 
 230. ### What is the difference between Object.create() and new Object() in JavaScript?
      The main difference between `new Object()` and `Object.create()` is that `new Object()` creates a new object from scratch, while `Object.create()` creates a new object that inherits from an existing object.
+
+# Day 47
+
+231. ### What is a regular expression(regex)?
+
+     A regular expression, or regex for short, is a set of characters that form a pattern. This pattern is used to search for and match specific sequences of text.
+
+232. ### What is the difference between a regular expression and a string?
+
+     A regular expression is a pattern used to match against a string. A string is simply a sequence of characters.
+
+233. ### What is the syntax for creating a regular expression pattern?
+
+     The syntax for creating a regular expression pattern consists of a combination of characters, special characters, and operators that define the pattern to match.
+
+     ```
+     // Define the regex pattern
+     const pattern = /\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b/;
+     ```
+
+234. ### What is a character class in regular expressions?
+
+     A character class in regular expressions is a set of characters that can be matched in a single position in the text. It is denoted by enclosing the characters in square brackets [].
+
+     ```
+     // Define the regex pattern using a character class
+     const pattern = /[aeiou]/;
+     ```
+
+235. ### What is the difference between the asterisk () and the plus sign (+) in regular expressions?
+      In regular expressions, the asterisk (*) matches zero or more occurrences of the preceding character, while the plus sign (+) matches one or more occurrences of the preceding character.
+
+     For example, if we want to match the letter "a" followed by zero or more "b" characters, we would use the asterisk in our regular expression like this: /ab*/. This would match strings like "a", "ab", "abb", "abbb", and so on.
+
+     On the other hand, if we want to match the letter "a" followed by one or more "b" characters, we would use the plus sign in our regular expression like this: /ab+/

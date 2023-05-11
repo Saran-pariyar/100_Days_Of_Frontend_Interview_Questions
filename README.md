@@ -1230,8 +1230,30 @@ If you want to see the 5 questions daily in your social media feed, connect with
      ```
 
 235. ### What is the difference between the asterisk () and the plus sign (+) in regular expressions?
-      In regular expressions, the asterisk (*) matches zero or more occurrences of the preceding character, while the plus sign (+) matches one or more occurrences of the preceding character.
 
-     For example, if we want to match the letter "a" followed by zero or more "b" characters, we would use the asterisk in our regular expression like this: /ab*/. This would match strings like "a", "ab", "abb", "abbb", and so on.
+     In regular expressions, the asterisk (\*) matches zero or more occurrences of the preceding character, while the plus sign (+) matches one or more occurrences of the preceding character.
+
+     For example, if we want to match the letter "a" followed by zero or more "b" characters, we would use the asterisk in our regular expression like this: /ab\*/. This would match strings like "a", "ab", "abb", "abbb", and so on.
 
      On the other hand, if we want to match the letter "a" followed by one or more "b" characters, we would use the plus sign in our regular expression like this: /ab+/
+
+# Day 48
+
+236. ### How do you use the question mark (?) in regular expressions?
+
+     The question mark (?) is a metacharacter used in regular expressions to indicate that the preceding character or group of characters is optional. It means that the preceding character or group of characters may appear zero or one time. For example, the regular expression "colou?r" will match both "color" and "colour".
+
+237. ### What is the purpose of backslashes () in regular expressions?
+
+     Backslashes () are used in regular expressions to indicate that the following character has a special meaning. For example, the regular expression "\d" matches any digit character, while the regular expression "\s" matches any whitespace character. If you want to match a literal backslash character, you need to escape it by using two backslashes (\).
+
+238. ### How do you specify a range of characters in a character class?
+
+     In a character class, you can specify a range of characters by using a hyphen (-) between two characters. For example, the regular expression "[a-z]" matches any lowercase letter from "a" to "z". Similarly, the regular expression "[0-9]" matches any digit character from "0" to "9". Note that the range is inclusive, so the characters at both ends are included in the match.
+
+239. ### What is the difference between a greedy and a non-greedy match in regular expressions?
+
+     In regular expressions, a greedy match will match as much as possible while still allowing the overall pattern to match. A non-greedy match, on the other hand, will match as little as possible while still allowing the overall pattern to match. Greedy matching is the default behavior in most regex engines. To make a match non-greedy, you can use the question mark (?) after the quantifier. For example, the regular expression ".\*?" will match as few characters as possible.
+
+240. ### How do you use the pipe (|) operator in regular expressions?
+     The pipe (|) operator is used in regular expressions to match either one pattern or another. For example, the regular expression "cat|dog" will match either "cat" or "dog". You can also use parentheses to group patterns together when using the pipe operator. For example, the regular expression "(red|green|blue) car" will match "red car", "green car", or "blue car".

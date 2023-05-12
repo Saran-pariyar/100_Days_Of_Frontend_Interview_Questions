@@ -1257,3 +1257,25 @@ If you want to see the 5 questions daily in your social media feed, connect with
 
 240. ### How do you use the pipe (|) operator in regular expressions?
      The pipe (|) operator is used in regular expressions to match either one pattern or another. For example, the regular expression "cat|dog" will match either "cat" or "dog". You can also use parentheses to group patterns together when using the pipe operator. For example, the regular expression "(red|green|blue) car" will match "red car", "green car", or "blue car".
+
+# Day 49
+
+241. ### What is the purpose of the caret (^) and dollar sign ($) characters in regular expressions?
+
+     The caret (^) and dollar sign ($) characters in regular expressions are used to match the beginning and end of a string, respectively.
+
+242. ### What are some common use cases for regular expressions?
+
+     Common use cases for regular expressions include text parsing, search and replace operations, and input validation.
+
+243. ### How do you match a specific number of characters in a regular expression?
+
+     To match a specific number of characters in a regular expression, you can use quantifiers such as {n} to match exactly n occurrences of a pattern, or {n,m} to match between n and m occurrences.
+
+244. ### How do you match a specific character that has a special meaning in a regular expression?
+
+     To match a specific character that has a special meaning in a regular expression, you can use an escape character () before the special character.
+
+245. ### How do you use lookarounds in regular expressions?
+
+     Lookarounds in regular expressions allow you to look ahead or behind the current position in the string without including the matched text in the result. Positive lookaheads (?=) and negative lookaheads (?!), as well as positive lookbehinds (?<=) and negative lookbehinds (?<!), are the four types of lookarounds that can be used.

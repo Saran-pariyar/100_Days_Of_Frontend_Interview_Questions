@@ -1282,10 +1282,10 @@ If you want to see the 5 questions daily in your social media feed, connect with
 
 # Day 50
 
-256. ### What is the `window.location` object in JavaScript?
+246. ### What is the `window.location` object in JavaScript?
      The `window.location` object is a built-in object in JavaScript that contains information about the current URL of the webpage. It is a property of the global `window` object and provides several properties and methods to work with URLs.
 
-257. ### What are the properties of the `window.location` object?
+247. ### What are the properties of the `window.location` object?
      Some of the properties of the window.location object are:
 
      `href` : returns the entire URL of the current page <br/>
@@ -1297,19 +1297,19 @@ If you want to see the 5 questions daily in your social media feed, connect with
      `search` : returns the query string of the URL <br/>
      `hash` : returns the anchor part of the URL <br/>
 
-258. ### How do you redirect to another page using JavaScript's `window.location` object?
+248. ### How do you redirect to another page using JavaScript's `window.location` object?
      We can redirect to another page using the `assign()` method of the `window.location` object.
      ```
           window.location.assign("https://www.google.com");
      ```
 
-259. ### How do you reload the current page using JavaScript's `window.location` object?
+249. ### How do you reload the current page using JavaScript's `window.location` object?
      You can reload the current page using the reload() method of the window.location object.
      ```
      window.location.reload();
      ```
 
-260. ### How do you get the value of a query parameter from the URL using JavaScript's `window.location` object?
+250. ### How do you get the value of a query parameter from the URL using JavaScript's `window.location` object?
      You can get the value of a query parameter from the URL using the `searchParams` property of the `window.location ` object. For example, to get the value of a query parameter named `id`.
      ```
      const id = new URLSearchParams(window.location.search).get("id");

@@ -1279,3 +1279,39 @@ If you want to see the 5 questions daily in your social media feed, connect with
 245. ### How do you use lookarounds in regular expressions?
 
      Lookarounds in regular expressions allow you to look ahead or behind the current position in the string without including the matched text in the result. Positive lookaheads (?=) and negative lookaheads (?!), as well as positive lookbehinds (?<=) and negative lookbehinds (?<!), are the four types of lookarounds that can be used.
+
+# Day 50
+
+256. ### What is the `window.location` object in JavaScript?
+     The `window.location` object is a built-in object in JavaScript that contains information about the current URL of the webpage. It is a property of the global `window` object and provides several properties and methods to work with URLs.
+
+257. ### What are the properties of the `window.location` object?
+     Some of the properties of the window.location object are:
+
+     `href` : returns the entire URL of the current page <br/>
+     `protocol` : returns the protocol of the URL (http:, https:, etc.) <br/>
+     `host` : returns the hostname and port number of the URL <br/>
+     `hostname` : returns the hostname of the URL <br/>
+     `port` : returns the port number of the URL <br/>
+     `pathname` : returns the path and filename of the URL <br/>
+     `search` : returns the query string of the URL <br/>
+     `hash` : returns the anchor part of the URL <br/>
+
+258. ### How do you redirect to another page using JavaScript's `window.location` object?
+     We can redirect to another page using the `assign()` method of the `window.location` object.
+     ```
+          window.location.assign("https://www.google.com");
+     ```
+
+259. ### How do you reload the current page using JavaScript's `window.location` object?
+     You can reload the current page using the reload() method of the window.location object.
+     ```
+     window.location.reload();
+     ```
+
+260. ### How do you get the value of a query parameter from the URL using JavaScript's `window.location` object?
+     You can get the value of a query parameter from the URL using the `searchParams` property of the `window.location ` object. For example, to get the value of a query parameter named `id`.
+     ```
+     const id = new URLSearchParams(window.location.search).get("id");
+     ```
+

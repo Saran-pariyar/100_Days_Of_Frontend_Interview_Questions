@@ -1315,3 +1315,38 @@ If you want to see the 5 questions daily in your social media feed, connect with
      const id = new URLSearchParams(window.location.search).get("id");
      ```
 
+# Day 51
+
+251. ### What is the Date object in JavaScript?
+     The Date object in JavaScript represents a date and time value, which can be used to perform various operations on dates and times.
+
+252. ### How do you format a date in JavaScript?
+     You can format a date in JavaScript using the toLocaleDateString() method of the Date object, which returns a string representation of the date in the specified locale.
+     ```
+     var date = new Date();
+     var formattedDate = date.toLocaleDateString('en-US', { month: '2-digit', day: '2-digit', year: 'numeric' });
+     console.log(formattedDate); // Output: "05/14/2023"
+     ```
+
+253. ### How do you compare two dates in JavaScript?
+     You can compare two dates in JavaScript using the <, >, <=, >=, ==, and != operators, which compare the numeric values of the Date objects (i.e., their timestamps).
+     ```
+     var date1 = new Date('2023-05-14');
+     var date2 = new Date('2023-05-15');
+
+     if (date1 < date2) {
+       console.log('date1 is earlier than date2');
+     } else {
+       console.log('date1 and date2 are equal');
+     }
+     ```
+254. ### How do you get the current timestamp in JavaScript?
+     You can get the current timestamp in JavaScript using the `getTime()` method of the Date object, which returns the number of milliseconds since January 1, 1970, 00:00:00 UTC.
+
+255. ### How do you add or subtract days to a date in JavaScript?
+     You can add or subtract days to a date in JavaScript using the `setDate()` method of the Date object, which allows you to set the day of the month for a given date.
+     ```
+     var date = new Date();
+     date.setDate(date.getDate() + 3);
+     console.log(date); // Output: the date 3 days from now
+     ```

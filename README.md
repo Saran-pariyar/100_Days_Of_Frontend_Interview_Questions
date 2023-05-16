@@ -1370,6 +1370,23 @@ If you want to see the 5 questions daily in your social media feed, connect with
 260. ### What is throttling?
      Throttling is a technique used in JavaScript to control the rate at which a particular function or code block is executed. It ensures that the function is called at a maximum frequency or a specified interval, preventing it from being invoked too frequently.
 
+# Day 53
+
+261. ### What is debouncing?
+     Debouncing in JavaScript is a way to control how often a function gets called when there are frequent events happening, like typing or scrolling. This can be useful for optimizing performance and avoiding unnecessary function calls.
+
+262. ### What is global execution context?
+     The global execution context is the default or first execution context that is created by the JavaScript engine before any code is executed(i.e, when the file first loads in the browser). All the global code that is not inside a function or object will be executed inside this global execution context. Since JS engine is single threaded there will be only one global environment and there will be only one global execution context.
+
+263. ### What is function execution context?
+     In JavaScript, the function execution context refers to the environment in which a function is executed or called. Each time a function is invoked, a new execution context is created specifically for that function. It consists of two main components: the variable environment and the scope chain.
+
+264. ### What does the variable environment in JavaScript's function execution context contain, and what is its purpose?
+     The variable environment contains all the variables, function declarations, and function arguments specific to that function. It keeps track of the function's local variables and parameters, allowing the function to access and manipulate them during its execution.
+
+265. ### What is a scope chain in JavaScript's function execution context?
+     The scope chain is a list of all the variable environments that are accessible to the function. It is used to resolve variable references during the function's execution. When a variable is not found in the current variable environment, JavaScript looks up the scope chain to find the variable in outer environments until it reaches the global execution context.
+
 
 
 

@@ -1387,6 +1387,37 @@ If you want to see the 5 questions daily in your social media feed, connect with
 265. ### What is a scope chain in JavaScript's function execution context?
      The scope chain is a list of all the variable environments that are accessible to the function. It is used to resolve variable references during the function's execution. When a variable is not found in the current variable environment, JavaScript looks up the scope chain to find the variable in outer environments until it reaches the global execution context.
 
+# Day 54
 
+266. ### What is Minification?
+     Minification is the process of removing all unnecessary characters(empty spaces are removed) and variables will be renamed without changing it's functionality.
 
+267. ### How do I modify the url without reloading the page?
+     The `window.location.href` property will be helpful to modify the url but it reloads the page. HTML5 introduced the `history.pushState()` and `history.replaceState()` methods, which allow you to add and modify history entries, respectively. Example:
+     ```
+     window.history.pushState("page2", "Title", "/page2.html");
+     ```
 
+268. ### What are dynamic imports in javascript?
+     Dynamic imports in JavaScript allow you to load modules or scripts dynamically at runtime, instead of including them statically in the initial page load.
+     ```
+         import('module.js')
+      .then(module => {
+        // Use the imported module
+        // ...
+      })
+      .catch(error => {
+        // Handle any import errors
+        // ...
+      });
+     ```
+
+269. ### What paradigm is Javascript?
+     JavaScript is a multi-paradigm language, supporting imperative/procedural programming, Object-Oriented Programming and functional programming. JavaScript supports Object-Oriented Programming with prototypical inheritance.
+
+270. ### How do you empty an array?
+     You can empty an array quickly by setting the array length to zero.
+     ```
+     let cities = ["Singapore", "Delhi", "London"];
+     cities.length = 0; // cities becomes []
+     ```

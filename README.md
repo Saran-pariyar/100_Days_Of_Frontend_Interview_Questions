@@ -1421,3 +1421,38 @@ If you want to see the 5 questions daily in your social media feed, connect with
      let cities = ["Singapore", "Delhi", "London"];
      cities.length = 0; // cities becomes []
      ```
+
+# Day 55
+
+271. ### What is a lambda function?
+     A lambda function, also known as an arrow function in JavaScript, is a concise and shorthand way of defining a function. It uses the => arrow syntax to indicate a function, allowing for shorter and more readable code.
+
+272. ### What is variable shadowing in javascript?
+     If there is a variable in the global scope, and you'd like to create a variable with the same name in a function. The variable in the inner scope will temporarily shadow the variable in the outer scope. It is called variable shadowing.
+
+273. ### How do you assign default values to variables?
+     You can use the logical or operator || in an assignment expression to provide a default value. The syntax looks like as below,
+     ```
+     var a = b || c;
+     ```
+
+274. ### What is a rest operator in javascript?
+     The rest operator in JavaScript is a special syntax that allows you to pass an indefinite number of arguments to a function. It is represented by three dots ( ... ).
+     ```
+     function partyGuests(...names) {
+     console.log(names);
+     }
+
+     partyGuests('Alice', 'Bob', 'Charlie');
+     ```
+
+275. ### What is a spread operator?
+      The spread operator (`...`) is used to spread elements from an array or object into another array, function call, or object literal. It allows you to unpack or expand the individual items or properties from the source into a destination.
+     ```
+     const fruits = ['apple', 'banana', 'orange'];
+     const fruitSalad = ['kiwi', 'grape', ...fruits, 'melon'];
+     //fruitSalad = ["kiwi", "grape", "apple", "banana", "orange", "melon"]
+     ```
+
+
+

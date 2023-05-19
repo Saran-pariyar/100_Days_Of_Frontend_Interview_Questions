@@ -14,12 +14,12 @@ If you want to see the 5 questions daily in your social media feed, connect with
 
 ## Tables of content
 
-| Techs      | No. of Questions |  Range  |
-| ---------- | :--------------: | :-----: |
-| HTML       |        50        |  0-50   |
-| CSS        |       100        | 51-150  |
-| Javascript |       200        | 151-350 |
-| React      |       150        | 351-500 |
+| Techs      | No. of Questions |  Range  | Day Range |
+| ---------- | :--------------: | :-----: | :-----: |
+| HTML       |        50        |  0-50   | Day 1 - 10 |
+| CSS        |       100        | 51-150  | Day 11 - 30 |
+| Javascript |       200        | 151-350 | Day 31 - 70 |
+| React      |       150        | 351-500 | Day 71 - 100 |
 
 ## <br />
 
@@ -789,6 +789,8 @@ If you want to see the 5 questions daily in your social media feed, connect with
 
 150. ### How do you use CSS variables to create more flexible and dynamic designs, and what are some use cases where variables are particularly useful?
      CSS variables can improve maintainability and reduce repetition. Variables are particularly useful for theming, creating responsive designs, and making changes to global styles.
+
+# Javascript
 
 # Day 31
 

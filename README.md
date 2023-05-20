@@ -1510,5 +1510,46 @@ If you want to see the 5 questions daily in your social media feed, connect with
      All variables in JavaScript are object data types.
 
 
+# Day 57
 
+281. ### What is the difference between a prototype and an instance?
+     A prototype is a blueprint for creating objects. An instance is an object that is created from a prototype. Instances inherit properties and methods from their prototypes.
+
+282. ###  What is a function expression?
+     A function expression in JavaScript is a way to define a function by assigning it to a variable. Instead of using the traditional function declaration syntax, a function expression involves creating an anonymous function that can be stored in a variable.
+
+283. ### What is the difference between a module and a library?
+     A module is a self-contained unit of code that can be imported into another program. A library is a collection of modules that can be used to perform a specific task. Modules are typically used to organize code and make it easier to reuse, while libraries are typically used to provide functionality that is not available in the core language.
+
+284. ###  How are JavaScript and ECMA Script related?
+     ECMA Script is like rules and guidelines, while Javascript is a scripting language used for web development.
+
+285. ### What are the different ways to delete a variable in JavaScript?
+     We can delete a variable and remove it from memory in the following ways:
+     1. Using the `delete` keyword:
+         ```
+         let x = 10;
+         console.log(x); // Output: 10
+
+         delete x;
+         console.log(x); // Output: 10 (variable still exists but with no value)
+          ```
+     2. Setting the variable to `undefined` or `null`:
+          ```
+          let x = 10;
+          console.log(x); // Output: 10
+
+          x = undefined;
+          console.log(x); // Output: undefined
+          ```
+     3. Using a block scope with `let` or `const`:
+          ```
+          //Variables declared with let or const within a block scope will automatically be removed from memory once the block is exited.
+          {
+          let x = 10;
+          console.log(x); // Output: 10
+          }
+     
+          console.log(x); // Output: ReferenceError: x is not defined
+          ```
 

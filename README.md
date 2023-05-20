@@ -1544,12 +1544,13 @@ If you want to see the 5 questions daily in your social media feed, connect with
           ```
      3. Using a block scope with `let` or `const`:
           ```
-          //Variables declared with let or const within a block scope will automatically be removed from memory once the block is exited.
+          //Variables declared with let or const within a block scope will automatically be removed
+          // from memory once the block is exited.
           {
           let x = 10;
           console.log(x); // Output: 10
           }
-     
+
           console.log(x); // Output: ReferenceError: x is not defined
           ```
 

@@ -300,7 +300,7 @@ If you want to see the 5 questions daily in your social media feed, connect with
 
     1. Inline CSS
     2. Internal CSS
-    3. External CSs
+    3. External CSS
 
 53. ### What are some new features in CSS3?
 
@@ -1554,3 +1554,23 @@ If you want to see the 5 questions daily in your social media feed, connect with
           console.log(x); // Output: ReferenceError: x is not defined
           ```
 
+# Day 58
+
+286. ### What are the different types of errors in JavaScript?
+     There are three types of errors:
+
+     1. Load time errors: Errors that come up when loading a web page, like improper syntax errors, are known as Load time errors and generate the errors dynamically.
+     2. Runtime errors: Errors that come due to misuse of the command inside the HTML language.
+     3. Logical errors: These are the errors that occur due to the bad logic performed on a function with a different operation.
+
+287. ### What is the use of the blur function?
+      In JavaScript, the `blur()` function is used to remove the focus from a specific element on a web page. When an element has focus, it typically means that it is selected or ready to receive user input, such as when a user clicks on an input field or a button.
+
+288. ### What is the difference between an alert box and a confirmation box?
+     An alert box is a simple message box with an OK button for displaying information, while a confirmation box allows users to confirm or cancel an action with OK and Cancel buttons respectively. The alert box is non-interactive and pauses code execution until closed, whereas the confirmation box returns a boolean value indicating the user's choice and doesn't halt code execution.
+
+289. ### What is `prompt()` in javascript?
+     `prompt()` is a built-in JavaScript function that displays a dialog box to the user with a message, an input field, and OK/Cancel buttons. It allows the user to input data, which can then be captured and used in JavaScript code. The `prompt()` function halts the code execution until the user enters a value and clicks OK or cancels the dialog. If the user clicks OK, the entered value is returned as a string. If the user cancels or closes the dialog, the function returns null.
+
+290. ### When to Use Internal and External JavaScript Code?
+     If you have only a few lines of code that is specific to a particular webpage. In that case, it is better to keep your JavaScript code internal within your HTML document. On the other hand, if your JavaScript code is used in many web pages, you should consider keeping your code in a separate file.If your code is too long, it is better to keep it in a separate file. This helps in easy debugging.

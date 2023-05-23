@@ -1612,3 +1612,27 @@ If you want to see the 5 questions daily in your social media feed, connect with
 
 295. ### What is a blocking function?
      A blocking function is a type of function that halts the execution of the program until it completes its task or receives a response.
+
+# Day 60
+
+296. ### What is Function Composition?
+     Function composition in JavaScript refers to the process of combining two or more functions to create a new function. To compose functions, you typically create a higher-order function that takes two functions as arguments and returns a new function. This new function executes the functions in order, passing the result of one function as the argument to the next function.
+
+297. ### What is heap?
+     In JavaScript, the "heap" refers to a part of the memory where dynamic memory allocation takes place. It is the memory region used for storing objects and variables that are created during the execution of a program.
+     The heap is an essential component of the JavaScript runtime environment. It is responsible for managing and allocating memory for objects that are created dynamically at runtime, such as objects created using the new keyword, arrays, and function closures.
+
+298. ### What is typed array in javascript?
+     Typed Arrays are specialized array-like objects that allow you to work with binary data in a structured and efficient manner. They come in different types, such as numbers and bytes, and provide optimized operations for reading, writing, and manipulating binary data. They offer better performance and memory efficiency compared to regular arrays.
+
+299. ### What is nodejs?
+     Node.js is a JavaScript runtime for server-side applications. It lets you run JavaScript outside of web browsers, handle network requests, access databases, and build scalable apps efficiently. It's widely used for creating web servers, APIs, real-time apps, and command-line tools.
+
+300. ### What is a PWA?
+     PWAs (Progressive Web Apps) are web applications that use JavaScript, HTML, and CSS to provide a mobile app-like experience. They work offline, send push notifications, and can be installed on devices. PWAs combine the best of web and app technologies, allowing users to access them directly through web browsers without the need for app store downloads.
+
+
+
+
+
+     

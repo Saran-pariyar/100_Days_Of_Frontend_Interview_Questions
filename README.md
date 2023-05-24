@@ -1632,6 +1632,30 @@ If you want to see the 5 questions daily in your social media feed, connect with
      PWAs (Progressive Web Apps) are web applications that use JavaScript, HTML, and CSS to provide a mobile app-like experience. They work offline, send push notifications, and can be installed on devices. PWAs combine the best of web and app technologies, allowing users to access them directly through web browsers without the need for app store downloads.
 
 
+# Day 61
+
+301. ### What is nullish coalescing operator (??)?
+     It is a logical operator that returns its right-hand side operand when its left-hand side operand is null or undefined, and otherwise returns its left-hand side operand. This can be contrasted with the logical OR (||) operator, which returns the right-hand side operand if the left operand is any falsy value, not only null or undefined.
+     ```
+     console.log(null ?? true); // true
+     ```
+302. ### How do you get the status of a checkbox with javascript?
+     You can apply the checked property on the selected checkbox in the DOM. If the value is true it means the checkbox is checked, otherwise it is unchecked. For example, the below HTML checkbox element can be access using javascript as below:
+     ```
+     console.log(document.getElementById(‘checkbox_name’).checked); // true or false
+     ```
+
+303. ### What is the purpose of double tilde operator?
+     The double tilde operator(~~) is known as double NOT bitwise operator. This operator is a slightly quicker substitute for Math.floor().
+
+304. ### What are the different ways to debug JavaScript code?
+     To debug JavaScript code, you can use console.log() statements to print values and messages to the console, browser developer tools for breakpoints, stepping through code, and variable inspection, the debugger statement to trigger breakpoints, exception handling to catch and log errors, linters and code analyzers to detect potential issues, and remote debugging for debugging code running in a different environment.
+
+305. ### What are the different ways to optimize JavaScript code?
+     To optimize JavaScript code, you can combine and minify files, minimize global variables, optimize loops and conditionals, use efficient data structures and algorithms, cache data, leverage asynchronous programming, and optimize DOM manipulation.
+
+
+
 
 
 

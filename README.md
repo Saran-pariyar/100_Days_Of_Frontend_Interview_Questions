@@ -1654,7 +1654,34 @@ If you want to see the 5 questions daily in your social media feed, connect with
 305. ### What are the different ways to optimize JavaScript code?
      To optimize JavaScript code, you can combine and minify files, minimize global variables, optimize loops and conditionals, use efficient data structures and algorithms, cache data, leverage asynchronous programming, and optimize DOM manipulation.
 
+# Day 62
 
+306. ### What is the difference between undeclared & undefined?
+     Undeclared variables are those that do not exist in a program and are not declared. If the program tries to read the value of an undeclared variable, then a runtime error is encountered. Undefined variables are those that are declared in the program but have not been given any value. If the program tries to read the value of an undefined variable, an undefined value is returned.
+
+307. ### What would be the result of 2+5+”3″?
+     Since 2 and 5 are integers, they will be added numerically. And since 3 is a string, its concatenation will be done. So the result would be 73. The ” ” makes all the difference here and represents 3 as a string and not a number.
+
+308. ### What is statically typed and dynamically typed language and  is javascript a statically typed or a dynamically typed language?
+     Dynamically-typed languages perform type checking at runtime, while statically typed languages perform type checking at compile time.Javascript is a dynamically typed language.
+
+309. ### What is function currying?
+     Function currying is a process in which we convert a function with multiple parameters to a chain of functions with a single parameter.
+     ```
+          // Normal function
+     function sum(a, b) {
+     	return a + b;
+     }
+
+     // Curried function
+     function currySum(a) {
+     	return function (b) {
+     		return a + b;
+       }
+     }
+     ```
+310. ### What does delete do in JavaScript?
+     The `delete` operator is used for deleting an object’s property or key.
 
 
 

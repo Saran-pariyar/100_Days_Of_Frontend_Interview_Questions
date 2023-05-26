@@ -1683,6 +1683,41 @@ If you want to see the 5 questions daily in your social media feed, connect with
 310. ### What does delete do in JavaScript?
      The `delete` operator is used for deleting an object’s property or key.
 
+# Day 63
+
+311. ### What is control flow function?
+     A control flow function in JavaScript refers to a function that controls the flow of execution within a program, particularly when dealing with asynchronous operations.
+
+312. ### How does control flow function in js play a role in asynchronous operation in javascript?
+     Control flow functions provide mechanisms to coordinate and handle asynchronous operations, ensuring that certain actions occur before or after others. They help to maintain the desired order and synchronization in asynchronous code.
+
+313. ### Can you access DOM in nodejs?
+     No, you cannot directly access the DOM in Node.js. Node.js is a runtime environment for running JavaScript outside of web browsers, and it does not have a built-in DOM implementation.
+
+314. ### How can you share code between files?
+     In the client-side/browser environment, if variables and functions are declared in the global scope (window), they can be accessed and shared by all scripts on the page. This is often referred to as the global scope or global namespace.
+
+315. ### What does the `instanceof` operator do?
+     The `instanceof` operator checks whether the prototype property of a constructor appears anywhere in the prototype chain of an object. In other words, the `instanceof` operator checks if the object is an instance of a class or not at run time.
+     ```
+     class Person {
+       constructor(name) {
+         this.name = name;
+       }
+     }
+
+     const john = new Person("John");
+
+     console.log(john instanceof Person); // Output: true
+     console.log(john instanceof Object); // Output: true (all objects inherit from Object)
+
+     const str = "Hello";
+     console.log(str instanceof String); // Output: false (str is a primitive string, 
+     not an instance of the String constructor)
+     ```
+
+
+
 
 
 

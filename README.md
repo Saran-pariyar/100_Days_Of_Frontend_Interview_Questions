@@ -1334,8 +1334,8 @@ If you want to see the 5 questions daily in your social media feed, connect with
      You can format a date in JavaScript using the toLocaleDateString() method of the Date object, which returns a string representation of the date in the specified locale.
 
      ```
-     var date = new Date();
-     var formattedDate = date.toLocaleDateString('en-US', { month: '2-digit', day: '2-digit', year: 'numeric' });
+     let date = new Date();
+     let formattedDate = date.toLocaleDateString('en-US', { month: '2-digit', day: '2-digit', year: 'numeric' });
      console.log(formattedDate); // Output: "05/14/2023"
      ```
 
@@ -1344,8 +1344,8 @@ If you want to see the 5 questions daily in your social media feed, connect with
      You can compare two dates in JavaScript using the <, >, <=, >=, ==, and != operators, which compare the numeric values of the Date objects (i.e., their timestamps).
 
      ```
-     var date1 = new Date('2023-05-14');
-     var date2 = new Date('2023-05-15');
+     let date1 = new Date('2023-05-14');
+     let date2 = new Date('2023-05-15');
 
      if (date1 < date2) {
        console.log('date1 is earlier than date2');
@@ -1361,7 +1361,7 @@ If you want to see the 5 questions daily in your social media feed, connect with
 255. ### How do you add or subtract days to a date in JavaScript?
      You can add or subtract days to a date in JavaScript using the `setDate()` method of the Date object, which allows you to set the day of the month for a given date.
      ```
-     var date = new Date();
+     let date = new Date();
      date.setDate(date.getDate() + 3);
      console.log(date); // Output: the date 3 days from now
      ```
@@ -1466,7 +1466,7 @@ If you want to see the 5 questions daily in your social media feed, connect with
      You can use the logical or operator || in an assignment expression to provide a default value. The syntax looks like as below,
 
      ```
-     var a = b || c;
+     let a = b || c;
      ```
 
 274. ### What is a rest operator in javascript?
@@ -1717,8 +1717,22 @@ If you want to see the 5 questions daily in your social media feed, connect with
      ```
 
 
+# Day 64
 
+316. ### What are the drawbacks of prototypal inheritance?
+     Prototypal inheritance also has some drawbacks. First, it can be more difficult to understand than class-based inheritance. Second, it can be more difficult to debug. Third, it can be more difficult to test.
 
+317. ### What are some common problems that you encounter when using regular expressions?
+     When using regular expressions, common problems include incorrect pattern matching, performance issues with large data or complex patterns, difficulty in readability and maintenance, and the risk of overfitting the problem at hand.
+
+318. ### What are the limitations of using the "var" keyword in JavaScript?
+     The "var" keyword in JavaScript has limitations. Variables declared with "var" are function-scoped, accessible throughout the entire function. It lacks block-level scoping, leading to confusion and unintended side effects. Additionally, "var" doesn't prevent variable redeclaration within the same scope, risking inadvertent overwriting.
+
+319. ### What are the limitations of using the "this" keyword in JavaScript?
+     The "this" keyword in JavaScript has limitations. Its value depends on the function invocation, leading to confusion and unexpected behavior. In arrow functions, "this" behaves differently, being lexically scoped. When using "this" in a constructor function without the "new" keyword, it refers to the global object instead of creating a new instance.
+
+320. ### What are the drawbacks of using the "delete" operator in JavaScript?
+     The "delete" operator in JavaScript has drawbacks. It can be slow and impact performance when deleting object properties. It does not affect the prototype chain, leading to unexpected behavior. It also cannot delete variables or functions declared with "var" or "function" keywords.
 
 
      

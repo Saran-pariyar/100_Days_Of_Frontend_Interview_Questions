@@ -1734,5 +1734,23 @@ If you want to see the 5 questions daily in your social media feed, connect with
 320. ### What are the drawbacks of using the "delete" operator in JavaScript?
      The "delete" operator in JavaScript has drawbacks. It can be slow and impact performance when deleting object properties. It does not affect the prototype chain, leading to unexpected behavior. It also cannot delete variables or functions declared with "var" or "function" keywords.
 
+# Day 65
+
+321. ### What are the advantages of using closures in JavaScript?
+      Closures in JavaScript allow for encapsulation, data privacy, and the creation of private variables and functions that are inaccessible from the outside scope.
+
+322. ### How does the concept of prototypal inheritance benefit JavaScript developers?
+     Prototypal inheritance in JavaScript allows objects to inherit properties and methods from other objects, promoting code reuse and reducing memory consumption.
+
+323. ### How does using template literals in JavaScript improve string manipulation and concatenation compared to traditional methods?
+     Template literals in JavaScript allow for easier string interpolation, multiline strings, and dynamic content embedding, enhancing readability and reducing string manipulation complexities.
+
+324. ### What are the advantages of using the fetch API over traditional XMLHttpRequest for making HTTP requests in JavaScript?
+     The fetch API offers a simpler and more modern way to make asynchronous HTTP requests, providing better error handling, support for promises, and the ability to handle various data formats.
+
+325. ### Can you explain the benefits of using the "this" keyword and how it differs in different contexts in JavaScript?
+     The "this" keyword in JavaScript allows objects to refer to their own properties and methods dynamically, adapting to different execution contexts and enabling code reusability.
+
+
 
      

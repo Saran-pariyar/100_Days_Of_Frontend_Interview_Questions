@@ -1751,6 +1751,33 @@ If you want to see the 5 questions daily in your social media feed, connect with
 325. ### Can you explain the benefits of using the "this" keyword and how it differs in different contexts in JavaScript?
      The "this" keyword in JavaScript allows objects to refer to their own properties and methods dynamically, adapting to different execution contexts and enabling code reusability.
 
+# Day 66
+
+326. ### What resources or techniques do you use to stay up to date with the latest developments in JavaScript?
+     To stay updated with the latest developments in JavaScript, I also make use of online learning platforms like Udemy and Coursera to enroll in courses focused on JavaScript and attend conferences or meetups whenever possible. Additionally, I find it helpful to contribute to open-source projects on GitHub, as it exposes me to different coding styles and practices.
+
+327. ### How do you ensure the code you write is maintainable, readable, and follows best practices?
+     To ensure maintainable, readable, and best practice-following code, I follow coding conventions and style guidelines. I also write clear comments, use descriptive variable and function names, and modularize the code to make it easier to understand and maintain.
+
+328. ### How do you handle working on a JavaScript project with a large codebase or multiple developers?
+     Clear communication, organization, and collaboration are essential for JavaScript projects with a large codebase or multiple developers. Using Git for version control enables simultaneous work and easy code merging. Breaking down the code into smaller modules, documenting, following coding standards, conducting code reviews, and implementing testing ensure code quality and facilitate collaboration.
+
+329. ### How does JavaScript handle memory management and garbage collection?
+     JavaScript handles memory management through automatic garbage collection. The JavaScript engine keeps track of all objects created during the program execution. When an object is no longer reachable or referenced by any part of the program, it becomes eligible for garbage collection. The garbage collector then frees up the memory occupied by those unreferenced objects, making it available for future use.
+
+330. ### According to javascript array, what comes first the chicken or egg?
+     According to the JavaScript array, "chicken" comes before "egg" because "chicken" is alphabetically sorted before "egg".
+     ```
+     const arr = ["egg", "chicken"];
+     const sortedArr = arr.sort();
+
+     console.log(sortedArr) // ["chicken", "egg"]
+
+     //Hence proved, chicken comes first than egg
+     ````
+
+
+
 
 
      

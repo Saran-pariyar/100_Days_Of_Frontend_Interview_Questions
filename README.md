@@ -18,8 +18,8 @@ If you want to see the 5 questions daily in your social media feed, connect with
 | ---------- | :--------------: | :-----: | :----------: |
 | HTML       |        50        |  0-50   |  Day 1 - 10  |
 | CSS        |       100        | 51-150  | Day 11 - 30  |
-| Javascript |       200        | 151-350 | Day 31 - 70  |
-| React      |       150        | 351-500 | Day 71 - 100 |
+| Javascript |       180        | 151-330 | Day 31 - 66  |
+| React      |       170        | 331-500 | Day 67 - 100 |
 
 ## <br />
 
@@ -1776,6 +1776,24 @@ If you want to see the 5 questions daily in your social media feed, connect with
      //Hence proved, chicken comes first than egg
      ````
 
+# ReactJS
+
+# Day 67
+
+331. ### What is ReactJS?
+     React is a free and open-source front-end JavaScript library for building user interfaces based on components. It is maintained by Meta and a community of individual developers and companies
+
+332. ### What are the key features of ReactJS?
+     The key features of ReactJS are its component-based architecture, virtual DOM implementation for efficient rendering, code reusability through reusable components, declarative syntax and JSX for easier UI development, unidirectional data flow for predictable updates, and performance optimization by minimizing direct DOM manipulation.
+
+333. ### What is the difference between ReactJS and other JavaScript frameworks/libraries?
+     ReactJS differs from other JavaScript frameworks/libraries in several ways. It focuses solely on the view layer, allowing developers to integrate it easily with other libraries or frameworks. React also introduces the concept of a virtual DOM, which enhances performance by minimizing direct manipulation of the actual DOM.
+
+334. ### What is JSX in ReactJS?
+     JSX stands for JavaScript syntax extension. It is a JavaScript extension that allows us to describe React's object tree using a syntax that resembles that of an HTML template. It is just an XML-like extension that allows us to write JavaScript that looks like markup and have it returned from a component.
+
+335. ### Explain the concept of virtual DOM in ReactJS.
+     Virtual DOM is a lightweight copy of the actual DOM maintained by React. It allows React to efficiently update and render components by calculating the optimal changes needed and applying them to the real DOM.
 
 
 

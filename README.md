@@ -1795,6 +1795,22 @@ If you want to see the 5 questions daily in your social media feed, connect with
 335. ### Explain the concept of virtual DOM in ReactJS.
      Virtual DOM is a lightweight copy of the actual DOM maintained by React. It allows React to efficiently update and render components by calculating the optimal changes needed and applying them to the real DOM.
 
+# Day 68
+
+336. ### What are the components in ReactJS?
+     Components in ReactJS are the building blocks of the user interface. They can be thought of as reusable, self-contained pieces of code that encapsulate a specific functionality or UI element.
+
+337. ### What is the significance of state in ReactJS?
+     The state in ReactJS is a JavaScript object that stores data specific to a component. It represents the current state of the component and can be updated over time. The significance of state is that it allows components to manage and display dynamic data, enabling interactivity in the user interface.
+
+338. ### What is the difference between props and state?
+     Props (short for properties) and state are both used in ReactJS to manage data, but they serve different purposes. Props are used to pass data from a parent component to a child component, while state is used to manage and update data within a component itself.
+
+339. ### What is the purpose of the "render" method in ReactJS?
+     The "render" method in ReactJS is a crucial part of a component. It is responsible for returning the JSX (JavaScript XML) code that defines the structure and content of the component's UI. The render method is called automatically whenever there is a change in the component's state or props.
+
+340. ### What are the lifecycle methods in ReactJS and how do they work?
+     Lifecycle methods in ReactJS are special methods that are invoked at different stages of a component's lifecycle. They allow developers to perform specific actions at certain points, such as initializing state, updating the UI, or cleaning up resources. Examples of lifecycle methods include "componentDidMount," "componentDidUpdate," and "componentWillUnmount." They provide hooks to execute code at specific moments during the component's lifespan.
 
 
 

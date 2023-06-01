@@ -1812,6 +1812,26 @@ If you want to see the 5 questions daily in your social media feed, connect with
 340. ### What are the lifecycle methods in ReactJS and how do they work?
      Lifecycle methods in ReactJS are special methods that are invoked at different stages of a component's lifecycle. They allow developers to perform specific actions at certain points, such as initializing state, updating the UI, or cleaning up resources. Examples of lifecycle methods include "componentDidMount," "componentDidUpdate," and "componentWillUnmount." They provide hooks to execute code at specific moments during the component's lifespan.
 
+# Day 69
+
+341. ### What is a higher-order component (HOC) in ReactJS?
+     A Higher-Order Component (HOC) in ReactJS is a function that takes a component as input and returns a new enhanced component.  They act as wrappers around components, enabling you to inject props, modify behavior, and reuse common logic across multiple components.
+
+342. ### What is the purpose of the "key" prop in ReactJS?
+     The "key" prop in ReactJS is used to uniquely identify elements in a list of components or elements rendered by a loop. It helps React efficiently update and re-render only the necessary components when the list changes.
+
+343. ### Explain the concept of controlled and uncontrolled components in ReactJS.
+     Controlled components in ReactJS are form inputs whose state is managed by React. The input value is bound to a state variable, and changes are handled through event handlers. Uncontrolled components, on the other hand, have their state managed by the DOM, and the input value is accessed directly. Controlled components provide more control and validation options, while uncontrolled components are simpler for basic scenarios.     
+
+344. ### What is the purpose of the "setState" method in ReactJS and how does it work?
+     The "setState" method in ReactJS is used to update the state of a component. It is a built-in method provided by React's Component class. When called, "setState" triggers a re-render of the component, updating its UI based on the new state.
+
+345. ### What is the significance of the "React.Fragment" component?
+     "React.Fragment" is a component in ReactJS that allows you to group multiple elements without adding extra DOM elements. It helps keep the rendered output clean and is particularly useful when you don't want to introduce additional wrappers or nesting levels.
+
+
+
+
 
 
      

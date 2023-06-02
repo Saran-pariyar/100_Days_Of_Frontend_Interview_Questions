@@ -1829,6 +1829,23 @@ If you want to see the 5 questions daily in your social media feed, connect with
 345. ### What is the significance of the "React.Fragment" component?
      "React.Fragment" is a component in ReactJS that allows you to group multiple elements without adding extra DOM elements. It helps keep the rendered output clean and is particularly useful when you don't want to introduce additional wrappers or nesting levels.
 
+# Day 70
+
+346. ### How does React handle event handling?
+     React handles event handling by using synthetic events, which are cross-browser wrappers around native browser events. When an event is triggered, React creates a synthetic event object and passes it to the event handler function.
+
+347. ### What are the differences between class components and functional components in ReactJS?
+     The main difference between class components and functional components in ReactJS is the syntax and the way they manage state. Class components are defined using ES6 classes and have lifecycle methods, while functional components are defined as JavaScript functions. Class components have their own internal state and can use lifecycle methods like componentDidMount and componentDidUpdate, while functional components use React Hooks to manage state and handle side effects.
+
+348. ### How can you optimize the performance of React applications?  
+     There are several ways to optimize the performance of React applications. Some techniques include: using a production build of React, minimizing the number of re-renders by using shouldComponentUpdate or React.memo, lazy loading components or data using code splitting, implementing virtualization techniques for long lists, and optimizing network requests by caching data or using techniques like memoization.
+
+349. ### What is React Router and how does it work?
+     React Router is a popular library in React for handling routing in a web application. It allows developers to create single-page applications with multiple views or pages. React Router works by defining routes that map to different components. When a user navigates to a specific route, the corresponding component is rendered
+
+350. ### Explain the concept of React Hooks and their benefits.
+     React Hooks provide a way to reuse stateful logic without writing a class component. Hooks enable developers to manage component state, handle side effects, and tap into the React lifecycle in a more straightforward and flexible manner. They offer benefits like improved code readability, reusability, and easier testing. Some commonly used hooks include useState, useEffect, and useContext.
+
 
 
 

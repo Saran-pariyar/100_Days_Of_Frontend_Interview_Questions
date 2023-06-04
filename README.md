@@ -1864,6 +1864,23 @@ If you want to see the 5 questions daily in your social media feed, connect with
 355. ### When do we prefer to use a class component over a function component?
      If a component needs state or lifecycle methods, we should use the class component; otherwise, use the function component. However, after React 16.8, with the addition of Hooks, you could use state, lifecycle methods, and other features that were only available in the class component right in your function component.
 
+# Day 72
+
+356. ### How do you handle forms in React?
+     In React, you can handle forms by using controlled components. This means that the form inputs' values are controlled by React state. You create state variables to store the values of the form inputs and update the state using the onChange event. You can access and process the form data from the state when the form is submitted.
+
+357. ### Explain the Flux architectural pattern.
+     The Flux architectural pattern is a design pattern used in React applications for managing data flow. It consists of four key components: the view, actions, dispatcher, and stores. Actions trigger changes, which are dispatched by the dispatcher to the appropriate stores. The stores contain the application state and update the views. This unidirectional data flow ensures predictability and maintainability.
+
+358. ### Explain the concept of context in React. How does it work?
+     Context in React is a way to share data between components without explicitly passing it through props at each level. It allows you to create a context object that holds the shared data, which can be accessed by any component within its subtree. The context provider sets the value, and the consuming components can access it using the useContext hook.
+
+359. ### What are portals in React? When would you use them?
+     Portals in React provide a way to render children components into a different DOM node, outside the current component's DOM hierarchy. They allow you to render components at a different location in the DOM, which is useful for scenarios like modals, popovers, or tooltips, where the component needs to be positioned relative to a specific DOM element outside its parent.
+
+360. ### Explain the concept of lazy loading in React.
+     Lazy loading in React is a technique used to optimize performance by loading components or resources only when they are needed. Instead of loading all components upfront, you can dynamically import them using the React.lazy function and render them when required. This helps reduce the initial bundle size and improves the loading speed of your application.
+
 
 
 

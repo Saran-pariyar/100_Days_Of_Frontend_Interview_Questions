@@ -1881,6 +1881,24 @@ If you want to see the 5 questions daily in your social media feed, connect with
 360. ### Explain the concept of lazy loading in React.
      Lazy loading in React is a technique used to optimize performance by loading components or resources only when they are needed. Instead of loading all components upfront, you can dynamically import them using the React.lazy function and render them when required. This helps reduce the initial bundle size and improves the loading speed of your application.
 
+# Day 73 
+
+361. ### What is useEffect hook?
+     The useEffect hook is utilized for handling side effects in React components. It enables you to perform tasks like data fetching, subscriptions, or DOM manipulation.
+
+362. ### What is the role of the useReducer hook in React? How does it differ from the useState hook?
+     The useReducer hook serves as an alternative to useState for managing complex state logic. It takes a reducer function and an initial state, returning the current state value and a dispatch function. By dispatching actions to the reducer, state updates can be controlled and organized in a more structured manner.
+
+363. ### Describe the purpose of the useRef hook.
+     The useRef hook is employed to create mutable values that persist across renders in a React component. It is commonly used for accessing DOM elements or storing any mutable value that doesn't need to trigger a re-render. useRef allows components to retain a reference to a specific value or element throughout their lifecycle.
+
+364. ### What is the purpose of the useMemo hook? How does it help optimize performance in React?
+     The useMemo hook is designed for memoizing expensive calculations or function calls in React. It takes a function and a dependency array, returning a memoized value. By specifying the dependencies, the memoized value is recalculated only when the dependencies change, helping to optimize performance by avoiding unnecessary computations.
+
+365. ### When would you use the useCallback hook in React? How does it differ from the useMemo hook?
+     The primary distinction between useEffect and useLayoutEffect lies in their timing during the component lifecycle. useEffect runs after the render is committed to the screen, while useLayoutEffect executes synchronously immediately after all DOM mutations. In situations where you need to perform actions that require updated layout information, such as measuring or manipulating the DOM before it is painted, useLayoutEffect becomes the appropriate choice.
+
+
 
 
 

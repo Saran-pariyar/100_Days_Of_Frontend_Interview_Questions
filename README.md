@@ -1896,7 +1896,12 @@ If you want to see the 5 questions daily in your social media feed, connect with
      The useMemo hook is designed for memoizing expensive calculations or function calls in React. It takes a function and a dependency array, returning a memoized value. By specifying the dependencies, the memoized value is recalculated only when the dependencies change, helping to optimize performance by avoiding unnecessary computations.
 
 365. ### When would you use the useCallback hook in React? How does it differ from the useMemo hook?
-     The primary distinction between useEffect and useLayoutEffect lies in their timing during the component lifecycle. useEffect runs after the render is committed to the screen, while useLayoutEffect executes synchronously immediately after all DOM mutations. In situations where you need to perform actions that require updated layout information, such as measuring or manipulating the DOM before it is painted, useLayoutEffect becomes the appropriate choice.
+     The useCallback hook in React is like useMemo, but it memoizes functions instead of values. It's handy when passing callbacks to child components because it avoids unnecessary re-renders. By memoizing the function, it ensures that the same function instance is returned as long as the dependencies (inputs) remain unchanged. This optimization can improve performance in certain situations by preventing unnecessary function recreations.
+
+
+
+
+
 
 
 

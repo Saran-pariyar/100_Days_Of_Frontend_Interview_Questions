@@ -1898,6 +1898,32 @@ If you want to see the 5 questions daily in your social media feed, connect with
 365. ### When would you use the useCallback hook in React? How does it differ from the useMemo hook?
      The useCallback hook in React is like useMemo, but it memoizes functions instead of values. It's handy when passing callbacks to child components because it avoids unnecessary re-renders. By memoizing the function, it ensures that the same function instance is returned as long as the dependencies (inputs) remain unchanged. This optimization can improve performance in certain situations by preventing unnecessary function recreations.
 
+# Day 74
+
+366. ### What happens when you call setState?
+     The state property is updated in a React component with the object passed into setState, and this is done asynchronously. It tells React that this component and its children need to be re-rendered, but React may not do this immediately.
+
+367. ### What is `children` prop in React?
+     The `children` prop in React allows you to pass content or components as a nested element to another component, making it flexible and reusable. It enables you to include and render dynamic content within a component by placing it between the opening and closing tags of that component.
+
+368. ### What are stateless components?
+     If the behaviour of a component is independent of its state then it can be a stateless component. You can use either a function or a class for creating stateless components. But unless you need to use a lifecycle hook in your components, you should go for function components.
+
+369. ### What are stateful components?
+     If the behaviour of a component is dependent on the state of the component then it can be termed as stateful component. These stateful components are either function components with hooks or class components.
+
+370. ### What is the impact of indexes as keys?
+     Using indexes as keys in React can cause problems. When components are rendered using indexes as keys, React may not properly update or reorder them when the order changes. This can result in incorrect rendering, loss of component state, and slower performance. It's better to use unique and stable identifiers as keys to avoid these issues and ensure that components are updated correctly.
+
+
+
+
+
+
+
+
+
+
 
 
 

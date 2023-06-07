@@ -1915,6 +1915,31 @@ If you want to see the 5 questions daily in your social media feed, connect with
 370. ### What is the impact of indexes as keys?
      Using indexes as keys in React can cause problems. When components are rendered using indexes as keys, React may not properly update or reorder them when the order changes. This can result in incorrect rendering, loss of component state, and slower performance. It's better to use unique and stable identifiers as keys to avoid these issues and ensure that components are updated correctly.
 
+# Day 75
+
+371. ### What is prop drilling in react?
+     Prop drilling in React refers to the process of passing down props (properties) from a parent component to a deeply nested child component, even if the intermediate components do not need or use those props. This can lead to a cluttered and less maintainable codebase, as props need to be passed through multiple layers of components, making it harder to understand and modify the code.
+
+372. ## How can we avoid prop drilling?
+     Prop drilling can be avoided by using React's Context API or state management libraries like Redux, which allow for more efficient and organized sharing of data across components.
+
+373. ### How would you prevent a component from rendering in React? 
+     To prevent a component from rendering in React, you can use conditional rendering. You can wrap the component's JSX code inside an if statement or a ternary operator, where you specify a condition. If the condition evaluates to true, the component will render; otherwise, it won't. This allows you to control when and under what circumstances the component should be displayed. By dynamically adjusting the condition, you can easily show or hide the component based on certain logic or user interactions.
+
+374. ###  What do these three dots (...) in React do?  
+     The three dots (...) in React, called the spread operator, can be used to make copies of objects or arrays. With objects, it lets you create a new object by copying properties from an existing object and adding or changing specific ones. For arrays, it allows you to create a new array by combining elements from different arrays. The spread operator is handy for manipulating data in React and simplifies tasks like updating component state or merging objects with new properties.
+
+375. ###   Why React uses className over class attribute?  
+     React uses `className` instead of `class` in HTML because `class` is a reserved keyword in JavaScript. Using `class` would cause conflicts with JavaScript syntax. So, to avoid issues, React uses `className` for specifying CSS classes on elements. This allows developers to apply CSS classes to React components without running into conflicts or JavaScript errors.
+
+
+
+
+
+
+
+
+
 
 
 

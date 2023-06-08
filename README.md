@@ -1932,6 +1932,34 @@ If you want to see the 5 questions daily in your social media feed, connect with
 375. ###   Why React uses className over class attribute?  
      React uses `className` instead of `class` in HTML because `class` is a reserved keyword in JavaScript. Using `class` would cause conflicts with JavaScript syntax. So, to avoid issues, React uses `className` for specifying CSS classes on elements. This allows developers to apply CSS classes to React components without running into conflicts or JavaScript errors.
 
+# Day 76
+
+376. ### Why we should not update state directly? 
+     Updating the state directly in ReactJS is not recommended because it can cause unexpected issues and make it hard to track changes. React provides the setState() method for updating the state, which ensures proper handling of updates, triggers component re-rendering, and maintains state management integrity.
+
+377. ### What is StrictMode in React?  
+     StrictMode in React is a component that helps catch potential problems in your code by performing extra checks during rendering, highlighting issues and encouraging best practices.
+
+378. ### What's wrong with using Context in React?
+     Context in React is not inherently bad, but it should be used carefully. Using Context extensively can make your code harder to understand and maintain. It may also cause unnecessary re-rendering and may not be the best choice for managing global state in complex applications. So we should consider other state management options like Redux for larger projects.
+
+379. ### Does React re-render all components and sub components every time setState is called? 
+     No, React does not re-render all components and subcomponents every time setState is called. It only re-renders the components that are affected by the state change, optimizing performance by avoiding unnecessary updates.
+
+380. ### Explain why and when would you use `useMemo()`?
+     You would use `useMemo()` in React when you want to optimize performance by memoizing the result of a function or computation. It is used to avoid unnecessary calculations or expensive operations by caching the computed value until its dependencies change. By using `useMemo()`, you can ensure that the computation is only performed when necessary, reducing the workload on the application and improving efficiency.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

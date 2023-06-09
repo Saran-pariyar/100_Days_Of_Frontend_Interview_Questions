@@ -1950,6 +1950,39 @@ If you want to see the 5 questions daily in your social media feed, connect with
      You would use `useMemo()` in React when you want to optimize performance by memoizing the result of a function or computation. It is used to avoid unnecessary calculations or expensive operations by caching the computed value until its dependencies change. By using `useMemo()`, you can ensure that the computation is only performed when necessary, reducing the workload on the application and improving efficiency.
 
 
+# Day 77
+
+381. ###  When shall we use useReducer hook in ReactJS?  
+     The useReducer hook in ReactJS is typically used when you have complex state logic that involves multiple related values or when the state transitions are more intricate. It is a good choice when you find that managing state with the useState hook becomes cumbersome and leads to complex and nested code.
+
+382. ###   How does React renderer work exactly when we call setState
+     When you use setState in React, it triggers a process called reconciliation. React compares the old and new state, figures out what changed, and updates only the necessary parts of the user interface. It does this by creating a virtual copy of the user interface called the virtual DOM and then efficiently applying the required changes to the actual web page. This helps React make updates quickly and keeps your app running smoothly.
+
+383. ### what are styled component?
+     Styled components are a way to style React components by writing CSS directly in JavaScript. They allow you to create reusable styled elements and easily manage styles within your components. It improves code organization and makes styling more readable and maintainable.
+
+384. ### What are the advantages of styled components?
+     Styled components in React offer advantages such as component-based styling, improved readability, scoped styles, support for dynamic styles, reusability, theme support, and better performance. They enhance code organization, make styles more maintainable, and provide a seamless integration between styling and component logic.
+
+385. ###  What are the advantages of styled components?
+     Styled components in React can be more complex and have a higher learning curve compared to traditional CSS stylesheets. Defining styles within JavaScript may require developers to adapt their workflow and understand CSS-in-JS concepts. Additionally, the generated class names for styled components can be less readable, making debugging more challenging
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

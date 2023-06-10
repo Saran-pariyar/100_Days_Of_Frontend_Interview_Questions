@@ -1955,7 +1955,7 @@ If you want to see the 5 questions daily in your social media feed, connect with
 381. ###  When shall we use useReducer hook in ReactJS?  
      The useReducer hook in ReactJS is typically used when you have complex state logic that involves multiple related values or when the state transitions are more intricate. It is a good choice when you find that managing state with the useState hook becomes cumbersome and leads to complex and nested code.
 
-382. ###   How does React renderer work exactly when we call setState
+382. ###   How does React renderer work exactly when we call setState?
      When you use setState in React, it triggers a process called reconciliation. React compares the old and new state, figures out what changed, and updates only the necessary parts of the user interface. It does this by creating a virtual copy of the user interface called the virtual DOM and then efficiently applying the required changes to the actual web page. This helps React make updates quickly and keeps your app running smoothly.
 
 383. ### what are styled component?
@@ -1967,7 +1967,22 @@ If you want to see the 5 questions daily in your social media feed, connect with
 385. ###  What are the advantages of styled components?
      Styled components in React can be more complex and have a higher learning curve compared to traditional CSS stylesheets. Defining styles within JavaScript may require developers to adapt their workflow and understand CSS-in-JS concepts. Additionally, the generated class names for styled components can be less readable, making debugging more challenging
 
+# Day  78
 
+386. ### Why props cannot be updated in ReactJS?
+     props cannot be updated in ReactJS as due to React core philosophy focused on making the props as immutable and top-down thus, a parent can send any prop values to a child but child cannot change the received prop.
+
+387. ### What is a dispatcher?
+     It is one of the components required for building apps according to Flux architecture. In this pattern dispatcher is the main point which manages data exchanging inside the app.
+
+388. ###  What are Default Props?
+     In React, default props are used to define default values for props in a component. Default props ensure that if a parent component doesn't provide a value for a certain prop, the component will still have a default value to work with.
+
+389. ### What are inline conditional expressions?
+     In JSX, you can include any JavaScript expression within curly braces and use it with conditional (ternary) operators, making inline conditional expressions an interesting topic for react interview questions for freshers.
+
+390. ### What are the differences between React and React Native?
+     React is a JavaScript library used for building web user interfaces, while React Native is a framework for developing native mobile applications. React renders components to the web browser using virtual DOM, while React Native renders components directly to native UI elements for iOS and Android platforms, resulting in a more native-like experience.
 
 
 

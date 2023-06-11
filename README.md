@@ -1984,6 +1984,36 @@ If you want to see the 5 questions daily in your social media feed, connect with
 390. ### What are the differences between React and React Native?
      React is a JavaScript library used for building web user interfaces, while React Native is a framework for developing native mobile applications. React renders components to the web browser using virtual DOM, while React Native renders components directly to native UI elements for iOS and Android platforms, resulting in a more native-like experience.
 
+# Day 79
+
+391. ### Is React a library or a Framework and why?
+     React is a JavaScript library for UI building, not a framework. It focuses on the view layer, offering efficient ways to create UI components and manage state. Unlike frameworks, React doesn't provide a full set of development tools, but it excels at making interactive web applications with its declarative approach and efficient UI updates.
+
+392. ### What are nested component in react?
+     In React, nested components refer to the idea of rendering components within other components. It allows for building complex user interfaces by composing smaller components together.
+
+393. ### How does nested component may create performance issues?
+     In nested components, if the parent component frequently updates, it can lead to performance issues as the child component will be re-created unnecessarily with each update.
+
+394. ### What are error boundaries in react?
+     Error boundaries in React are components that prevent the entire application from crashing when an error occurs within their child components. They act as safety nets by catching and handling errors, allowing developers to display fallback UI and maintain a smoother user experience.
+
+395. ### What is React Dev Tool?
+     React DevTools is a browser extension that helps developers debug and inspect React applications. It allows you to see the component structure, check and modify component data, and analyze performance. It's a useful tool for understanding how React components work and finding and fixing issues in your code.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

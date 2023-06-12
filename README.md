@@ -2001,6 +2001,22 @@ If you want to see the 5 questions daily in your social media feed, connect with
 395. ### What is React Dev Tool?
      React DevTools is a browser extension that helps developers debug and inspect React applications. It allows you to see the component structure, check and modify component data, and analyze performance. It's a useful tool for understanding how React components work and finding and fixing issues in your code.
 
+# Day 80
+
+396. ###  What is "React Node" in react?    
+     In React, a "React Node" is a term used to describe any content that can be rendered within a React component. It could be HTML elements, other React components, text, numbers, or fragments.
+
+397. ### Why do we need to React Router?     
+     It maintains consistent structure and behavior and is used to develop single-page web applications. Enables multiple views in a single application by defining multiple routes in the React application.
+
+398. ### Explain the role of Reducer.
+     Reducers are pure functions which specify how the application’s state changes in response to an ACTION. Reducers work by taking in the previous state and action, and then it returns a new state. It determines what sort of update needs to be done based on the type of the action, and then returns new values. It returns the previous state as it is, if no work needs to be done.
+
+399. ### What is the use of React.cloneElement?
+     React.cloneElement is a method provided by React that allows you to clone and modify a React element. It is typically used when you want to add or override props of a React element while maintaining its original type and key. This is useful when working with components that accept and modify their children's elements.
+
+400. ### Can you explain React's "lifting state up" concept and why it is important?
+     "Lifting state up" is a concept in React where you move the shared state of multiple components to their common parent component. By doing this, you establish a single source of truth for the shared state, allowing you to pass down the state and related functions as props to child components. It enables better data flow, state management, and enhances performance by reducing unnecessary re-rendering.
 
 
 

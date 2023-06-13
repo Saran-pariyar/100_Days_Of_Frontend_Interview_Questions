@@ -2018,6 +2018,27 @@ If you want to see the 5 questions daily in your social media feed, connect with
 400. ### Can you explain React's "lifting state up" concept and why it is important?
      "Lifting state up" is a concept in React where you move the shared state of multiple components to their common parent component. By doing this, you establish a single source of truth for the shared state, allowing you to pass down the state and related functions as props to child components. It enables better data flow, state management, and enhances performance by reducing unnecessary re-rendering.
 
+# Day 81
+
+401. ### What is a ref in React and what is its purpose?
+     A ref in React is a way to access and interact with the real DOM elements or React components directly. Its purpose is to provide a means of reading or modifying the properties, state, or behavior of a component outside of the typical React data flow. In simple terms, refs allow you to directly manipulate elements or components, like getting their values, focusing input fields, or triggering methods, bypassing the usual data flow of React.
+
+402. ### How does using refs differ from traditional DOM manipulation?
+     Refs in React provide a convenient and efficient way to work with elements and components, allowing you to easily access and modify them. It's like a special tool that React provides, making it easier to interact with the user interface. Traditional DOM manipulation, on the other hand, involves more manual and cumbersome approaches to achieve the same results.
+
+403. ### What is the main difference between "string refs" and "callback refs" in React.
+     The main difference is that string refs rely on a string identifier, while callback refs use a function to capture the reference. Callback refs are more flexible and allow for better control and manipulation of the reference, making them the preferred method in React whereas using string refs approach is considered legacy and is not recommended in newer versions of React.
+
+404. ### Explain the concept of "forwarding refs" in React.
+     "Forwarding refs" in React allows a parent component to pass a ref to its child component. This way, the parent can access and control the child's DOM element or component. It's like giving a special power to the parent component to interact with its child component's internals.
+
+405. ### How do refs affect the component lifecycle in React?
+     Refs in React do not directly impact the component lifecycle. They provide a way to access and interact with elements or components separately from lifecycle methods. Refs allow you to work with specific parts of the component without affecting its lifecycle or rendering.
+
+
+
+
+
 
 
 

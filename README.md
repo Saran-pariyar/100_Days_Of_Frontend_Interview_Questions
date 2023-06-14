@@ -2035,6 +2035,22 @@ If you want to see the 5 questions daily in your social media feed, connect with
 405. ### How do refs affect the component lifecycle in React?
      Refs in React do not directly impact the component lifecycle. They provide a way to access and interact with elements or components separately from lifecycle methods. Refs allow you to work with specific parts of the component without affecting its lifecycle or rendering.
 
+# Day 82
+
+406. ### What are the benefits of using callback refs over string refs?
+     The benefits of using callback refs over string refs in React are that callback refs provide more flexibility and control when accessing and manipulating DOM elements. With callback refs, you have direct access to the actual DOM node, allowing you to perform more advanced operations. On the other hand, string refs are limited to identifying elements using a string name, which can be less versatile and may not provide the same level of control.
+
+407. ### Can we use refs with functional components in React? If yes, how?
+     Yes, you can use refs with functional components in React. The `useRef` hook allows you to create a ref and use it within a functional component. By calling `useRef()` and assigning the result to a variable, you can access and manipulate the ref's current value, which can be used to reference elements in the component's JSX.
+
+408. ### What are the limitations or caveats of using refs in React?
+     While refs can be useful, there are limitations and caveats to consider when using them in React. One limitation is that refs bypass the typical data flow in React, which can make it harder to track and understand changes in your component's state. Additionally, overusing refs can lead to code that is harder to maintain and test, as it may introduce dependencies between different parts of your application.
+
+409. ### How do you clean up or release the resources associated with a ref in React?
+     To clean up or release resources associated with a ref in React, you can leverage the `useEffect` hook. Within the `useEffect` hook, you can return a cleanup function that will be called when the component unmounts or when the ref value changes. This allows you to handle any necessary cleanup operations, such as removing event listeners or cancelling timers, ensuring that your application's resources are properly managed.
+
+410. ### How do you access the DOM node using refs in React?
+     Accessing the DOM node using refs in React is straightforward. After creating a ref using the `useRef` hook or the `React.createRef()` function, you can attach the ref to a JSX element using the `ref` attribute. Once the component has rendered, you can access the DOM node by referring to the .current property of the ref
 
 
 

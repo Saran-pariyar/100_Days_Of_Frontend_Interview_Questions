@@ -2069,6 +2069,36 @@ If you want to see the 5 questions daily in your social media feed, connect with
 415. ### Explain the difference between binding in class components and functional components in React.
      Binding functions in class components is done using the constructor or arrow function syntax, while functional components don't require explicit binding as they automatically bind functions to the component instance.
 
+# Day 84
+
+416. ###  What is the difference between Element and Component in React?
+     An element is a basic building block or specific part of a system or interface, like a button or text input field. A component, on the other hand, is a larger, self-contained entity made up of one or more elements, such as a navigation bar or login form. Components are reusable and provide specific functionality within a system. In essence, elements are smaller parts, while components are larger, composed entities.
+
+417. ###  How to apply validation on props in React?
+     To apply validation on props in React, you can use the PropTypes library. Install it, import it into your component file, and define the expected props and their types using PropTypes. React will display warnings in the console if the provided props don't match the specified types or if any required props are missing.
+
+418. ### Why is a React component declarative?
+     A React component is declarative because it tells React what the UI should look like based on the current data. Instead of giving step-by-step instructions, we describe the desired UI state and let React handle the rest. It simplifies the process of building interfaces by focusing on "what" we want, rather than worrying about the nitty-gritty of "how" to achieve it.
+
+419. ### What is ReactDOM package?
+     The ReactDOM package in React is responsible for rendering the React components to the browser's DOM (Document Object Model). It provides methods and functionality for efficiently updating and manipulating the DOM based on changes in the React component tree. ReactDOM acts as the bridge between React's virtual representation of the UI and the actual HTML elements on the webpage, ensuring that any changes in the component hierarchy are reflected in the rendered UI.
+
+420. ### how is React different from Angular?
+     ReactJS is a JavaScript library focused on building user interfaces using reusable components, while Angular is a comprehensive framework following the MVC/MVVM patterns. React uses JavaScript and JSX, whereas Angular is based on TypeScript. React has a simpler learning curve, a large community, and a lightweight nature, while Angular offers a complete solution with a steeper learning curve, a robust ecosystem provided by Google, and built-in features. The choice depends on project needs, team preferences, and scalability requirements.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

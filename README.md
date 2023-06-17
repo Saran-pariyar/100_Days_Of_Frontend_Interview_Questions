@@ -857,7 +857,7 @@ If you want to see the 5 questions daily in your social media feed, connect with
      Hoisting is a behavior in JavaScript where variable and function declarations are moved to the top of their respective scopes during compilation or interpretation, before the code is actually executed. This means that you can use a variable or function before it has been declared, but only if it is declared using the `var` or `function` keywords. However, only the declarations themselves are hoisted, not their values or assignments.
 
 165. ### What are modules in javascript?
-     modules are a way of organizing code into separate files or components that can be reused in different parts of an application. Modules allow you to encapsulate data and functionality, making your code more organized and easier to maintain
+     Modules are a way of organizing code into separate files or components that can be reused in different parts of an application. Modules allow you to encapsulate data and functionality, making your code more organized and easier to maintain
 
 # Day 34
 
@@ -2085,6 +2085,28 @@ If you want to see the 5 questions daily in your social media feed, connect with
 
 420. ### how is React different from Angular?
      ReactJS is a JavaScript library focused on building user interfaces using reusable components, while Angular is a comprehensive framework following the MVC/MVVM patterns. React uses JavaScript and JSX, whereas Angular is based on TypeScript. React has a simpler learning curve, a large community, and a lightweight nature, while Angular offers a complete solution with a steeper learning curve, a robust ecosystem provided by Google, and built-in features. The choice depends on project needs, team preferences, and scalability requirements.
+
+# Day 85
+
+421. ### Explain the use of CSS modules in React. 
+     CSS modules in React allow you to locally scope CSS styles to specific components, preventing class name collisions and promoting a more modular approach to styling. By generating unique class names for each component, CSS modules ensure that styles defined in one component won't interfere with styles in another
+
+422. ### Can you explain what custom hooks are in React and how they differ from regular hooks?
+     Custom hooks in React are reusable JavaScript functions that allow you to extract logic and stateful behavior from components. While regular hooks like useState and useEffect are provided by React, custom hooks are created by developers to encapsulate specific logic that can be shared across multiple components.
+
+423. ### What are the benefits of using custom hooks in React? Can you provide an example of a scenario where a custom hook would be useful?
+     The benefits of using custom hooks in React are improved code organization, reusability, and separation of concerns. They enable you to extract complex logic into a reusable hook, reducing duplication and promoting cleaner, more maintainable code. For example, a custom hook for handling form validation can be reused in multiple forms throughout the application.
+
+424. ### How do you create a custom hook in React?
+     To create a custom hook in React, you start by defining a function with the "use" prefix, such as "useCustomHook." Inside the function, you can use existing React hooks and additional logic to encapsulate the desired state or behavior. Return any values or functions that need to be accessed outside the custom hook. Once defined, you can import and use the custom hook in any component, enabling code reuse and modularity across your React application.
+
+425. ### Are there any limitations or considerations when using custom hooks in React? Are there any performance implications or potential pitfalls that developers should be aware of?
+     Custom hooks in React don't have built-in limitations or performance issues. Just keep an eye on any dependencies and side effects in your custom hooks. Also, remember to follow the rules of hooks like calling them at the top level and avoiding conditional usage. By being aware of these considerations, you can effectively use custom hooks in your React applications.
+
+
+
+
+
 
 
 

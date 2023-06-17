@@ -2088,7 +2088,7 @@ If you want to see the 5 questions daily in your social media feed, connect with
 
 # Day 85
 
-421. ### Explain the use of CSS modules in React. 
+421. ### Explain the use of CSS modules in React.  
      CSS modules in React allow you to locally scope CSS styles to specific components, preventing class name collisions and promoting a more modular approach to styling. By generating unique class names for each component, CSS modules ensure that styles defined in one component won't interfere with styles in another
 
 422. ### Can you explain what custom hooks are in React and how they differ from regular hooks?

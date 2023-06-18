@@ -2103,6 +2103,28 @@ If you want to see the 5 questions daily in your social media feed, connect with
 425. ### Are there any limitations or considerations when using custom hooks in React? Are there any performance implications or potential pitfalls that developers should be aware of?
      Custom hooks in React don't have built-in limitations or performance issues. Just keep an eye on any dependencies and side effects in your custom hooks. Also, remember to follow the rules of hooks like calling them at the top level and avoiding conditional usage. By being aware of these considerations, you can effectively use custom hooks in your React applications.
 
+# Day 86
+
+426. ### What is Formik, and why would you use it in a React application?
+     Formik is a powerful form management library in React that simplifies the process of handling forms. It provides an easier way to manage form state, handle form validation, and manage form submission. With Formik, you can streamline the development of forms by reducing boilerplate code and handling complex form-related tasks efficiently.
+
+427. ### What are the advantages of using Formik over traditional form handling in React?
+     Formik offers several advantages over traditional form handling in React. It simplifies the process of managing form state and reduces the need for manual state management. Formik's built-in validation capabilities make it easier to handle form validation without relying on additional libraries. Overall, Formik significantly improves the developer experience when working with forms in React.
+
+428. ### What is Axios, and what problem does it solve in JavaScript or React development?
+     Axios is a JavaScript library used for making HTTP requests in browsers or Node.js. It simplifies the process of sending and receiving data from servers, making it easier to handle network requests in JavaScript or React applications.
+
+429. ### What are the advantages of using Axios over the built-in fetch API in JavaScript?
+     Axios offers advantages over the built-in fetch API by providing a more convenient and consistent API, better error handling, support for request cancellation, and the ability to intercept requests and responses.
+
+430. ### What is Material-UI, and what is its purpose in React development?
+     Material-UI is a React component library that implements Google's Material Design guidelines. It offers pre-designed and customizable UI components, making it easier to build visually appealing and user-friendly interfaces. With Material-UI, developers can focus on functionality while simplifying the process of styling and creating responsive layouts.
+
+
+
+
+
+
 
 
 

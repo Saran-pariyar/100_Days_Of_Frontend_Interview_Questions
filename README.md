@@ -2120,6 +2120,35 @@ If you want to see the 5 questions daily in your social media feed, connect with
 430. ### What is Material-UI, and what is its purpose in React development?
      Material-UI is a React component library that implements Google's Material Design guidelines. It offers pre-designed and customizable UI components, making it easier to build visually appealing and user-friendly interfaces. With Material-UI, developers can focus on functionality while simplifying the process of styling and creating responsive layouts.
 
+# Day 87
+
+431. ### What is render hijacking in react?
+     Render hijacking is a technique in React that allows you to control what a component outputs from another component. You do this by wrapping the component in a Higher-Order Component (HOC). By wrapping the component, you can inject additional props or make other changes, which can cause the component to render differently.
+
+432. ### What are Keyed Fragments?
+     Keyed fragments in React group multiple elements without a wrapper element, improving performance. By assigning a unique key to each child element, efficient reordering and updating are ensured during rendering. The general use case is mapping a collection to an array of fragment
+
+433. ### What is suspense component?
+     If the module containing the dynamic import is not yet loaded by the time parent component renders, you must show some fallback content while you’re waiting for it to load using a loading indicator. This can be done using Suspense component.
+
+434. ### Is it possible to use react without JSX?
+     Yes, it's possible to use React without JSX. JSX is a syntax extension for JavaScript used to write HTML-like code in React. However, you can still create React elements using the `createElement` function provided by React, which takes the element type, props, and children as arguments.
+     ```
+     const MyComponent = () => {
+     return React.createElement("div", { className: "my-class" }, "Hello, World!");
+     };
+     ```
+
+435. ### Why does strict mode render twice in React?
+     Strict mode in React renders components twice to provide additional checks and useful warnings. It acts as a safeguard that catches possible issues in your code. By rendering twice, React can detect and alert you about problems like unintended side effects or outdated practices. This way, you can fix those issues before they cause any trouble in your application, making it more reliable and sturdy.
+
+
+
+
+
+
+
+
 
 
 

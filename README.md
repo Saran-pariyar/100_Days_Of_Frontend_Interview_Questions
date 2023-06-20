@@ -2142,6 +2142,31 @@ If you want to see the 5 questions daily in your social media feed, connect with
 435. ### Why does strict mode render twice in React?
      Strict mode in React renders components twice to provide additional checks and useful warnings. It acts as a safeguard that catches possible issues in your code. By rendering twice, React can detect and alert you about problems like unintended side effects or outdated practices. This way, you can fix those issues before they cause any trouble in your application, making it more reliable and sturdy.
 
+# Day 88
+
+436. ### What is React Fiber?
+     React Fiber is a new reconciliation algorithm introduced in React 16. It is responsible for the efficient rendering and updating of components in React applications. React Fiber breaks the rendering work into smaller units called "fibers" and manages them in a priority-based manner.
+
+437. ### How does React Fiber improve the overall performance of React applications? 
+     React Fiber improves performance by allowing more control over scheduling and rendering. It enables asynchronous rendering, which avoids blocking the main thread, resulting in a smoother user experience.
+
+438. ### What is Babel in React js?     
+     Babel is a popular JavaScript compiler widely used in the React ecosystem. It allows developers to write modern JavaScript code (including the latest ECMAScript features) and transforms it into backward-compatible versions that can run in older browsers and environments that don't support those features(ES6, ES7 into plain old ES5).
+
+439. ### What is a wrapper component in react?
+     A wrapper component in React is like a parent container that wraps around other components. It adds extra features, behavior, or styling to the wrapped components. It acts as a higher-level component, enhancing the functionality of the components it contains.
+
+440. ###  Explain DOM diffing?
+     DOM diffing, or reconciliation in React, is the process of comparing the previous and new versions of the user interface. It identifies the changes and updates needed for the actual web page. React determines what has changed, adds or removes elements, and updates only the necessary parts of the user interface. This makes the updates faster and more efficient by avoiding unnecessary re-rendering and manipulation of the web page.
+
+
+
+
+
+
+
+
+
 
 
 

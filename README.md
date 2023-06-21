@@ -1,12 +1,10 @@
 # 100 Days Of Frontend Interview Questions
 
-This repo will contain 500 frontend interview questions which will have HTML, CSS, Javascript & React questions. I will add not any problems or long questions for now, just theory questions.
+This repo will contain 500 frontend interview questions which will have HTML, CSS, Javascript & React questions. I will add not any question in which we have to write code, just theory questions.
 
-I will add 5 questions a day in this repo till day 100 days and after this, I am also planning to do 100 days of javascript questions too.
+I will add 5 questions a day in this repo till day 100 days. I'll be posting those 5 questions on social media too so if you want to see the 5 questions daily in your social media feed, connect with me on [Twitter](https://twitter.com/saran_pariyar1) and [LinkedIn](https://www.linkedin.com/in/saran-pariyar-5078b5217/).
 
-If you want to see the 5 questions daily in your social media feed, connect with me on [Twitter](https://twitter.com/saran_pariyar1) and [LinkedIn](https://www.linkedin.com/in/saran-pariyar-5078b5217/) cause I will be posting them on my social media accounts too.
-
-<b>I've also added some tables, no need to memorize them, just take a look at them once a day or few times and you'll able to understand those concepts easily</b>
+<b>I've also added some tables, no need to memorize them, just take a look at them few times and you'll easily be able to answer those concepts if asked in interview.</b>
 
 `Source of the questions: Google, ChatGPT, Github repos, etc`
 
@@ -2158,6 +2156,41 @@ If you want to see the 5 questions daily in your social media feed, connect with
 
 440. ###  Explain DOM diffing?
      DOM diffing, or reconciliation in React, is the process of comparing the previous and new versions of the user interface. It identifies the changes and updates needed for the actual web page. React determines what has changed, adds or removes elements, and updates only the necessary parts of the user interface. This makes the updates faster and more efficient by avoiding unnecessary re-rendering and manipulation of the web page.
+
+
+# Day 89
+
+441. ### What are the dependencies in the dependency array of the useEffect hook? How do they affect the behavior of the hook?
+     Dependencies in the dependency array of the useEffect hook determine when the effect should be executed. If any of the dependencies change, the effect will run again. If the dependency array is empty, the effect will only run once.
+
+442. ### What are some common use cases for the useEffect hook?
+     Common use cases for the useEffect hook include fetching data from an API, subscribing to external data sources, setting up event listeners, updating the document title, and performing any other side effects that need to occur when the component renders or updates.
+
+443. ### Can you explain the concept of multiple useEffect hooks in a single component? How do they interact with each other?
+     Multiple useEffect hooks in a single component allow you to separate concerns and organize code. Each useEffect hook operates independently and is triggered based on its own specified dependencies. They do not interact directly with each other.
+
+444. ## What is the purpose of the cleanup function returned by the useEffect hook? How can you utilize it effectively?
+     The cleanup function returned by the useEffect hook is important for cleaning up any resources or subscriptions created by the effect. To perform cleanup, you simply return a cleanup function from the effect. The cleanup function is useful for removing event listeners, cancelling subscriptions, or performing other necessary cleanup tasks.
+     ```
+            useEffect(() => {
+         const timerId = setInterval(() => {
+           console.log('Running effect...');
+         }, 1000);
+
+         return () => {
+          // Cleanup function: Clear interval when component unmounts
+           clearInterval(timerId); 
+         };
+       }, []);
+     ```
+
+445. ### What are the potential pitfalls or common mistakes when using the useEffect hook? How can you avoid them?
+     Some common mistakes with useEffect are: forgetting dependencies, causing stale data or infinite loops; not cleaning up properly, leading to memory leaks; and modifying state or props without proper dependency management, resulting in unexpected behavior. To avoid these, include all dependencies, update state or props conditionally, perform cleanup operations, and handle errors appropriately.
+
+
+
+
+
 
 
 

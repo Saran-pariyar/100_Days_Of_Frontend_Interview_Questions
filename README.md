@@ -2187,6 +2187,26 @@ I will add 5 questions a day in this repo till day 100 days. I'll be posting tho
 445. ### What are the potential pitfalls or common mistakes when using the useEffect hook? How can you avoid them?
      Some common mistakes with useEffect are: forgetting dependencies, causing stale data or infinite loops; not cleaning up properly, leading to memory leaks; and modifying state or props without proper dependency management, resulting in unexpected behavior. To avoid these, include all dependencies, update state or props conditionally, perform cleanup operations, and handle errors appropriately.
 
+# Day 90
+
+446. ### What is server-side rendering (SSR) in React.js?
+     Server-side rendering (SSR) in React.js is the process of rendering React components on the server and sending the pre-rendered HTML to the client.
+
+447. ### Why would you choose to use server-side rendering instead of client-side rendering in React.js?
+     Server-side rendering is chosen over client-side rendering in React.js for benefits like improved performance, SEO friendliness, and better initial page load experience.
+
+448. ### How does server-side rendering differ from client-side rendering in React.js?
+     Server-side rendering differs from client-side rendering in that the rendering process occurs on the server before sending the HTML to the client, whereas client-side rendering renders components in the browser.
+
+449. ### Explain the benefits and drawbacks of server-side rendering in React.js.
+     The benefits of server-side rendering in React.js include improved SEO, faster initial page load, and better performance for low-end devices. However, it can introduce more complexity and may not be suitable for all applications.
+
+450. ### What are the performance implications of server-side rendering in React.js?
+     Server-side rendering can improve performance by reducing the time required for the initial render, but it can also increase the server load and network traffic for subsequent or additional requests.
+
+
+
+
 
 
 

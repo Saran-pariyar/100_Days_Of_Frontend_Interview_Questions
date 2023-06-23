@@ -2204,6 +2204,22 @@ I will add 5 questions a day in this repo till day 100 days. I'll be posting tho
 450. ### What are the performance implications of server-side rendering in React.js?
      Server-side rendering can improve performance by reducing the time required for the initial render, but it can also increase the server load and network traffic for subsequent or additional requests.
 
+# Day 91
+
+451. ### How can you implement server-side rendering with React.js without using frameworks like Next.js?
+     To perform server-side rendering with React.js without frameworks like Next.js, you need to set up a Node.js server, use a build system like Webpack or Babel, and implement server-side rendering logic using libraries like react-dom/server.
+
+452. ### Describe the steps involved in setting up server-side rendering with React.js from scratch.
+     The steps for setting up server-side rendering with React.js from scratch involve creating a Node.js server, configuring a build system, creating a server-side entry point, implementing rendering logic, and setting up routing.
+
+453. ### What libraries or tools can be used to perform server-side rendering with React.js?
+     Libraries like react-dom/server, ReactDOMServer, and express can be used to perform server-side rendering with React.js.
+
+454. ### How can you handle data fetching and asynchronous operations during server-side rendering in React.js?
+     Data fetching and asynchronous operations during server-side rendering can be handled by making use of lifecycle methods like componentDidMount or using libraries like react-async.
+
+455. ### What considerations should you keep in mind when implementing server-side rendering for a large-scale React.js application?
+     Considerations for server-side rendering in large-scale React.js applications include optimizing performance, managing data fetching efficiently, and dealing with complex application states.
 
 
 

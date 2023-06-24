@@ -2221,7 +2221,24 @@ I will add 5 questions a day in this repo till day 100 days. I'll be posting tho
 455. ### What considerations should you keep in mind when implementing server-side rendering for a large-scale React.js application?
      Considerations for server-side rendering in large-scale React.js applications include optimizing performance, managing data fetching efficiently, and dealing with complex application states.
 
+# Day 92
 
+456. ### Can you explain the concept of code splitting and how it relates to server-side rendering in React.js?
+     Code splitting is the process of splitting the JavaScript bundle into smaller chunks to improve performance. It can be utilized with server-side rendering to load only the necessary JavaScript code for each route or component.
+
+457. ### How can you optimize server-side rendered React.js applications for search engine optimization (SEO)?
+     To optimize server-side rendered React.js applications for SEO, ensure that important content is present in the initial HTML, use proper meta tags, and provide server-side rendering for dynamic content.
+
+458. ### What are some common challenges or pitfalls associated with server-side rendering in React.js, and how can you address them?
+     Common challenges with server-side rendering include handling client-side interactions, managing state across the server and client, and dealing with third-party libraries that are not SSR-friendly. These challenges can be addressed by using techniques like rehydration and carefully handling asynchronous operations.
+
+
+459. ### How does server-side rendering impact the development and debugging process compared to client-side rendering?
+     Server-side rendering impacts development and debugging differently from client-side rendering, as errors and issues can occur on both the server and the client. Proper error handling and debugging techniques are necessary.
+
+
+460. ### Can you explain the concept of hydration in the context of server-side rendering in React.js?
+     Hydration in server-side rendering refers to the process of attaching event listeners and reattaching React components on the client-side after the initial server-rendered HTML has been received. It enables interactivity and seamless transition to client-side rendering.
 
 
 

@@ -2,7 +2,7 @@
 
 This repo will contain 500 frontend interview questions which will have HTML, CSS, Javascript & React questions. I will add not any question in which we have to write code, just theory questions.
 
-I will add 5 questions a day in this repo till day 100 days. I'll be posting those 5 questions on social media too so if you want to see the 5 questions daily in your social media feed, connect with me on [Twitter](https://twitter.com/saran_pariyar1) and [LinkedIn](https://www.linkedin.com/in/saran-pariyar-5078b5217/).
+I am myself learning 5 questions a day and will add those 5 questions a day in this repo till day 100 days. I'll be posting those 5 questions on social media too so if you want to see the 5 questions daily in your social media feed, connect with me on [Twitter](https://twitter.com/saran_pariyar1) and [LinkedIn](https://www.linkedin.com/in/saran-pariyar-5078b5217/).
 
 <b>I've also added some tables, no need to memorize them, just take a look at them few times and you'll easily be able to answer those concepts if asked in interview.</b>
 
@@ -2239,6 +2239,23 @@ I will add 5 questions a day in this repo till day 100 days. I'll be posting tho
 
 460. ### Can you explain the concept of hydration in the context of server-side rendering in React.js?
      Hydration in server-side rendering refers to the process of attaching event listeners and reattaching React components on the client-side after the initial server-rendered HTML has been received. It enables interactivity and seamless transition to client-side rendering.
+
+# Day 93
+
+461. ### What are the best practices for organizing and structuring a React application?
+     Best practices for organizing and structuring a React application include using a component-based architecture, separating concerns with folders and files, and utilizing state management libraries like Redux or React Context.
+
+462. ### How do you handle authentication and authorization in React applications?
+     There are two main ways to handle authentication and authorization in React applications. One way is to use a third-party library, such as Auth0 or Firebase. These libraries provide a number of features that make it easy to implement authentication and authorization in your application, such as user management, password hashing, and session management.
+
+463. ### What are the pros and cons of using React in a project compared to other JavaScript frameworks?
+     The pros of using React in a project include its component-based architecture, virtual DOM for efficient rendering, a large and active community, and the ability to create reusable UI components. The cons can include a steep learning curve, complex configuration for larger projects, and potential performance issues with improper optimization.
+
+464. ### Why do we need Nextjs?
+     Next.js is a React framework that provides server-side rendering (SSR), static site generation (SSG), and other features like routing and API handling. It is useful for building optimized and performant React applications, improving SEO, and enabling server-side functionality.
+
+465. ### What are some of the challenges you have faced working with React?
+      &nbsp; &nbsp; &nbsp; <b> Write your own answer </b>
 
 
 

@@ -2258,6 +2258,30 @@ I am myself learning 5 questions a day and will add those 5 questions a day in t
       &nbsp; &nbsp; &nbsp; <b> Write your own answer </b>
 
 
+# Typescript
+
+# Day 94
+
+466. ### What is TypeScript, and how does it differ from JavaScript?
+     TypeScript is a statically typed superset of JavaScript that adds optional static typing and other features to JavaScript. It differs from JavaScript by introducing type checking at compile-time, which helps catch errors early and improves code maintainability.
+
+467. ### What are the benefits of using TypeScript?
+     The benefits of using TypeScript include enhanced code quality through static typing, improved developer productivity with better tooling and autocompletion, increased maintainability through code organization and documentation, and easier collaboration within teams.
+
+468. ### How do you define variables with specific types in TypeScript?
+     Variables with specific types in TypeScript can be defined using type annotations. For example, you can declare a variable with a specific type like this: `let myVariable: string = "Hello";` . Here, `myVariable` is defined as a string type.
+
+469. ### What are the basic data types in TypeScript?
+     The basic data types in TypeScript are number, string, boolean, object, array, tuple, and enum.
+
+470. ### What is tuple datatype in TypeScript?
+     In TypeScript, a tuple is a type that allows you to define an array with a fixed number of elements of different types. Tuples are similar to arrays, but the types of elements in a tuple are fixed and their order matters. Tuples are useful when you want to work with a specific set of values, each with its own type, and maintain their order throughout the program.
+
+
+
+
+
+
 
 
 

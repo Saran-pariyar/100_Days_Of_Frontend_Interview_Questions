@@ -1990,8 +1990,8 @@ I am myself learning 5 questions a day and will add those 5 questions a day in t
 392. ### What are nested component in react?
      In React, nested components refer to the idea of rendering components within other components. It allows for building complex user interfaces by composing smaller components together.
 
-393. ### How does nested component may create performance issues?
-     In nested components, if the parent component frequently updates, it can lead to performance issues as the child component will be re-created unnecessarily with each update.
+393. ### Can a nested child component access the state of its sibling component?
+     No, a nested child component cannot directly access the state of its sibling component. If sibling components need to communicate or share data, it is recommended to lift the shared state up to their common parent component and pass it down as props to both siblings.
 
 394. ### What are error boundaries in react?
      Error boundaries in React are components that prevent the entire application from crashing when an error occurs within their child components. They act as safety nets by catching and handling errors, allowing developers to display fallback UI and maintain a smoother user experience.

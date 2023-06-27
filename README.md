@@ -2417,3 +2417,29 @@ I am myself learning 5 questions a day and will add those 5 questions a day in t
 
 470. ### What is tuple datatype in TypeScript?
      In TypeScript, a tuple is a type that allows you to define an array with a fixed number of elements of different types. Tuples are similar to arrays, but the types of elements in a tuple are fixed and their order matters. Tuples are useful when you want to work with a specific set of values, each with its own type, and maintain their order throughout the program.
+
+# Day 95
+
+471. ### What is the purpose of type annotations in TypeScript, and how are they used?
+     The purpose of type annotations in TypeScript is to specify the types of variables, function parameters, and return values. They help catch errors during development and provide better tooling support. Annotations are used by adding a colon after the variable or function parameter name, followed by the type.
+
+472. ### How can you define custom types or interfaces in TypeScript?
+     In TypeScript, custom types can be defined using interfaces or type aliases. Interfaces define the structure of an object and can be implemented by classes, while type aliases create a new name for a specific type or combination of types. They are defined using the `interface` and `type` keywords, respectively.
+
+473. ### Explain the concept of type inference in TypeScript and how it works.
+     Type inference in TypeScript is the ability of the compiler to automatically determine the type of a variable based on its initialization value. TypeScript analyzes the assigned value and infers the most appropriate type for the variable, reducing the need for explicit type annotations.
+
+474. ### What is the difference between interfaces and type aliases in TypeScript? When would you use one over the other?
+     Interfaces in TypeScript define how an object should look or what a class should implement. They can be extended or implemented by other interfaces and classes. Type aliases, on the other hand, give new names to existing types or combine multiple types together. Use interfaces when you want to describe object structure or class requirements. Use type aliases when you want to create shorter names for types or combine them in a meaningful way.
+
+475. ### How does TypeScript support class-based object-oriented programming?
+     TypeScript supports class-based object-oriented programming. It allows defining classes, inheritance, access modifiers (public, private, protected), abstract classes, and interfaces for contracts. It enforces type checking and helps organize complex class hierarchies and interactions.
+
+
+
+
+
+
+
+
+

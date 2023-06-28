@@ -2435,6 +2435,27 @@ I am myself learning 5 questions a day and will add those 5 questions a day in t
 475. ### How does TypeScript support class-based object-oriented programming?
      TypeScript supports class-based object-oriented programming. It allows defining classes, inheritance, access modifiers (public, private, protected), abstract classes, and interfaces for contracts. It enforces type checking and helps organize complex class hierarchies and interactions.
 
+# Day 96
+
+476. ### What is the use of the tsconfig.json file?
+     The tsconfig.json file is used in TypeScript to configure the compiler options for a project. It allows developers to specify settings such as target version, module system, output directory, and more.
+
+476. ### Explain the concept of type assertion in TypeScript. 
+     Type assertion in TypeScript is a way to tell the compiler the specific type of a value when it cannot be inferred automatically. It allows you to override the compiler's default assumptions and treat a value as a particular type. Type assertions are useful when you have more knowledge about the type of a value than what the compiler can determine on its own. 
+
+476. ### What is the "any" type in TypeScript, and when should it be used?
+     The "any" type in TypeScript is a type that represents a value of any type. It essentially disables type checking for that particular value, allowing it to be assigned or used in any context. 
+
+476. ### How can you enforce strict null checks in TypeScript?
+     To enforce strict null checks in TypeScript, you can enable the "strictNullChecks" compiler option in the tsconfig.json file. When enabled, TypeScript will check for null and undefined values more strictly, helping to prevent common errors related to null and undefined.
+
+476. ### What is the "readonly" modifier in TypeScript, and how does it affect properties and arrays?
+     The "readonly" modifier in TypeScript is used to make properties or array elements read-only, meaning they cannot be modified once initialized. It provides a way to enforce immutability and prevent accidental modifications to certain values. When applied to properties, it prevents reassignment, and when applied to arrays, it disallows adding or removing elements after initialization.
+
+
+
+
+
 
 
 

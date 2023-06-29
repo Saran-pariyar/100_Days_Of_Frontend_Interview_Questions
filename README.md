@@ -2440,17 +2440,70 @@ I am myself learning 5 questions a day and will add those 5 questions a day in t
 476. ### What is the use of the tsconfig.json file?
      The tsconfig.json file is used in TypeScript to configure the compiler options for a project. It allows developers to specify settings such as target version, module system, output directory, and more.
 
-476. ### Explain the concept of type assertion in TypeScript. 
+477. ### Explain the concept of type assertion in TypeScript. 
      Type assertion in TypeScript is a way to tell the compiler the specific type of a value when it cannot be inferred automatically. It allows you to override the compiler's default assumptions and treat a value as a particular type. Type assertions are useful when you have more knowledge about the type of a value than what the compiler can determine on its own. 
 
-476. ### What is the "any" type in TypeScript, and when should it be used?
+478. ### What is the "any" type in TypeScript, and when should it be used?
      The "any" type in TypeScript is a type that represents a value of any type. It essentially disables type checking for that particular value, allowing it to be assigned or used in any context. 
 
-476. ### How can you enforce strict null checks in TypeScript?
+479. ### How can you enforce strict null checks in TypeScript?
      To enforce strict null checks in TypeScript, you can enable the "strictNullChecks" compiler option in the tsconfig.json file. When enabled, TypeScript will check for null and undefined values more strictly, helping to prevent common errors related to null and undefined.
 
-476. ### What is the "readonly" modifier in TypeScript, and how does it affect properties and arrays?
+480. ### What is the "readonly" modifier in TypeScript, and how does it affect properties and arrays?
      The "readonly" modifier in TypeScript is used to make properties or array elements read-only, meaning they cannot be modified once initialized. It provides a way to enforce immutability and prevent accidental modifications to certain values. When applied to properties, it prevents reassignment, and when applied to arrays, it disallows adding or removing elements after initialization.
+
+
+# Day 97
+
+481. ### Can TypeScript be used for the backend?
+     Yes, TypeScript can be used for backend development. TypeScript is a superset of JavaScript that adds static typing and other features to JavaScript, making it more suitable for larger, complex applications. It can be used with popular backend frameworks and platforms such as Node.js to build server-side applications.
+
+482. ### what is optional properties in an interface in TypeScript?
+     In TypeScript, you can define optional properties in an interface by appending a question mark (?) to the property name. This indicates that the property is optional and may or may not be present in the object that implements the interface.
+     ```
+     //age & email are marked as optional so it will not cause any error if they're not assigned any value
+     interface Person {
+       name: string;
+       age?: number;
+       email?: string;
+     }
+     ```
+483. ### Explain generics in Typescript.
+     Generics in TypeScript enable you to create reusable code that can work with different data types. They act as placeholders for types and provide flexibility without sacrificing type safety. By using angle brackets (<>), you can create functions, interfaces, classes, or type aliases that can handle multiple types.
+     ```
+     function identity<T>(arg: T): T {
+       return arg;
+     }
+     //this is how generics increase flexibility
+
+     let result1 = identity<number>(42); // result1 is of type number
+     let result2 = identity<string>("Hello"); // result2 is of type string
+     ```
+484. ### Explain the concept of type guards in TypeScript.
+     Type guards in TypeScript are checks that help determine the type of a variable. They help TypeScript understand the specific type of the variable, making your code safer and more accurate. Type guards are used within conditional blocks to refine the type based on conditions, improving type inference and reducing the risk of errors.
+
+485. ### What is the `keyof` operator in TypeScript?
+     The `keyof` operator in TypeScript is used to get a union type of all the keys (property names) of an object type. It allows you to access and use the keys of an object type as string literals in type operations and transformations.
+     ```
+     interface Person {
+         name: string;
+         age: number;
+       }
+     
+       type PersonKeys = keyof Person;
+       const key1: PersonKeys = 'name'; //Valid key
+       const key3: PersonKeys = 'address'; //Error
+       ```
+
+
+
+
+
+
+
+
+
+
 
 
 

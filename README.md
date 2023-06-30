@@ -2495,10 +2495,45 @@ I am myself learning 5 questions a day and will add those 5 questions a day in t
        const key3: PersonKeys = 'address'; //Error
        ```
 
+# Day 98
 
+486. ### Explain the difference between "interface" and "class" in TypeScript.
+      An interface in TypeScript is used to describe the structure of an object, without providing an implementation. It defines the properties and methods that an object should have. On the other hand, a class is a blueprint for creating objects that encapsulates data and behavior. It allows you to create instances of objects, implement interfaces, and leverage object-oriented programming concepts like inheritance and encapsulation. 
 
+487. ###  what is enum in Typescript?
+     Enums in TypeScript is a way to define a collection of related constants. Enums assign automatic numeric values to each enumerator by default, but you can also customize them. Enums are useful when you have a fixed set of values that you want to refer to using meaningful names instead of explicit values throughout your code.
 
+488. ### Can you erase the values of array elements in TypeScript?
+     In TypeScript, we cannot directly erase or remove values from individual array elements. Once a value is assigned to an element in an array, it remains in that position until we replace it with a new value. However, we can assign `null`, `undefined`, or any other special value to indicate an empty or erased state for an array element.
 
+489. ### What is Intersection types in Typescript?
+      Intersection types allow you to combine multiple types into a single type that has all the properties and methods of each constituent type. It is denoted by the "&" symbol.
+      ```
+     interface A {
+       propA: number;
+     }
+
+     interface B {
+       propB: string;
+     }
+
+     type IntersectionType = A & B;
+
+     const obj: IntersectionType = {
+       propA: 123,
+       propB: "hello",
+     };
+      ```
+490. ### What is Union types in Typescript?
+      Union types allow you to define a type that can hold values of multiple types. It is denoted by the "|" symbol.
+     ```
+     type UnionType = string | number;
+
+     let val: UnionType;
+     val = "hello"; // Valid
+     val = 123;     // Valid
+     val = true;    // Error, as boolean is not part
+     ```
 
 
 

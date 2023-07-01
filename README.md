@@ -2534,6 +2534,45 @@ I am myself learning 5 questions a day and will add those 5 questions a day in t
      val = 123;     // Valid
      val = true;    // Error, as boolean is not part
      ```
+# Day 99
+
+491. ### Which TypeScript types are immutable?
+     In TypeScript, all primitive data types, such as strings, numbers, booleans, etc., are immutable, meaning that the value cannot be changed more than once. Additionally, it means that passing them to functions has no negative impacts.
+
+492. ### What is namespace in Typescript?
+     In TypeScript, a namespace is a way to organize and group related code elements such as classes, interfaces, functions, and variables under a single name. Namespaces provide a mechanism to avoid naming conflicts and create a logical hierarchy within your codebase.
+
+493. ### What is modules in Typescript?
+     Modules in TypeScript allow you to organize and encapsulate code into separate files. By using the `export` keyword, you can make specific code elements accessible to other modules, while the `import` keyword allows you to use those exported elements in your module. Modules make it easier to manage dependencies, reuse code, and maintain a modular structure in your TypeScript projects.
+
+494. ### What is mixins in Typescript?
+     In TypeScript, mixins allow you to extend a class by combining the properties and methods from other classes. They provide a way to reuse code across multiple classes without using inheritance. By applying a mixin to a target class, you can add additional functionality to the class in a modular and flexible manner.
+
+495. ### What is declaration merging in Typescript?
+     Declaration merging in TypeScript lets you combine multiple declarations with the same name into a single declaration. It allows you to add or extend properties, methods, or functionality to existing types, making it easier to build and extend code across multiple sources without duplicating definitions.
+     ```
+     interface Box {
+       height: number;
+       width: number;
+     }
+     interface Box {
+       scale: number;
+     }
+     let box: Box = { height: 5, width: 6, scale: 10 };
+     ```
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

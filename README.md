@@ -2561,6 +2561,22 @@ I am myself learning 5 questions a day and will add those 5 questions a day in t
      let box: Box = { height: 5, width: 6, scale: 10 };
      ```
 
+# Day 100
+
+496. ### What are the Disadvantages of TypeScript?
+     TypeScript has a few drawbacks. It requires extra time and effort to annotate types, which can slow down development. It also has a learning curve, especially for developers new to static typing. The compilation step can add complexity to the workflow, and integrating TypeScript with existing JavaScript codebases may require extra work and introduce compatibility challenges.
+
+497. ### What are decorators in TypeScript?
+     Decorators in TypeScript allows us to add metadata or behavior to classes, methods, properties, or parameters at design time. They are declared using the @ symbol followed by the decorator name, placed just before the class, method, property, or parameter declaration.
+
+498. ### Does TypeScript Support All Object Oriented Principles?
+     Yes, Typescript support all object oriented principles. There are 4 main principles to Object Oriented Programming: Encapsulation, Inheritance, Abstraction, and Polymorphism. TypeScript can implement all four of them with its smaller and cleaner syntax
+
+499. ### Does TypeScript supports function overloading?
+     Yes, TypeScript supports function overloading, which means you can define multiple versions of a function with different parameter types or arity. This allows you to provide different implementations of the function based on the arguments passed to it.
+
+500. ### What are the best practices when using TypeScript?
+     To use TypeScript effectively, follow these best practices: use static typing for error prevention and code clarity, enable strict mode and null checks, minimize the use of any type, follow consistent naming conventions, keep TypeScript and compiler options up to date, etc.
 
 
 

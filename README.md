@@ -1758,8 +1758,42 @@ I am myself learning 5 questions a day and will add those 5 questions a day in t
 # Day 65
 
 321. ### What are the advantages of using closures in JavaScript?
+     when we can access the outer function's variable inside the inner function though outer function is executed this is called closure.
+     Closures in JavaScript allows:-
 
-     Closures in JavaScript allow for encapsulation, data privacy, and the creation of private variables and functions that are inaccessible from the outside scope.
+     Private Variable :- when we decalre a variable inside a function and use that variable inside any method so using that method only we can access that variable we cant access directly
+                            this work as a private variable we only do modification using method not directly.
+```
+function createCounter() {
+          let count = 0; // Private variable
+
+           return {
+          increment: function () {
+            count++;
+            console.log(count);
+          },
+          decrement: function () {
+            count--;
+            console.log(count);
+       },
+     };
+   }
+   const counter = createCounter();
+   counter.increment(); // 1
+   counter.increment(); // 2
+   counter.decrement(); // 1
+   console.log(counter.count); // undefined (can't access directly)
+```
+
+   Keeping Code Clean (Avoiding Global Variables)
+   
+   Remembering Data (Even After a Function is Finished)
+   
+   Useful for Delayed Actions (Like Buttons & Timers)
+   
+   Creating Functions That Can Be Reused
+   
+   Making Programs Faster (Avoiding Repeated Work)
 
 322. ### How does the concept of prototypal inheritance benefit JavaScript developers?
 

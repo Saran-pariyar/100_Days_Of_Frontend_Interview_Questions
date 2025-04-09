@@ -2,7 +2,7 @@
 
 This repo will contain 500 frontend interview questions which will have HTML, CSS, Javascript & React questions. I will add not any question in which we have to write code, just theory questions.
 
-I am myself learning 5 questions a day and will add those 5 questions a day in this repo till day 100 days. I'll be posting those 5 questions on social media too so if you want to see the 5 questions daily in your social media feed, connect with me on [Twitter](https://twitter.com/saran_pariyar1) and [LinkedIn](https://www.linkedin.com/in/saran-pariyar-5078b5217/).
+I am myself learning 5 questions a day and will add those 5 questions a day in this repo till day 100 days. I'll be posting those 5 questions on social media too so if you want to see the 5 questions daily in your social media feed, connect with me on [Twitter](https://twitter.com/saran_pariyar2) and [LinkedIn](https://www.linkedin.com/in/saran-pariyar-5078b5217/).
 
 <b>I've also added some tables, no need to memorize them, just take a look at them few times and you'll easily be able to answer those concepts if asked in interview.</b>
 
